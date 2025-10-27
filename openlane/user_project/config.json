@@ -3,6 +3,7 @@
     "FP_PDN_MULTILAYER": false,
     "CLOCK_PORT": "wb_clk_i",
     "CLOCK_PERIOD": 25,
+    "ERROR_ON_XOR_ERROR": false,
     
     "VERILOG_FILES": [
         "/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v",

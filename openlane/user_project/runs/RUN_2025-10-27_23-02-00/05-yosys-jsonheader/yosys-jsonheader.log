@@ -1,0 +1,1507 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)
+Loaded SDC plugin
+
+1. Executing Verilog-2005 frontend: /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_23-02-00/tmp/cc2dd54c2f7144f9ae94a9562f3d9ef2.bb.v
+Parsing SystemVerilog input from `/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_23-02-00/tmp/cc2dd54c2f7144f9ae94a9562f3d9ef2.bb.v' to AST representation.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__decap_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_4'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a222oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufbuf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufbuf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufinv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufinv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s15_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s15_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s18_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s18_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s25_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s25_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s50_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s50_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinvlp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinvlp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__conb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_3'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfsbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfsbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__diode_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd1_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s2s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s4s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s6s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__edfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__edfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fah_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fahcin_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fahcon_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_bleeder_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_3'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso0n_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso0p_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso1n_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso1p_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputisolatch_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrckapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__macro_sparecell'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__probe_p_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__probec_p_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfsbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfsbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvgnd2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvgnd_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvpwrvgnd_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_4'.
+Successfully finished Verilog frontend.
+
+2. Executing Liberty frontend: /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib
+Imported 1 cell types from liberty file.
+
+3. Executing Verilog-2005 frontend: /workspace/peripheral-example/ip/CF_SRAM_1024x32/hdl/gl/CF_SRAM_1024x32_wb_wrapper.v
+Parsing SystemVerilog input from `/workspace/peripheral-example/ip/CF_SRAM_1024x32/hdl/gl/CF_SRAM_1024x32_wb_wrapper.v' to AST representation.
+Replacing existing blackbox module `\CF_SRAM_1024x32_wb_wrapper' at /workspace/peripheral-example/ip/CF_SRAM_1024x32/hdl/gl/CF_SRAM_1024x32_wb_wrapper.v:1.1-14242.10.
+Generating RTLIL representation for module `\CF_SRAM_1024x32_wb_wrapper'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v
+Parsing SystemVerilog input from `/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v' to AST representation.
+Storing AST representation for module `$abstract\cf_util_sync'.
+Storing AST representation for module `$abstract\cf_util_ped'.
+Storing AST representation for module `$abstract\cf_util_ned'.
+Storing AST representation for module `$abstract\cf_util_ticker'.
+Storing AST representation for module `$abstract\cf_util_glitch_filter'.
+Storing AST representation for module `$abstract\cf_util_fifo'.
+Storing AST representation for module `$abstract\cf_util_clkmux_2x1'.
+Storing AST representation for module `$abstract\cf_util_clkmux_4x1'.
+Storing AST representation for module `$abstract\cf_util_gating_cell'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: /workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v
+Parsing SystemVerilog input from `/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v' to AST representation.
+Storing AST representation for module `$abstract\CF_TMR32'.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: /workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v
+Parsing SystemVerilog input from `/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v' to AST representation.
+Storing AST representation for module `$abstract\CF_TMR32_WB'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: /workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v
+Parsing SystemVerilog input from `/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v' to AST representation.
+Storing AST representation for module `$abstract\CF_UART'.
+Storing AST representation for module `$abstract\BAUDGEN'.
+Storing AST representation for module `$abstract\UART_RX'.
+Storing AST representation for module `$abstract\UART_TX'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: /workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v
+Parsing SystemVerilog input from `/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v' to AST representation.
+Storing AST representation for module `$abstract\CF_UART_WB'.
+Successfully finished Verilog frontend.
+
+9. Executing Verilog-2005 frontend: /workspace/peripheral-example/verilog/rtl/user_project.v
+Parsing SystemVerilog input from `/workspace/peripheral-example/verilog/rtl/user_project.v' to AST representation.
+Storing AST representation for module `$abstract\user_project'.
+Successfully finished Verilog frontend.
+
+10. Executing HIERARCHY pass (managing design hierarchy).
+
+11. Executing AST frontend in derive mode using pre-parsed AST for module `\user_project'.
+Generating RTLIL representation for module `\user_project'.
+
+11.1. Analyzing design hierarchy..
+Top module:  \user_project
+Parameter \SC = 8
+Parameter \MDW = 9
+Parameter \GFLEN = 8
+Parameter \FAW = 4
+
+11.2. Executing AST frontend in derive mode using pre-parsed AST for module `\CF_UART_WB'.
+Parameter \SC = 8
+Parameter \MDW = 9
+Parameter \GFLEN = 8
+Parameter \FAW = 4
+Generating RTLIL representation for module `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB'.
+Parameter \PRW = 16
+
+11.3. Executing AST frontend in derive mode using pre-parsed AST for module `\CF_TMR32_WB'.
+Parameter \PRW = 16
+Generating RTLIL representation for module `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000'.
+Reprocessing module user_project because instantiated module $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB has become available.
+Generating RTLIL representation for module `\user_project'.
+
+11.4. Analyzing design hierarchy..
+Top module:  \user_project
+Parameter \SC = 8
+Parameter \MDW = 9
+Parameter \GFLEN = 8
+Parameter \FAW = 4
+Found cached RTLIL representation for module `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB'.
+Parameter \PRW = 16
+Found cached RTLIL representation for module `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000'.
+
+11.5. Analyzing design hierarchy..
+Top module:  \user_project
+Used module:     $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB
+Used module:     $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000
+Parameter \PRW = 16
+
+11.6. Executing AST frontend in derive mode using pre-parsed AST for module `\CF_TMR32'.
+Parameter \PRW = 16
+Generating RTLIL representation for module `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000'.
+
+11.7. Executing AST frontend in derive mode using pre-parsed AST for module `\cf_util_gating_cell'.
+Generating RTLIL representation for module `\cf_util_gating_cell'.
+Parameter \MDW = 9
+Parameter \FAW = 4
+Parameter \SC = 8
+Parameter \GFLEN = 8
+
+11.8. Executing AST frontend in derive mode using pre-parsed AST for module `\CF_UART'.
+Parameter \MDW = 9
+Parameter \FAW = 4
+Parameter \SC = 8
+Parameter \GFLEN = 8
+Generating RTLIL representation for module `$paramod$e9cdd1478d980710c2839daafb26d490f06a2359\CF_UART'.
+
+11.9. Analyzing design hierarchy..
+Top module:  \user_project
+Used module:     $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB
+Used module:         $paramod$e9cdd1478d980710c2839daafb26d490f06a2359\CF_UART
+Used module:         \cf_util_gating_cell
+Used module:     $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000
+Used module:         $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000
+
+11.10. Executing AST frontend in derive mode using pre-parsed AST for module `\cf_util_ped'.
+Generating RTLIL representation for module `\cf_util_ped'.
+Parameter \NUM_SAMPLES = 8
+Parameter \MDW = 9
+
+11.11. Executing AST frontend in derive mode using pre-parsed AST for module `\UART_RX'.
+Parameter \NUM_SAMPLES = 8
+Parameter \MDW = 9
+Generating RTLIL representation for module `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX'.
+Parameter \DW = 9
+Parameter \AW = 4
+
+11.12. Executing AST frontend in derive mode using pre-parsed AST for module `\cf_util_fifo'.
+Parameter \DW = 9
+Parameter \AW = 4
+Generating RTLIL representation for module `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo'.
+Parameter \NUM_SAMPLES = 8
+Parameter \MDW = 9
+
+11.13. Executing AST frontend in derive mode using pre-parsed AST for module `\UART_TX'.
+Parameter \NUM_SAMPLES = 8
+Parameter \MDW = 9
+Generating RTLIL representation for module `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX'.
+Parameter \DW = 9
+Parameter \AW = 4
+Found cached RTLIL representation for module `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo'.
+
+11.14. Executing AST frontend in derive mode using pre-parsed AST for module `\BAUDGEN'.
+Generating RTLIL representation for module `\BAUDGEN'.
+Parameter \N = 8
+
+11.15. Executing AST frontend in derive mode using pre-parsed AST for module `\cf_util_glitch_filter'.
+Parameter \N = 8
+Generating RTLIL representation for module `$paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000'.
+
+11.16. Executing AST frontend in derive mode using pre-parsed AST for module `\cf_util_sync'.
+Generating RTLIL representation for module `\cf_util_sync'.
+
+11.17. Analyzing design hierarchy..
+Top module:  \user_project
+Used module:     $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB
+Used module:         $paramod$e9cdd1478d980710c2839daafb26d490f06a2359\CF_UART
+Used module:             $paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX
+Used module:             $paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo
+Used module:             $paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX
+Used module:             \BAUDGEN
+Used module:             $paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000
+Used module:             \cf_util_sync
+Used module:         \cf_util_gating_cell
+Used module:     $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000
+Used module:         $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000
+Used module:             \cf_util_ped
+
+11.18. Executing AST frontend in derive mode using pre-parsed AST for module `\cf_util_ticker'.
+Generating RTLIL representation for module `\cf_util_ticker'.
+
+11.19. Analyzing design hierarchy..
+Top module:  \user_project
+Used module:     $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB
+Used module:         $paramod$e9cdd1478d980710c2839daafb26d490f06a2359\CF_UART
+Used module:             $paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX
+Used module:             $paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo
+Used module:             $paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX
+Used module:             \BAUDGEN
+Used module:             $paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000
+Used module:                 \cf_util_ticker
+Used module:             \cf_util_sync
+Used module:         \cf_util_gating_cell
+Used module:     $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000
+Used module:         $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000
+Used module:             \cf_util_ped
+
+11.20. Analyzing design hierarchy..
+Top module:  \user_project
+Used module:     $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB
+Used module:         $paramod$e9cdd1478d980710c2839daafb26d490f06a2359\CF_UART
+Used module:             $paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX
+Used module:             $paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo
+Used module:             $paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX
+Used module:             \BAUDGEN
+Used module:             $paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000
+Used module:                 \cf_util_ticker
+Used module:             \cf_util_sync
+Used module:         \cf_util_gating_cell
+Used module:     $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000
+Used module:         $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000
+Used module:             \cf_util_ped
+Removing unused module `$abstract\user_project'.
+Removing unused module `$abstract\CF_UART_WB'.
+Removing unused module `$abstract\UART_TX'.
+Removing unused module `$abstract\UART_RX'.
+Removing unused module `$abstract\BAUDGEN'.
+Removing unused module `$abstract\CF_UART'.
+Removing unused module `$abstract\CF_TMR32_WB'.
+Removing unused module `$abstract\CF_TMR32'.
+Removing unused module `$abstract\cf_util_gating_cell'.
+Removing unused module `$abstract\cf_util_clkmux_4x1'.
+Removing unused module `$abstract\cf_util_clkmux_2x1'.
+Removing unused module `$abstract\cf_util_fifo'.
+Removing unused module `$abstract\cf_util_glitch_filter'.
+Removing unused module `$abstract\cf_util_ticker'.
+Removing unused module `$abstract\cf_util_ned'.
+Removing unused module `$abstract\cf_util_ped'.
+Removing unused module `$abstract\cf_util_sync'.
+Removed 17 unused modules.
+Renaming module user_project to user_project.
+
+12. Executing PROC pass (convert processes to netlists).
+
+12.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+12.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/verilog/rtl/user_project.v:45$266 in module user_project.
+Marked 16 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:483$556 in module $paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:466$554 in module $paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.
+Marked 5 switch rules as full_case in process $proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:230$542 in module $paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.
+Marked 2 switch rules as full_case in process $proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:202$540 in module $paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.
+Marked 1 switch rules as full_case in process $proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:193$530 in module $paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.
+Marked 2 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:398$518 in module $paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.
+Marked 22 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:313$493 in module $paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.
+Marked 3 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:287$489 in module $paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.
+Marked 4 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:194$474 in module $paramod$e9cdd1478d980710c2839daafb26d490f06a2359\CF_UART.
+Marked 2 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:269$456 in module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Marked 2 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:262$452 in module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:255$446 in module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:250$442 in module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:242$439 in module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Marked 2 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:233$435 in module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Marked 2 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:220$432 in module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Marked 2 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:211$429 in module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Removed 6 dead cases from process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380 in module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Marked 7 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380 in module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Removed 6 dead cases from process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331 in module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Marked 7 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331 in module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Marked 7 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:152$322 in module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Marked 3 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:138$319 in module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Marked 10 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:110$302 in module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Marked 3 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:95$291 in module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Marked 3 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:78$281 in module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:232$574 in module BAUDGEN.
+Marked 2 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:327$134 in module $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.
+Marked 11 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:217$77 in module $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.
+Marked 2 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:200$74 in module $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:197$71 in module $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:188$67 in module $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.
+Marked 2 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:182$63 in module $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:175$60 in module $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.
+Marked 2 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:165$56 in module $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:158$53 in module $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:149$50 in module $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:143$47 in module $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:134$44 in module $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:124$41 in module $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.
+Marked 2 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:263$235 in module $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.
+Marked 4 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:196$189 in module $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.
+Marked 2 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:186$186 in module $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:183$183 in module $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:174$179 in module $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:169$176 in module $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:163$173 in module $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:157$170 in module $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:151$167 in module $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:145$164 in module $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:139$161 in module $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:127$158 in module $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:121$155 in module $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:115$152 in module $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.
+Marked 1 switch rules as full_case in process $proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:109$149 in module $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.
+Marked 2 switch rules as full_case in process $proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:101$595 in module cf_util_ticker.
+Marked 2 switch rules as full_case in process $proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:90$590 in module cf_util_ticker.
+Marked 2 switch rules as full_case in process $proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:144$586 in module $paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000.
+Marked 1 switch rules as full_case in process $proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:135$581 in module $paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000.
+Removed a total of 12 dead cases.
+
+12.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 24 redundant assignments.
+Promoted 70 assignments to connections.
+
+12.4. Executing PROC_INIT pass (extract init attributes).
+
+12.5. Executing PROC_ARST pass (detect async resets in processes).
+Found async reset \resetn in `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:466$554'.
+Found async reset \rst_n in `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:202$540'.
+Found async reset \resetn in `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:398$518'.
+Found async reset \resetn in `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:287$489'.
+Found async reset \rst_n in `$paramod$e9cdd1478d980710c2839daafb26d490f06a2359\CF_UART.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:194$474'.
+Found async reset \rst_n in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:269$456'.
+Found async reset \rst_n in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:262$452'.
+Found async reset \rst_n in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:255$446'.
+Found async reset \rst_n in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:250$442'.
+Found async reset \rst_n in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:242$439'.
+Found async reset \rst_n in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:233$435'.
+Found async reset \rst_n in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:220$432'.
+Found async reset \rst_n in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:211$429'.
+Found async reset \rst_n in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:152$322'.
+Found async reset \rst_n in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:138$319'.
+Found async reset \rst_n in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:95$291'.
+Found async reset \rst_n in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:78$281'.
+Found async reset \rst_n in `\BAUDGEN.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:232$574'.
+Found async reset \rst_i in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:327$134'.
+Found async reset \rst_i in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:217$77'.
+Found async reset \rst_i in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:200$74'.
+Found async reset \rst_i in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:197$71'.
+Found async reset \rst_i in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:188$67'.
+Found async reset \rst_i in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:182$63'.
+Found async reset \rst_i in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:175$60'.
+Found async reset \rst_i in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:165$56'.
+Found async reset \rst_i in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:158$53'.
+Found async reset \rst_i in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:149$50'.
+Found async reset \rst_i in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:143$47'.
+Found async reset \rst_i in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:134$44'.
+Found async reset \rst_i in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:124$41'.
+Found async reset \rst_i in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:263$235'.
+Found async reset \rst_i in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:196$189'.
+Found async reset \rst_i in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:186$186'.
+Found async reset \rst_i in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:183$183'.
+Found async reset \rst_i in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:174$179'.
+Found async reset \rst_i in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:169$176'.
+Found async reset \rst_i in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:163$173'.
+Found async reset \rst_i in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:157$170'.
+Found async reset \rst_i in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:151$167'.
+Found async reset \rst_i in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:145$164'.
+Found async reset \rst_i in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:139$161'.
+Found async reset \rst_i in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:127$158'.
+Found async reset \rst_i in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:121$155'.
+Found async reset \rst_i in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:115$152'.
+Found async reset \rst_i in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:109$149'.
+Found async reset \rst_n in `\cf_util_ticker.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:101$595'.
+Found async reset \rst_n in `\cf_util_ticker.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:90$590'.
+Found async reset \rst_n in `$paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:144$586'.
+Found async reset \rst_n in `$paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:135$581'.
+
+12.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~170 debug messages>
+
+12.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\user_project.$proc$/workspace/peripheral-example/verilog/rtl/user_project.v:0$267'.
+Creating decoders for process `\user_project.$proc$/workspace/peripheral-example/verilog/rtl/user_project.v:45$266'.
+     1/1: $1\mux_dat_o[31:0]
+Creating decoders for process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:483$556'.
+     1/45: $6\tx_done[0:0]
+     2/45: $15\next_state[2:0]
+     3/45: $12\b_next[3:0]
+     4/45: $11\b_next[3:0]
+     5/45: $14\next_state[2:0]
+     6/45: $5\tx_done[0:0]
+     7/45: $13\next_state[2:0]
+     8/45: $4\tx_done[0:0]
+     9/45: $12\next_state[2:0]
+    10/45: $3\tx_done[0:0]
+    11/45: $10\b_next[3:0]
+    12/45: $9\b_next[3:0]
+    13/45: $11\next_state[2:0]
+    14/45: $2\tx_done[0:0]
+    15/45: $10\next_state[2:0]
+    16/45: $8\b_next[3:0]
+    17/45: $7\b_next[3:0]
+    18/45: $9\next_state[2:0]
+    19/45: $2\tx_next[0:0]
+    20/45: $8\next_state[2:0]
+    21/45: $7\next_state[2:0]
+    22/45: $6\count_next[3:0]
+    23/45: $5\count_next[3:0]
+    24/45: $6\next_state[2:0]
+    25/45: $4\data_next[8:0]
+    26/45: $6\b_next[3:0]
+    27/45: $3\data_next[8:0]
+    28/45: $4\count_next[3:0]
+    29/45: $5\b_next[3:0]
+    30/45: $5\next_state[2:0]
+    31/45: $3\count_next[3:0]
+    32/45: $4\b_next[3:0]
+    33/45: $4\next_state[2:0]
+    34/45: $2\count_next[3:0]
+    35/45: $3\b_next[3:0]
+    36/45: $3\next_state[2:0]
+    37/45: $2\data_next[8:0]
+    38/45: $2\b_next[3:0]
+    39/45: $2\next_state[2:0]
+    40/45: $1\data_next[8:0]
+    41/45: $1\b_next[3:0]
+    42/45: $1\next_state[2:0]
+    43/45: $1\tx_next[0:0]
+    44/45: $1\count_next[3:0]
+    45/45: $1\tx_done[0:0]
+Creating decoders for process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:466$554'.
+     1/5: $0\tx_reg[0:0]
+     2/5: $0\data_reg[8:0]
+     3/5: $0\count_reg[3:0]
+     4/5: $0\b_reg[3:0]
+     5/5: $0\current_state[2:0]
+Creating decoders for process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:230$542'.
+     1/15: $4\full_next[0:0]
+     2/15: $3\full_next[0:0]
+     3/15: $3\level_next[3:0]
+     4/15: $4\empty_next[0:0]
+     5/15: $2\w_ptr_next[3:0]
+     6/15: $3\empty_next[0:0]
+     7/15: $2\empty_next[0:0]
+     8/15: $2\level_next[3:0]
+     9/15: $2\full_next[0:0]
+    10/15: $2\r_ptr_next[3:0]
+    11/15: $1\empty_next[0:0]
+    12/15: $1\full_next[0:0]
+    13/15: $1\level_next[3:0]
+    14/15: $1\r_ptr_next[3:0]
+    15/15: $1\w_ptr_next[3:0]
+Creating decoders for process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:202$540'.
+     1/5: $0\level_reg[3:0]
+     2/5: $0\empty_reg[0:0]
+     3/5: $0\full_reg[0:0]
+     4/5: $0\r_ptr_reg[3:0]
+     5/5: $0\w_ptr_reg[3:0]
+Creating decoders for process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:193$530'.
+     1/3: $1$memwr$\array_reg$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:195$529_EN[8:0]$536
+     2/3: $1$memwr$\array_reg$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:195$529_DATA[8:0]$535
+     3/3: $1$memwr$\array_reg$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:195$529_ADDR[3:0]$534
+Creating decoders for process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:398$518'.
+     1/1: $0\brk[11:0]
+Creating decoders for process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:313$493'.
+     1/57: $7\f_error_next[0:0]
+     2/57: $6\f_error_next[0:0]
+     3/57: $6\rx_done[0:0]
+     4/57: $15\next_state[2:0]
+     5/57: $12\b_next[3:0]
+     6/57: $5\f_error_next[0:0]
+     7/57: $11\b_next[3:0]
+     8/57: $14\next_state[2:0]
+     9/57: $5\rx_done[0:0]
+    10/57: $13\next_state[2:0]
+    11/57: $4\rx_done[0:0]
+    12/57: $4\f_error_next[0:0]
+    13/57: $12\next_state[2:0]
+    14/57: $3\rx_done[0:0]
+    15/57: $3\f_error_next[0:0]
+    16/57: $10\b_next[3:0]
+    17/57: $2\f_error_next[0:0]
+    18/57: $9\b_next[3:0]
+    19/57: $11\next_state[2:0]
+    20/57: $2\rx_done[0:0]
+    21/57: $8\p_error_next[0:0]
+    22/57: $7\p_error_next[0:0]
+    23/57: $6\p_error_next[0:0]
+    24/57: $5\p_error_next[0:0]
+    25/57: $4\p_error_next[0:0]
+    26/57: $3\p_error_next[0:0]
+    27/57: $10\next_state[2:0]
+    28/57: $8\b_next[3:0]
+    29/57: $2\p_error_next[0:0]
+    30/57: $7\b_next[3:0]
+    31/57: $9\next_state[2:0]
+    32/57: $8\next_state[2:0]
+    33/57: $7\next_state[2:0]
+    34/57: $6\count_next[3:0]
+    35/57: $5\count_next[3:0]
+    36/57: $6\next_state[2:0]
+    37/57: $3\data_next[8:0]
+    38/57: $6\b_next[3:0]
+    39/57: $2\data_next[8:0]
+    40/57: $4\count_next[3:0]
+    41/57: $5\b_next[3:0]
+    42/57: $5\next_state[2:0]
+    43/57: $3\count_next[3:0]
+    44/57: $4\b_next[3:0]
+    45/57: $4\next_state[2:0]
+    46/57: $2\count_next[3:0]
+    47/57: $3\b_next[3:0]
+    48/57: $3\next_state[2:0]
+    49/57: $2\b_next[3:0]
+    50/57: $2\next_state[2:0]
+    51/57: $1\b_next[3:0]
+    52/57: $1\next_state[2:0]
+    53/57: $1\f_error_next[0:0]
+    54/57: $1\p_error_next[0:0]
+    55/57: $1\data_next[8:0]
+    56/57: $1\count_next[3:0]
+    57/57: $1\rx_done[0:0]
+Creating decoders for process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:287$489'.
+     1/6: $0\data_reg[8:0]
+     2/6: $0\count_reg[3:0]
+     3/6: $0\b_reg[3:0]
+     4/6: $0\current_state[2:0]
+     5/6: $0\f_error_reg[0:0]
+     6/6: $0\p_error_reg[0:0]
+Creating decoders for process `\cf_util_ped.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:55$486'.
+Creating decoders for process `$paramod$e9cdd1478d980710c2839daafb26d490f06a2359\CF_UART.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:194$474'.
+     1/2: $0\samples_count[4:0]
+     2/2: $0\bits_count[5:0]
+Creating decoders for process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:269$456'.
+     1/1: $0\fault_reg[0:0]
+Creating decoders for process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:262$452'.
+     1/1: $0\fault_clr_reg[0:0]
+Creating decoders for process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:255$446'.
+     1/1: $0\pwm1_w_dt[0:0]
+Creating decoders for process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:250$442'.
+     1/1: $0\pwm0_w_dt[0:0]
+Creating decoders for process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:242$439'.
+     1/1: $0\pwm0_delayed[0:0]
+Creating decoders for process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:233$435'.
+     1/1: $0\dly_cntr[7:0]
+Creating decoders for process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:220$432'.
+     1/1: $0\pwm1_reg[0:0]
+Creating decoders for process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:211$429'.
+     1/1: $0\pwm0_reg[0:0]
+Creating decoders for process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+     1/25: $2\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:206$279.$result[0:0]$427
+     2/25: $2\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:205$278.$result[0:0]$425
+     3/25: $2\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:204$277.$result[0:0]$423
+     4/25: $2\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:203$276.$result[0:0]$421
+     5/25: $2\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:202$275.$result[0:0]$419
+     6/25: $2\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:201$274.$result[0:0]$417
+     7/25: $1\pwm1_reg_next[0:0]
+     8/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:201$274.$result[0:0]$399
+     9/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:201$274.sig[0:0]$401
+    10/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:201$274.action[1:0]$400
+    11/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:206$279.sig[0:0]$416
+    12/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:206$279.action[1:0]$415
+    13/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:206$279.$result[0:0]$414
+    14/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:205$278.sig[0:0]$413
+    15/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:205$278.action[1:0]$412
+    16/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:205$278.$result[0:0]$411
+    17/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:204$277.sig[0:0]$410
+    18/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:204$277.action[1:0]$409
+    19/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:204$277.$result[0:0]$408
+    20/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:203$276.sig[0:0]$407
+    21/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:203$276.action[1:0]$406
+    22/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:203$276.$result[0:0]$405
+    23/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:202$275.sig[0:0]$404
+    24/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:202$275.action[1:0]$403
+    25/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:202$275.$result[0:0]$402
+Creating decoders for process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+     1/25: $2\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:194$273.$result[0:0]$378
+     2/25: $2\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:193$272.$result[0:0]$376
+     3/25: $2\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:192$271.$result[0:0]$374
+     4/25: $2\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:191$270.$result[0:0]$372
+     5/25: $2\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:190$269.$result[0:0]$370
+     6/25: $2\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:189$268.$result[0:0]$368
+     7/25: $1\pwm0_reg_next[0:0]
+     8/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:189$268.$result[0:0]$359
+     9/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:189$268.sig[0:0]$357
+    10/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:189$268.action[1:0]$358
+    11/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:194$273.sig[0:0]$367
+    12/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:194$273.action[1:0]$366
+    13/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:194$273.$result[0:0]$365
+    14/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:193$272.sig[0:0]$364
+    15/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:193$272.action[1:0]$363
+    16/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:192$271.sig[0:0]$362
+    17/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:192$271.action[1:0]$361
+    18/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:193$272.$result[0:0]$360
+    19/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:190$269.$result[0:0]$356
+    20/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:190$269.action[1:0]$355
+    21/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:190$269.sig[0:0]$354
+    22/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:191$270.$result[0:0]$353
+    23/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:191$270.action[1:0]$352
+    24/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:191$270.sig[0:0]$351
+    25/25: $1\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:192$271.$result[0:0]$350
+Creating decoders for process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:152$322'.
+     1/1: $0\tmr_dir[0:0]
+Creating decoders for process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:138$319'.
+     1/1: $0\tmr_reg[31:0]
+Creating decoders for process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:110$302'.
+     1/10: $10\tmr_reg_next[31:0]
+     2/10: $9\tmr_reg_next[31:0]
+     3/10: $8\tmr_reg_next[31:0]
+     4/10: $7\tmr_reg_next[31:0]
+     5/10: $6\tmr_reg_next[31:0]
+     6/10: $5\tmr_reg_next[31:0]
+     7/10: $4\tmr_reg_next[31:0]
+     8/10: $3\tmr_reg_next[31:0]
+     9/10: $2\tmr_reg_next[31:0]
+    10/10: $1\tmr_reg_next[31:0]
+Creating decoders for process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:95$291'.
+     1/1: $0\tmr_run[0:0]
+Creating decoders for process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:78$281'.
+     1/1: $0\pr_reg[15:0]
+Creating decoders for process `\BAUDGEN.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:232$574'.
+     1/1: $0\count_reg[15:0]
+Creating decoders for process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:327$134'.
+     1/1: $0\ack_o[0:0]
+Creating decoders for process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:217$77'.
+     1/11: $0\RIS_REG[9:0] [9]
+     2/11: $0\RIS_REG[9:0] [8]
+     3/11: $0\RIS_REG[9:0] [7]
+     4/11: $0\RIS_REG[9:0] [6]
+     5/11: $0\RIS_REG[9:0] [5]
+     6/11: $0\RIS_REG[9:0] [4]
+     7/11: $0\RIS_REG[9:0] [3]
+     8/11: $0\RIS_REG[9:0] [2]
+     9/11: $0\RIS_REG[9:0] [1]
+    10/11: $0\RIS_REG[9:0] [0]
+    11/11: $1\_i_[31:0]
+Creating decoders for process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:200$74'.
+     1/1: $0\IC_REG[9:0]
+Creating decoders for process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:197$71'.
+     1/1: $0\IM_REG[9:0]
+Creating decoders for process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:188$67'.
+     1/1: $0\GCLK_REG[0:0]
+Creating decoders for process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:182$63'.
+     1/1: $0\TX_FIFO_FLUSH_REG[0:0]
+Creating decoders for process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:175$60'.
+     1/1: $0\TX_FIFO_THRESHOLD_REG[3:0]
+Creating decoders for process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:165$56'.
+     1/1: $0\RX_FIFO_FLUSH_REG[0:0]
+Creating decoders for process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:158$53'.
+     1/1: $0\RX_FIFO_THRESHOLD_REG[3:0]
+Creating decoders for process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:149$50'.
+     1/1: $0\MATCH_REG[8:0]
+Creating decoders for process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:143$47'.
+     1/1: $0\CFG_REG[13:0]
+Creating decoders for process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:134$44'.
+     1/1: $0\CTRL_REG[4:0]
+Creating decoders for process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:124$41'.
+     1/1: $0\PR_REG[15:0]
+Creating decoders for process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:263$235'.
+     1/1: $0\ack_o[0:0]
+Creating decoders for process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:196$189'.
+     1/4: $0\RIS_REG[2:0] [2]
+     2/4: $0\RIS_REG[2:0] [1]
+     3/4: $0\RIS_REG[2:0] [0]
+     4/4: $1\_i_[31:0]
+Creating decoders for process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:186$186'.
+     1/1: $0\IC_REG[2:0]
+Creating decoders for process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:183$183'.
+     1/1: $0\IM_REG[2:0]
+Creating decoders for process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:174$179'.
+     1/1: $0\GCLK_REG[0:0]
+Creating decoders for process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:169$176'.
+     1/1: $0\PWMFC_REG[15:0]
+Creating decoders for process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:163$173'.
+     1/1: $0\PWMDT_REG[7:0]
+Creating decoders for process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:157$170'.
+     1/1: $0\PWM1CFG_REG[15:0]
+Creating decoders for process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:151$167'.
+     1/1: $0\PWM0CFG_REG[11:0]
+Creating decoders for process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:145$164'.
+     1/1: $0\CFG_REG[2:0]
+Creating decoders for process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:139$161'.
+     1/1: $0\CTRL_REG[6:0]
+Creating decoders for process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:127$158'.
+     1/1: $0\CMPY_REG[31:0]
+Creating decoders for process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:121$155'.
+     1/1: $0\CMPX_REG[31:0]
+Creating decoders for process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:115$152'.
+     1/1: $0\PR_REG[15:0]
+Creating decoders for process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:109$149'.
+     1/1: $0\RELOAD_REG[31:0]
+Creating decoders for process `\cf_util_ticker.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:101$595'.
+     1/1: $0\tick_reg[0:0]
+Creating decoders for process `\cf_util_ticker.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:90$590'.
+     1/1: $0\counter[7:0]
+Creating decoders for process `\cf_util_sync.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:39$588'.
+Creating decoders for process `$paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:144$586'.
+     1/1: $0\out[0:0]
+Creating decoders for process `$paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:135$581'.
+     1/1: $0\shifter[7:0]
+
+12.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\user_project.\dat_o[0]' from process `\user_project.$proc$/workspace/peripheral-example/verilog/rtl/user_project.v:0$267'.
+No latch inferred for signal `\user_project.\dat_o[1]' from process `\user_project.$proc$/workspace/peripheral-example/verilog/rtl/user_project.v:0$267'.
+No latch inferred for signal `\user_project.\dat_o[2]' from process `\user_project.$proc$/workspace/peripheral-example/verilog/rtl/user_project.v:0$267'.
+No latch inferred for signal `\user_project.\mux_dat_o' from process `\user_project.$proc$/workspace/peripheral-example/verilog/rtl/user_project.v:45$266'.
+No latch inferred for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.\tx_done' from process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:483$556'.
+No latch inferred for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.\next_state' from process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:483$556'.
+No latch inferred for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.\b_next' from process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:483$556'.
+No latch inferred for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.\count_next' from process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:483$556'.
+No latch inferred for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.\data_next' from process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:483$556'.
+No latch inferred for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.\tx_next' from process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:483$556'.
+No latch inferred for signal `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.\w_ptr_next' from process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:230$542'.
+No latch inferred for signal `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.\w_ptr_succ' from process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:230$542'.
+No latch inferred for signal `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.\r_ptr_next' from process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:230$542'.
+No latch inferred for signal `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.\r_ptr_succ' from process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:230$542'.
+No latch inferred for signal `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.\level_next' from process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:230$542'.
+No latch inferred for signal `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.\full_next' from process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:230$542'.
+No latch inferred for signal `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.\empty_next' from process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:230$542'.
+No latch inferred for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.\rx_done' from process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:313$493'.
+No latch inferred for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.\next_state' from process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:313$493'.
+No latch inferred for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.\b_next' from process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:313$493'.
+No latch inferred for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.\count_next' from process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:313$493'.
+No latch inferred for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.\data_next' from process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:313$493'.
+No latch inferred for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.\p_error_next' from process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:313$493'.
+No latch inferred for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.\f_error_next' from process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:313$493'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm1_reg_next' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:201$274.$result' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:201$274.action' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:201$274.sig' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:202$275.$result' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:202$275.action' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:202$275.sig' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:203$276.$result' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:203$276.action' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:203$276.sig' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:204$277.$result' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:204$277.action' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:204$277.sig' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:205$278.$result' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:205$278.action' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:205$278.sig' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:206$279.$result' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:206$279.action' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:206$279.sig' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm0_reg_next' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:192$271.$result' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:191$270.sig' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:191$270.action' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:191$270.$result' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:190$269.sig' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:190$269.action' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:190$269.$result' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:189$268.sig' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:189$268.action' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:189$268.$result' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:193$272.$result' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:192$271.action' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:192$271.sig' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:193$272.action' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:193$272.sig' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:194$273.$result' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:194$273.action' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm_action$func$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:194$273.sig' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+No latch inferred for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\tmr_reg_next' from process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:110$302'.
+
+12.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.\current_state' using process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:466$554'.
+  created $adff cell `$procdff$2512' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.\b_reg' using process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:466$554'.
+  created $adff cell `$procdff$2517' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.\count_reg' using process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:466$554'.
+  created $adff cell `$procdff$2522' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.\data_reg' using process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:466$554'.
+  created $adff cell `$procdff$2527' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.\tx_reg' using process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:466$554'.
+  created $adff cell `$procdff$2532' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.\w_ptr_reg' using process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:202$540'.
+  created $adff cell `$procdff$2537' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.\r_ptr_reg' using process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:202$540'.
+  created $adff cell `$procdff$2542' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.\level_reg' using process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:202$540'.
+  created $adff cell `$procdff$2547' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.\full_reg' using process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:202$540'.
+  created $adff cell `$procdff$2552' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.\empty_reg' using process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:202$540'.
+  created $adff cell `$procdff$2557' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$memwr$\array_reg$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:195$529_ADDR' using process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:193$530'.
+  created $dff cell `$procdff$2558' with positive edge clock.
+Creating register for signal `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$memwr$\array_reg$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:195$529_DATA' using process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:193$530'.
+  created $dff cell `$procdff$2559' with positive edge clock.
+Creating register for signal `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$memwr$\array_reg$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:195$529_EN' using process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:193$530'.
+  created $dff cell `$procdff$2560' with positive edge clock.
+Creating register for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.\brk' using process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:398$518'.
+  created $adff cell `$procdff$2565' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.\current_state' using process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:287$489'.
+  created $adff cell `$procdff$2570' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.\b_reg' using process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:287$489'.
+  created $adff cell `$procdff$2575' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.\count_reg' using process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:287$489'.
+  created $adff cell `$procdff$2580' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.\data_reg' using process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:287$489'.
+  created $adff cell `$procdff$2585' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.\p_error_reg' using process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:287$489'.
+  created $adff cell `$procdff$2590' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.\f_error_reg' using process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:287$489'.
+  created $dff cell `$procdff$2597' with positive edge clock.
+Creating register for signal `\cf_util_ped.\last_in' using process `\cf_util_ped.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:55$486'.
+  created $dff cell `$procdff$2598' with positive edge clock.
+Creating register for signal `$paramod$e9cdd1478d980710c2839daafb26d490f06a2359\CF_UART.\bits_count' using process `$paramod$e9cdd1478d980710c2839daafb26d490f06a2359\CF_UART.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:194$474'.
+  created $adff cell `$procdff$2603' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$e9cdd1478d980710c2839daafb26d490f06a2359\CF_UART.\samples_count' using process `$paramod$e9cdd1478d980710c2839daafb26d490f06a2359\CF_UART.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:194$474'.
+  created $adff cell `$procdff$2608' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\fault_reg' using process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:269$456'.
+  created $adff cell `$procdff$2613' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\fault_clr_reg' using process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:262$452'.
+  created $adff cell `$procdff$2618' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm1_w_dt' using process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:255$446'.
+  created $adff cell `$procdff$2623' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm0_w_dt' using process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:250$442'.
+  created $adff cell `$procdff$2628' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm0_delayed' using process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:242$439'.
+  created $adff cell `$procdff$2633' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\dly_cntr' using process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:233$435'.
+  created $adff cell `$procdff$2638' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm1_reg' using process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:220$432'.
+  created $adff cell `$procdff$2643' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pwm0_reg' using process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:211$429'.
+  created $adff cell `$procdff$2648' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\tmr_dir' using process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:152$322'.
+  created $adff cell `$procdff$2653' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\tmr_reg' using process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:138$319'.
+  created $adff cell `$procdff$2658' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\tmr_run' using process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:95$291'.
+  created $adff cell `$procdff$2663' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.\pr_reg' using process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:78$281'.
+  created $adff cell `$procdff$2668' with positive edge clock and positive level reset.
+Creating register for signal `\BAUDGEN.\count_reg' using process `\BAUDGEN.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:232$574'.
+  created $adff cell `$procdff$2673' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.\ack_o' using process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:327$134'.
+  created $adff cell `$procdff$2676' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.\RIS_REG' using process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:217$77'.
+  created $adff cell `$procdff$2679' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.\_i_' using process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:217$77'.
+  created $dff cell `$procdff$2684' with positive edge clock.
+Creating register for signal `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.\IC_REG' using process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:200$74'.
+  created $adff cell `$procdff$2687' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.\IM_REG' using process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:197$71'.
+  created $adff cell `$procdff$2690' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.\GCLK_REG' using process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:188$67'.
+  created $adff cell `$procdff$2693' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.\TX_FIFO_FLUSH_REG' using process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:182$63'.
+  created $adff cell `$procdff$2696' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.\TX_FIFO_THRESHOLD_REG' using process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:175$60'.
+  created $adff cell `$procdff$2699' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.\RX_FIFO_FLUSH_REG' using process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:165$56'.
+  created $adff cell `$procdff$2702' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.\RX_FIFO_THRESHOLD_REG' using process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:158$53'.
+  created $adff cell `$procdff$2705' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.\MATCH_REG' using process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:149$50'.
+  created $adff cell `$procdff$2708' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.\CFG_REG' using process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:143$47'.
+  created $adff cell `$procdff$2711' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.\CTRL_REG' using process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:134$44'.
+  created $adff cell `$procdff$2714' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.\PR_REG' using process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:124$41'.
+  created $adff cell `$procdff$2717' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.\ack_o' using process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:263$235'.
+  created $adff cell `$procdff$2720' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.\RIS_REG' using process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:196$189'.
+  created $adff cell `$procdff$2723' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.\_i_' using process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:196$189'.
+  created $dff cell `$procdff$2728' with positive edge clock.
+Creating register for signal `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.\IC_REG' using process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:186$186'.
+  created $adff cell `$procdff$2731' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.\IM_REG' using process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:183$183'.
+  created $adff cell `$procdff$2734' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.\GCLK_REG' using process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:174$179'.
+  created $adff cell `$procdff$2737' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.\PWMFC_REG' using process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:169$176'.
+  created $adff cell `$procdff$2740' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.\PWMDT_REG' using process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:163$173'.
+  created $adff cell `$procdff$2743' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.\PWM1CFG_REG' using process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:157$170'.
+  created $adff cell `$procdff$2746' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.\PWM0CFG_REG' using process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:151$167'.
+  created $adff cell `$procdff$2749' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.\CFG_REG' using process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:145$164'.
+  created $adff cell `$procdff$2752' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.\CTRL_REG' using process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:139$161'.
+  created $adff cell `$procdff$2755' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.\CMPY_REG' using process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:127$158'.
+  created $adff cell `$procdff$2758' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.\CMPX_REG' using process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:121$155'.
+  created $adff cell `$procdff$2761' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.\PR_REG' using process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:115$152'.
+  created $adff cell `$procdff$2764' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.\RELOAD_REG' using process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:109$149'.
+  created $adff cell `$procdff$2767' with positive edge clock and positive level reset.
+Creating register for signal `\cf_util_ticker.\tick_reg' using process `\cf_util_ticker.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:101$595'.
+  created $adff cell `$procdff$2772' with positive edge clock and positive level reset.
+Creating register for signal `\cf_util_ticker.\counter' using process `\cf_util_ticker.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:90$590'.
+  created $adff cell `$procdff$2777' with positive edge clock and positive level reset.
+Creating register for signal `\cf_util_sync.\sync' using process `\cf_util_sync.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:39$588'.
+  created $dff cell `$procdff$2778' with positive edge clock.
+Creating register for signal `$paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000.\out' using process `$paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:144$586'.
+  created $adff cell `$procdff$2783' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000.\shifter' using process `$paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:135$581'.
+  created $adff cell `$procdff$2788' with positive edge clock and positive level reset.
+
+12.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+12.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `user_project.$proc$/workspace/peripheral-example/verilog/rtl/user_project.v:0$267'.
+Found and cleaned up 1 empty switch in `\user_project.$proc$/workspace/peripheral-example/verilog/rtl/user_project.v:45$266'.
+Removing empty process `user_project.$proc$/workspace/peripheral-example/verilog/rtl/user_project.v:45$266'.
+Found and cleaned up 16 empty switches in `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:483$556'.
+Removing empty process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:483$556'.
+Removing empty process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:466$554'.
+Found and cleaned up 5 empty switches in `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:230$542'.
+Removing empty process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:230$542'.
+Found and cleaned up 1 empty switch in `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:202$540'.
+Removing empty process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:202$540'.
+Found and cleaned up 1 empty switch in `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:193$530'.
+Removing empty process `$paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:193$530'.
+Found and cleaned up 3 empty switches in `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:398$518'.
+Removing empty process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:398$518'.
+Found and cleaned up 22 empty switches in `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:313$493'.
+Removing empty process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:313$493'.
+Found and cleaned up 4 empty switches in `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:287$489'.
+Removing empty process `$paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:287$489'.
+Removing empty process `cf_util_ped.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:55$486'.
+Found and cleaned up 4 empty switches in `$paramod$e9cdd1478d980710c2839daafb26d490f06a2359\CF_UART.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:194$474'.
+Removing empty process `$paramod$e9cdd1478d980710c2839daafb26d490f06a2359\CF_UART.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:194$474'.
+Found and cleaned up 2 empty switches in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:269$456'.
+Removing empty process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:269$456'.
+Found and cleaned up 2 empty switches in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:262$452'.
+Removing empty process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:262$452'.
+Removing empty process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:255$446'.
+Removing empty process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:250$442'.
+Found and cleaned up 2 empty switches in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:242$439'.
+Removing empty process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:242$439'.
+Found and cleaned up 2 empty switches in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:233$435'.
+Removing empty process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:233$435'.
+Found and cleaned up 2 empty switches in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:220$432'.
+Removing empty process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:220$432'.
+Found and cleaned up 2 empty switches in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:211$429'.
+Removing empty process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:211$429'.
+Found and cleaned up 7 empty switches in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+Removing empty process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:199$380'.
+Found and cleaned up 7 empty switches in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+Removing empty process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:187$331'.
+Found and cleaned up 8 empty switches in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:152$322'.
+Removing empty process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:152$322'.
+Found and cleaned up 4 empty switches in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:138$319'.
+Removing empty process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:138$319'.
+Found and cleaned up 10 empty switches in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:110$302'.
+Removing empty process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:110$302'.
+Found and cleaned up 4 empty switches in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:95$291'.
+Removing empty process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:95$291'.
+Found and cleaned up 2 empty switches in `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:78$281'.
+Removing empty process `$paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/CF_TMR32.v:78$281'.
+Found and cleaned up 1 empty switch in `\BAUDGEN.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:232$574'.
+Removing empty process `BAUDGEN.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/CF_UART.v:232$574'.
+Found and cleaned up 1 empty switch in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:327$134'.
+Removing empty process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:327$134'.
+Found and cleaned up 20 empty switches in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:217$77'.
+Removing empty process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:217$77'.
+Found and cleaned up 1 empty switch in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:200$74'.
+Removing empty process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:200$74'.
+Found and cleaned up 1 empty switch in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:197$71'.
+Removing empty process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:197$71'.
+Found and cleaned up 1 empty switch in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:188$67'.
+Removing empty process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:188$67'.
+Found and cleaned up 1 empty switch in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:182$63'.
+Removing empty process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:182$63'.
+Found and cleaned up 1 empty switch in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:175$60'.
+Removing empty process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:175$60'.
+Found and cleaned up 1 empty switch in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:165$56'.
+Removing empty process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:165$56'.
+Found and cleaned up 1 empty switch in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:158$53'.
+Removing empty process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:158$53'.
+Found and cleaned up 1 empty switch in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:149$50'.
+Removing empty process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:149$50'.
+Found and cleaned up 1 empty switch in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:143$47'.
+Removing empty process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:143$47'.
+Found and cleaned up 1 empty switch in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:134$44'.
+Removing empty process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:134$44'.
+Found and cleaned up 1 empty switch in `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:124$41'.
+Removing empty process `$paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.$proc$/workspace/peripheral-example/ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:124$41'.
+Found and cleaned up 1 empty switch in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:263$235'.
+Removing empty process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:263$235'.
+Found and cleaned up 6 empty switches in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:196$189'.
+Removing empty process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:196$189'.
+Found and cleaned up 1 empty switch in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:186$186'.
+Removing empty process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:186$186'.
+Found and cleaned up 1 empty switch in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:183$183'.
+Removing empty process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:183$183'.
+Found and cleaned up 1 empty switch in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:174$179'.
+Removing empty process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:174$179'.
+Found and cleaned up 1 empty switch in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:169$176'.
+Removing empty process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:169$176'.
+Found and cleaned up 1 empty switch in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:163$173'.
+Removing empty process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:163$173'.
+Found and cleaned up 1 empty switch in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:157$170'.
+Removing empty process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:157$170'.
+Found and cleaned up 1 empty switch in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:151$167'.
+Removing empty process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:151$167'.
+Found and cleaned up 1 empty switch in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:145$164'.
+Removing empty process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:145$164'.
+Found and cleaned up 1 empty switch in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:139$161'.
+Removing empty process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:139$161'.
+Found and cleaned up 1 empty switch in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:127$158'.
+Removing empty process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:127$158'.
+Found and cleaned up 1 empty switch in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:121$155'.
+Removing empty process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:121$155'.
+Found and cleaned up 1 empty switch in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:115$152'.
+Removing empty process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:115$152'.
+Found and cleaned up 1 empty switch in `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:109$149'.
+Removing empty process `$paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.$proc$/workspace/peripheral-example/ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:109$149'.
+Found and cleaned up 1 empty switch in `\cf_util_ticker.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:101$595'.
+Removing empty process `cf_util_ticker.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:101$595'.
+Found and cleaned up 2 empty switches in `\cf_util_ticker.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:90$590'.
+Removing empty process `cf_util_ticker.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:90$590'.
+Removing empty process `cf_util_sync.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:39$588'.
+Found and cleaned up 2 empty switches in `$paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:144$586'.
+Removing empty process `$paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:144$586'.
+Found and cleaned up 1 empty switch in `$paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:135$581'.
+Removing empty process `$paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000.$proc$/nc/ip/CF_IP_UTIL/v1.0.0/hdl/cf_util_lib.v:135$581'.
+Cleaned up 170 empty switches.
+
+12.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module user_project.
+<suppressed ~3 debug messages>
+Optimizing module $paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.
+<suppressed ~19 debug messages>
+Optimizing module $paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.
+<suppressed ~20 debug messages>
+Optimizing module $paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.
+<suppressed ~28 debug messages>
+Optimizing module cf_util_ped.
+Optimizing module $paramod$e9cdd1478d980710c2839daafb26d490f06a2359\CF_UART.
+<suppressed ~4 debug messages>
+Optimizing module cf_util_gating_cell.
+Optimizing module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+<suppressed ~51 debug messages>
+Optimizing module BAUDGEN.
+<suppressed ~2 debug messages>
+Optimizing module $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.
+<suppressed ~28 debug messages>
+Optimizing module $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.
+<suppressed ~20 debug messages>
+Optimizing module cf_util_ticker.
+<suppressed ~6 debug messages>
+Optimizing module cf_util_sync.
+Optimizing module $paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000.
+<suppressed ~5 debug messages>
+
+13. Executing FLATTEN pass (flatten design).
+Deleting now unused module $paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_TX.
+Deleting now unused module $paramod$0c8e12aec8bade0d4c7e5b2f6ebf181d63aab499\cf_util_fifo.
+Deleting now unused module $paramod$b4c45ad6b7a50c506f0a9649f786147095b9aae3\UART_RX.
+Deleting now unused module cf_util_ped.
+Deleting now unused module $paramod$e9cdd1478d980710c2839daafb26d490f06a2359\CF_UART.
+Deleting now unused module cf_util_gating_cell.
+Deleting now unused module $paramod\CF_TMR32\PRW=s32'00000000000000000000000000010000.
+Deleting now unused module BAUDGEN.
+Deleting now unused module $paramod$2939a96310b3883a3b22e8294a994c8dd7e53df7\CF_UART_WB.
+Deleting now unused module $paramod\CF_TMR32_WB\PRW=s32'00000000000000000000000000010000.
+Deleting now unused module cf_util_ticker.
+Deleting now unused module cf_util_sync.
+Deleting now unused module $paramod\cf_util_glitch_filter\N=s32'00000000000000000000000000001000.
+<suppressed ~15 debug messages>
+
+14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \user_project..
+Removed 250 unused cells and 1420 unused wires.
+<suppressed ~542 debug messages>
