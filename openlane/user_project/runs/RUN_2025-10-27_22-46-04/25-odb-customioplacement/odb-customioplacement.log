@@ -1,0 +1,41 @@
+[WARNING ORD-0039] .openroad ignored with -python
+Top-level design name: user_project
+[ERROR] io_oeb[10] not found in config but found in design.
+[ERROR] io_oeb[3] not found in config but found in design.
+[ERROR] io_oeb[35] not found in config but found in design.
+[ERROR] io_oeb[19] not found in config but found in design.
+[ERROR] io_oeb[24] not found in config but found in design.
+[ERROR] io_oeb[4] not found in config but found in design.
+[ERROR] io_oeb[16] not found in config but found in design.
+[ERROR] io_oeb[20] not found in config but found in design.
+[ERROR] io_oeb[21] not found in config but found in design.
+[ERROR] io_oeb[1] not found in config but found in design.
+[ERROR] io_oeb[31] not found in config but found in design.
+[ERROR] io_oeb[22] not found in config but found in design.
+[ERROR] io_oeb[36] not found in config but found in design.
+[ERROR] io_oeb[12] not found in config but found in design.
+[ERROR] io_oeb[0] not found in config but found in design.
+[ERROR] io_oeb[29] not found in config but found in design.
+[ERROR] io_oeb[9] not found in config but found in design.
+[ERROR] io_oeb[34] not found in config but found in design.
+[ERROR] io_oeb[33] not found in config but found in design.
+[ERROR] io_oeb[17] not found in config but found in design.
+[ERROR] io_oeb[27] not found in config but found in design.
+[ERROR] io_oeb[37] not found in config but found in design.
+[ERROR] io_oeb[5] not found in config but found in design.
+[ERROR] io_oeb[15] not found in config but found in design.
+[ERROR] io_oeb[25] not found in config but found in design.
+[ERROR] io_oeb[23] not found in config but found in design.
+[ERROR] io_oeb[28] not found in config but found in design.
+[ERROR] io_oeb[30] not found in config but found in design.
+[ERROR] io_oeb[13] not found in config but found in design.
+[ERROR] io_oeb[14] not found in config but found in design.
+[ERROR] io_oeb[6] not found in config but found in design.
+[ERROR] io_oeb[26] not found in config but found in design.
+[ERROR] io_oeb[2] not found in config but found in design.
+[ERROR] io_oeb[18] not found in config but found in design.
+[ERROR] io_oeb[7] not found in config but found in design.
+[ERROR] io_oeb[11] not found in config but found in design.
+[ERROR] io_oeb[8] not found in config but found in design.
+[ERROR] io_oeb[32] not found in config but found in design.
+Critical mismatches found.

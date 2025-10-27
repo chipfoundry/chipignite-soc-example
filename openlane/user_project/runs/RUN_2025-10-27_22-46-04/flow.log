@@ -34,3 +34,138 @@ Skipping corner max_tt_025C_1v80 for STA (identical to nom_tt_025C_1v80 at this 
 Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-46-04/12-openroad-staprepnr/nom_ff_n40C_1v95/sta.log'[/repr.filename]…
 Skipping corner max_ss_100C_1v60 for STA (identical to nom_ss_100C_1v60 at this stage)…
 Skipping corner max_ff_n40C_1v95 for STA (identical to nom_ff_n40C_1v95 at this stage)…
+Finished STA for the nom_ss_100C_1v60 timing corner.
+Finished STA for the nom_tt_025C_1v80 timing corner.
+Finished STA for the nom_ff_n40C_1v95 timing corner.
+Running 'OpenROAD.Floorplan' at 'openlane/user_project/runs/RUN_2025-10-27_22-46-04/13-openroad-floorplan'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-46-04/13-openroad-floorplan/openroad-floorplan.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+Running 'Odb.CheckMacroAntennaProperties' at 'openlane/user_project/runs/RUN_2025-10-27_22-46-04/14-odb-checkmacroantennaproperties'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-46-04/14-odb-checkmacroantennaproperties/odb-checkmacroantennaproperties.log'[/repr.filename]…
+Cell 'CF_SRAM_1024x32_wb_wrapper' has (22) input pin(s) without antenna gate information. They might not be connected to a gate.
+Running 'Odb.SetPowerConnections' at 'openlane/user_project/runs/RUN_2025-10-27_22-46-04/15-odb-setpowerconnections'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-46-04/15-odb-setpowerconnections/odb-setpowerconnections.log'[/repr.filename]…
+Running 'Odb.ManualMacroPlacement' at 'openlane/user_project/runs/RUN_2025-10-27_22-46-04/16-odb-manualmacroplacement'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-46-04/16-odb-manualmacroplacement/odb-manualmacroplacement.log'[/repr.filename]…
+Running 'OpenROAD.CutRows' at 'openlane/user_project/runs/RUN_2025-10-27_22-46-04/17-openroad-cutrows'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-46-04/17-openroad-cutrows/openroad-cutrows.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+Running 'OpenROAD.TapEndcapInsertion' at 'openlane/user_project/runs/RUN_2025-10-27_22-46-04/18-openroad-tapendcapinsertion'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-46-04/18-openroad-tapendcapinsertion/openroad-tapendcapinsertion.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+Running 'Odb.AddPDNObstructions' at 'openlane/user_project/runs/RUN_2025-10-27_22-46-04/19-odb-addpdnobstructions'…
+'PDN_OBSTRUCTIONS' is not defined. Skipping 'Odb.AddPDNObstructions'…
+Running 'OpenROAD.GeneratePDN' at 'openlane/user_project/runs/RUN_2025-10-27_22-46-04/20-openroad-generatepdn'…
+'FP_PDN_CFG' not explicitly set, setting it to /nix/store/z6z1ia207zpd43ka6vqnxgghfxfr26h6-python3-3.11.9-env/lib/python3.11/site-packages/librelane/scripts/openroad/common/pdn_cfg.tcl…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-46-04/20-openroad-generatepdn/openroad-generatepdn.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[PDN-0231] sram_inst is not connected to any power/ground nets.
+Running 'Odb.RemovePDNObstructions' at 'openlane/user_project/runs/RUN_2025-10-27_22-46-04/21-odb-removepdnobstructions'…
+'PDN_OBSTRUCTIONS' is not defined. Skipping 'Odb.RemovePDNObstructions'…
+Running 'Odb.AddRoutingObstructions' at 'openlane/user_project/runs/RUN_2025-10-27_22-46-04/22-odb-addroutingobstructions'…
+'ROUTING_OBSTRUCTIONS' is not defined. Skipping 'Odb.AddRoutingObstructions'…
+Running 'OpenROAD.GlobalPlacementSkipIO' at 'openlane/user_project/runs/RUN_2025-10-27_22-46-04/23-openroad-globalplacementskipio'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-46-04/23-openroad-globalplacementskipio/openroad-globalplacementskipio.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+Running 'OpenROAD.IOPlacement' at 'openlane/user_project/runs/RUN_2025-10-27_22-46-04/24-openroad-ioplacement'…
+FP_PIN_ORDER_CFG is set. Skipping 'OpenROAD.IOPlacement'…
+Running 'Odb.CustomIOPlacement' at 'openlane/user_project/runs/RUN_2025-10-27_22-46-04/25-odb-customioplacement'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-46-04/25-odb-customioplacement/odb-customioplacement.log'[/repr.filename]…
+io_oeb[10] not found in config but found in design.
+io_oeb[3] not found in config but found in design.
+io_oeb[35] not found in config but found in design.
+io_oeb[19] not found in config but found in design.
+io_oeb[24] not found in config but found in design.
+io_oeb[4] not found in config but found in design.
+io_oeb[16] not found in config but found in design.
+io_oeb[20] not found in config but found in design.
+io_oeb[21] not found in config but found in design.
+io_oeb[1] not found in config but found in design.
+io_oeb[31] not found in config but found in design.
+io_oeb[22] not found in config but found in design.
+io_oeb[36] not found in config but found in design.
+io_oeb[12] not found in config but found in design.
+io_oeb[0] not found in config but found in design.
+io_oeb[29] not found in config but found in design.
+io_oeb[9] not found in config but found in design.
+io_oeb[34] not found in config but found in design.
+io_oeb[33] not found in config but found in design.
+io_oeb[17] not found in config but found in design.
+io_oeb[27] not found in config but found in design.
+io_oeb[37] not found in config but found in design.
+io_oeb[5] not found in config but found in design.
+io_oeb[15] not found in config but found in design.
+io_oeb[25] not found in config but found in design.
+io_oeb[23] not found in config but found in design.
+io_oeb[28] not found in config but found in design.
+io_oeb[30] not found in config but found in design.
+io_oeb[13] not found in config but found in design.
+io_oeb[14] not found in config but found in design.
+io_oeb[6] not found in config but found in design.
+io_oeb[26] not found in config but found in design.
+io_oeb[2] not found in config but found in design.
+io_oeb[18] not found in config but found in design.
+io_oeb[7] not found in config but found in design.
+io_oeb[11] not found in config but found in design.
+io_oeb[8] not found in config but found in design.
+io_oeb[32] not found in config but found in design.
