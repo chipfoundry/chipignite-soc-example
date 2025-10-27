@@ -29,6 +29,7 @@ module user_project (
   wire [2:0] ack;
   wire [31:0] dat_o[2:0];
   reg [31:0] mux_dat_o;
+  wire invalid_addr;
 
   assign peripheral_sel = wbs_adr_i[19:16];
 
@@ -36,7 +37,9 @@ module user_project (
   assign stb[1] = (peripheral_sel == 4'd1) & wbs_stb_i;
   assign stb[2] = (peripheral_sel == 4'd2) & wbs_stb_i;
 
-  assign wbs_ack_o = ack[0] | ack[1] | ack[2];
+  assign invalid_addr = (peripheral_sel != 4'd0) && (peripheral_sel != 4'd1) && 
+                        (peripheral_sel != 4'd2) && wbs_cyc_i && wbs_stb_i;
+  assign wbs_ack_o = ack[0] | ack[1] | ack[2] | invalid_addr;
 
   always @(*) begin
     case (peripheral_sel)
