@@ -21,12 +21,12 @@
 
     "//": "Macros configurations",
     "MACROS": {
-        "user_proj_example": {
+        "user_project": {
             "gds": [
-                "dir::../../gds/user_proj_example.gds"
+                "dir::../../gds/user_project.gds"
             ],
             "lef": [
-                "dir::../../lef/user_proj_example.lef"
+                "dir::../../lef/user_project.lef"
             ],
             "instances": {
                 "mprj": {
@@ -35,25 +35,25 @@
                 }
             },
             "nl": [
-                "dir::../../verilog/gl/user_proj_example.v"
+                "dir::../../verilog/gl/user_project.v"
             ],
             "spef": {
                 "min_*": [
-                    "dir::../../spef/multicorner/user_proj_example.min.spef"
+                    "dir::../../spef/multicorner/user_project.min.spef"
                 ],
                 "nom_*": [
-                    "dir::../../spef/multicorner/user_proj_example.nom.spef"
+                    "dir::../../spef/multicorner/user_project.nom.spef"
                 ],
                 "max_*": [
-                    "dir::../../spef/multicorner/user_proj_example.max.spef"
+                    "dir::../../spef/multicorner/user_project.max.spef"
                 ]
             },
             "lib": {
-                "*": "dir::../../lib/user_proj_example.lib"
+                "*": "dir::../../lib/user_project.lib"
             }
         }
     },
-    "PDN_MACRO_CONNECTIONS": ["mprj vccd2 vssd2 vccd1 vssd1"],
+    "PDN_MACRO_CONNECTIONS": ["mprj vccd1 vssd1 vccd1 vssd1"],
 
     "//": "PDN configurations",
     "FP_PDN_VOFFSET": 5,
