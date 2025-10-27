@@ -1,10 +1,10 @@
-5 Lint warnings found.
-[STA-1140] /Users/donn/Code/chipfoundry/caravel_user_project/lib/user_proj_example.lib line 1, library user_proj_example already exists.
-Cell 'user_proj_example' has (286) input pin(s) without antenna gate information. They might not be connected to a gate.
-Cell 'user_proj_example' has (131) output pin(s) without antenna diffusion information. They might not be driven.
-[STA-1140] /Users/donn/Code/chipfoundry/caravel_user_project/lib/user_proj_example.lib line 1, library user_proj_example already exists.
-[STA-1140] /Users/donn/Code/chipfoundry/caravel_user_project/lib/user_proj_example.lib line 1, library user_proj_example already exists.
+7 Lint warnings found.
+[STA-1140] /workspace/peripheral-example/lib/user_project.lib line 1, library user_project already exists.
+Cell 'user_project' has (39) output pin(s) without antenna diffusion information. They might not be driven.
+[STA-1140] /workspace/peripheral-example/lib/user_project.lib line 1, library user_project already exists.
+[STA-1140] /workspace/peripheral-example/lib/user_project.lib line 1, library user_project already exists.
 [PDN-0239] Core ring shape falls outside the die bounds.
+[PDN-0110] No via inserted between met4 and met5 at (391.5400, 212.9300) - (393.1400, 214.3000) on vssd1
 Bterm vssa2 is declared as a 'GROUND' pin. It will be ignored.
 Bterm vdda2 is declared as a 'POWER' pin. It will be ignored.
 Bterm vssa1 is declared as a 'GROUND' pin. It will be ignored.
@@ -13,18 +13,18 @@ Bterm vssd2 is declared as a 'GROUND' pin. It will be ignored.
 Bterm vccd2 is declared as a 'POWER' pin. It will be ignored.
 Bterm vssd1 is declared as a 'GROUND' pin. It will be ignored.
 Bterm vccd1 is declared as a 'POWER' pin. It will be ignored.
-[STA-1140] /Users/donn/Code/chipfoundry/caravel_user_project/lib/user_proj_example.lib line 1, library user_proj_example already exists.
+[STA-1140] /workspace/peripheral-example/lib/user_project.lib line 1, library user_project already exists.
 All instances are FIXED/FIRM.
 No need to perform global placement.
 Skipping…
-[STA-1140] /Users/donn/Code/chipfoundry/caravel_user_project/lib/user_proj_example.lib line 1, library user_proj_example already exists.
+[STA-1140] /workspace/peripheral-example/lib/user_project.lib line 1, library user_project already exists.
 [GRT-0097] No global routing found for nets.
-[STA-1140] /Users/donn/Code/chipfoundry/caravel_user_project/lib/user_proj_example.lib line 1, library user_proj_example already exists.
-[STA-1140] /Users/donn/Code/chipfoundry/caravel_user_project/lib/user_proj_example.lib line 1, library user_proj_example already exists.
+[STA-1140] /workspace/peripheral-example/lib/user_project.lib line 1, library user_project already exists.
+[STA-1140] /workspace/peripheral-example/lib/user_project.lib line 1, library user_project already exists.
 [GRT-0097] No global routing found for nets.
-[STA-1140] /Users/donn/Code/chipfoundry/caravel_user_project/lib/user_proj_example.lib line 1, library user_proj_example already exists.
+[STA-1140] /workspace/peripheral-example/lib/user_project.lib line 1, library user_project already exists.
 [GRT-0097] No global routing found for nets.
-[STA-1140] /Users/donn/Code/chipfoundry/caravel_user_project/lib/user_proj_example.lib line 1, library user_proj_example already exists.
+[STA-1140] /workspace/peripheral-example/lib/user_project.lib line 1, library user_project already exists.
 [GRT-0036] Pin analog_io[0] is outside die area.
 [GRT-0036] Pin analog_io[10] is outside die area.
 [GRT-0036] Pin analog_io[11] is outside die area.
@@ -853,12 +853,6 @@ Skipping…
 [GRT-0041] Net vccd1 has wires/vias outside die area.
 [GRT-0041] Net vccd1 has wires/vias outside die area.
 [GRT-0041] Net vccd1 has wires/vias outside die area.
-[GRT-0041] Net vccd1 has wires/vias outside die area.
-[GRT-0041] Net vccd1 has wires/vias outside die area.
-[GRT-0041] Net vccd1 has wires/vias outside die area.
-[GRT-0041] Net vccd1 has wires/vias outside die area.
-[GRT-0041] Net vccd1 has wires/vias outside die area.
-[GRT-0041] Net vccd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
@@ -1050,10 +1044,6 @@ Skipping…
 [GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
 [GRT-0041] Net vssd1 has wires/vias outside die area.
-[GRT-0041] Net vssd1 has wires/vias outside die area.
-[GRT-0041] Net vssd1 has wires/vias outside die area.
-[GRT-0041] Net vccd2 has wires/vias outside die area.
-[GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vccd2 has wires/vias outside die area.
@@ -1240,10 +1230,6 @@ Skipping…
 [GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vccd2 has wires/vias outside die area.
 [GRT-0041] Net vccd2 has wires/vias outside die area.
-[GRT-0041] Net vssd2 has wires/vias outside die area.
-[GRT-0041] Net vssd2 has wires/vias outside die area.
-[GRT-0041] Net vssd2 has wires/vias outside die area.
-[GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
@@ -1430,14 +1416,6 @@ Skipping…
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
 [GRT-0041] Net vssd2 has wires/vias outside die area.
-[GRT-0041] Net vssd2 has wires/vias outside die area.
-[GRT-0041] Net vssd2 has wires/vias outside die area.
-[GRT-0041] Net vdda1 has wires/vias outside die area.
-[GRT-0041] Net vdda1 has wires/vias outside die area.
-[GRT-0041] Net vdda1 has wires/vias outside die area.
-[GRT-0041] Net vdda1 has wires/vias outside die area.
-[GRT-0041] Net vdda1 has wires/vias outside die area.
-[GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
@@ -1617,6 +1595,28 @@ Skipping…
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
 [GRT-0041] Net vdda1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
+[GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
@@ -1663,9 +1663,9 @@ Skipping…
 [GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] Net vssa1 has wires/vias outside die area.
 [GRT-0041] message limit reached, this message will no longer print
-[STA-1140] /Users/donn/Code/chipfoundry/caravel_user_project/lib/user_proj_example.lib line 1, library user_proj_example already exists.
-[STA-1140] /Users/donn/Code/chipfoundry/caravel_user_project/lib/user_proj_example.lib line 1, library user_proj_example already exists.
-[STA-1140] /Users/donn/Code/chipfoundry/caravel_user_project/lib/user_proj_example.lib line 1, library user_proj_example already exists.
+[STA-1140] /workspace/peripheral-example/lib/user_project.lib line 1, library user_project already exists.
+[STA-1140] /workspace/peripheral-example/lib/user_project.lib line 1, library user_project already exists.
+[STA-1140] /workspace/peripheral-example/lib/user_project.lib line 1, library user_project already exists.
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
@@ -1676,14 +1676,19 @@ Skipping…
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
-[STA-1140] /Users/donn/Code/chipfoundry/caravel_user_project/lib/user_proj_example.lib line 1, library user_proj_example already exists.
+[STA-1140] /workspace/peripheral-example/lib/user_project.lib line 1, library user_project already exists.
 Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
 Cell 'user_project_wrapper' has (29) inout pin(s) without anetnna gate information not antenna diffusion information. They might be disconnected.
-Cell 'user_project_wrapper' has (309) input pin(s) without antenna gate information. They might not be connected to a gate.
-Cell 'user_project_wrapper' has (175) output pin(s) without antenna diffusion information. They might not be driven.
+Cell 'user_project_wrapper' has (294) input pin(s) without antenna gate information. They might not be connected to a gate.
+Cell 'user_project_wrapper' has (203) output pin(s) without antenna diffusion information. They might not be driven.
+865 Magic DRC errors found.
 Max Slew violations found in the following corners:
+* max_ff_n40C_1v95
 * max_ss_100C_1v60
+* max_tt_025C_1v80
+* min_ff_n40C_1v95
+* min_ss_100C_1v60
+* min_tt_025C_1v80
+* nom_ff_n40C_1v95
 * nom_ss_100C_1v60
-Max Cap violations found in the following corners:
-* max_ss_100C_1v60
-* nom_ss_100C_1v60
+* nom_tt_025C_1v80

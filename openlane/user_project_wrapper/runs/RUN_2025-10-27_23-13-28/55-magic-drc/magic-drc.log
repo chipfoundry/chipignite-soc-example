@@ -199,3 +199,13 @@ Reading "user_project".
     30000 uses
     35000 uses
     40000 uses
+Reading "user_project_wrapper".
+[INFO] Loading user_project_wrapper
+
+DRC style is now "drc(full)"
+Loading DRC CIF style.
+[INFO] COUNT: 865
+[INFO] Should be divided by 3 or 4
+[INFO] DRC Checking DONE (/workspace/peripheral-example/openlane/user_project_wrapper/runs/RUN_2025-10-27_23-13-28/55-magic-drc/reports/drc_violations.magic.rpt)
+[INFO] Saving mag view with DRC errors (/workspace/peripheral-example/openlane/user_project_wrapper/runs/RUN_2025-10-27_23-13-28/55-magic-drc/views/user_project_wrapper.drc.mag)
+[INFO] Saved

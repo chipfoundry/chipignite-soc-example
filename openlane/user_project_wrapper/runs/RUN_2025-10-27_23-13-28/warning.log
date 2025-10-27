@@ -1681,3 +1681,14 @@ Threshold for Threshold-surpassing long wires is not set. The checker will be sk
 Cell 'user_project_wrapper' has (29) inout pin(s) without anetnna gate information not antenna diffusion information. They might be disconnected.
 Cell 'user_project_wrapper' has (294) input pin(s) without antenna gate information. They might not be connected to a gate.
 Cell 'user_project_wrapper' has (203) output pin(s) without antenna diffusion information. They might not be driven.
+865 Magic DRC errors found.
+Max Slew violations found in the following corners:
+* max_ff_n40C_1v95
+* max_ss_100C_1v60
+* max_tt_025C_1v80
+* min_ff_n40C_1v95
+* min_ss_100C_1v60
+* min_tt_025C_1v80
+* nom_ff_n40C_1v95
+* nom_ss_100C_1v60
+* nom_tt_025C_1v80
