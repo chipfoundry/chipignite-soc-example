@@ -1,0 +1,115 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading timing models for corner nom_ff_n40C_1v95…
+Reading timing library for the 'nom_ff_n40C_1v95' corner at '/nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+Reading timing models for corner nom_ss_100C_1v60…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+Reading OpenROAD database at '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-49-20/27-openroad-globalplacement/user_project.odb'…
+Reading design constraints file at '/workspace/peripheral-example/openlane/user_project/signoff.sdc'…
+[INFO]: Creating clock {clk} for port wb_clk_i with period: 25
+[INFO]: Setting clock uncertainity to: 0.25
+[INFO]: Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO]: Setting maximum transition to: 0.75
+[INFO]: Setting maximum fanout to: 10
+[INFO]: Setting timing derate to: 0 %
+[INFO]: Setting clock latency range: 4.65 : 5.57
+[INFO]: Setting clock transition: 0.61
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'io_in[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'io_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_data_out[*]' not found.
+[WARNING STA-0366] port 'la_data_out[*]' not found.
+[INFO] Setting RC values…
+[INFO RSZ-0027] Inserted 57 input buffers.
+[INFO RSZ-0028] Inserted 37 output buffers.
+[INFO RSZ-0058] Using max wire length 6335um.
+Iteration | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------
+        0 |       0 |       0 |             0 |      4047
+      100 |      63 |       0 |             0 |      3947
+      200 |     124 |       4 |             1 |      3847
+      300 |     128 |       4 |             1 |      3747
+      400 |     201 |       4 |             1 |      3647
+      500 |     279 |       6 |             2 |      3547
+      600 |     364 |       6 |             2 |      3447
+      700 |     394 |       6 |             3 |      3347
+      800 |     425 |       7 |             4 |      3247
+      900 |     521 |      11 |             5 |      3147
+     1000 |     609 |      15 |             6 |      3047
+     1100 |     689 |      21 |             9 |      2947
+     1200 |     779 |      32 |            15 |      2847
+     1300 |     871 |      35 |            17 |      2747
+     1400 |     883 |      38 |            19 |      2647
+     1500 |     926 |      44 |            22 |      2547
+     1600 |    1018 |      44 |            22 |      2447
+     1700 |    1091 |      53 |            26 |      2347
+     1800 |    1139 |      57 |            28 |      2247
+     1900 |    1230 |      61 |            31 |      2147
+     2000 |    1334 |      76 |            36 |      2047
+     2100 |    1445 |      96 |            43 |      1947
+     2200 |    1551 |     110 |            49 |      1847
+     2300 |    1648 |     117 |            51 |      1747
+     2400 |    1736 |     133 |            56 |      1647
+     2500 |    1842 |     158 |            63 |      1547
+     2600 |    1908 |     159 |            64 |      1447
+     2700 |    1969 |     171 |            70 |      1347
+     2800 |    2068 |     171 |            70 |      1247
+     2900 |    2171 |     188 |            76 |      1147
+     3000 |    2271 |     188 |            76 |      1047
+     3100 |    2370 |     188 |            76 |       947
+     3200 |    2455 |     188 |            76 |       847
+     3300 |    2573 |     216 |            98 |       747
+     3400 |    2677 |     220 |           100 |       647
+     3500 |    2680 |     220 |           197 |       547
+     3600 |    2680 |     220 |           297 |       447
+     3700 |    2680 |     220 |           397 |       347
+     3800 |    2680 |     220 |           497 |       247
+     3900 |    2742 |     253 |           573 |       147
+     4000 |    2852 |     325 |           631 |        47
+    final |    2852 |     325 |           641 |         0
+---------------------------------------------------------
+[INFO RSZ-0034] Found 533 slew violations.
+[INFO RSZ-0035] Found 109 fanout violations.
+[INFO RSZ-0038] Inserted 325 buffers in 641 nets.
+[INFO RSZ-0039] Resized 2852 instances.
+[INFO RSZ-0042] Inserted 1 tie sky130_fd_sc_hd__conb_1 instances.
+Placement Analysis
+---------------------------------
+total displacement       9108.0 u
+average displacement        0.9 u
+max displacement           69.8 u
+original HPWL          158154.5 u
+legalized HPWL         165225.0 u
+delta HPWL                    4 %
+
+[INFO DPL-0020] Mirrored 1340 instances
+[INFO DPL-0021] HPWL before          165225.0 u
+[INFO DPL-0022] HPWL after           163192.5 u
+[INFO DPL-0023] HPWL delta               -1.2 %
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+sram_inst matched with sram_inst
+Updating metrics…
+Cell type report:                       Count       Area
+  Macro                                     1  165300.00
+  Fill cell                               872    3273.14
+  Tap cell                               4884    6110.86
+  Buffer                                    2       7.51
+  Timing Repair Buffer                    419    3299.41
+  Inverter                                557    2090.76
+  Sequential cell                         755   17755.78
+  Multi-Input combinational cell         2531   22447.78
+  Total                                 10021  220285.24
+Writing OpenROAD database to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-49-20/31-openroad-repairdesignpostgpl/user_project.odb'…
+Writing netlist to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-49-20/31-openroad-repairdesignpostgpl/user_project.nl.v'…
+Writing powered netlist to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-49-20/31-openroad-repairdesignpostgpl/user_project.pnl.v'…
+Writing layout to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-49-20/31-openroad-repairdesignpostgpl/user_project.def'…
+Writing timing constraints to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-49-20/31-openroad-repairdesignpostgpl/user_project.sdc'…

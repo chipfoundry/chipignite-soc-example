@@ -1,0 +1,447 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Startpoint: wb_rst_i (input port clocked by clk)
+Endpoint: _6209_ (recovery check against rising-edge clock clk)
+Path Group: asynchronous
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  5.570000    5.570000   clock network delay (propagated)
+                                 12.500000   18.070000 v input external delay
+     1    0.002899    0.000000    0.000000   18.070000 v wb_rst_i (in)
+                                                         wb_rst_i (net)
+                      0.000019    0.000009   18.070007 v input2/A (sky130_fd_sc_hd__clkbuf_2)
+     1    0.018375    0.076152    0.125540   18.195549 v input2/X (sky130_fd_sc_hd__clkbuf_2)
+                                                         net2 (net)
+                      0.076200    0.000886   18.196436 v fanout418/A (sky130_fd_sc_hd__clkbuf_8)
+     6    0.065821    0.084110    0.196588   18.393023 v fanout418/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         net418 (net)
+                      0.084666    0.005610   18.398632 v fanout405/A (sky130_fd_sc_hd__buf_2)
+     5    0.029935    0.080393    0.189475   18.588108 v fanout405/X (sky130_fd_sc_hd__buf_2)
+                                                         net405 (net)
+                      0.080393    0.000011   18.588118 v fanout399/A (sky130_fd_sc_hd__clkbuf_2)
+     5    0.022890    0.092056    0.172971   18.761089 v fanout399/X (sky130_fd_sc_hd__clkbuf_2)
+                                                         net399 (net)
+                      0.092056    0.000334   18.761423 v fanout398/A (sky130_fd_sc_hd__buf_2)
+     5    0.026928    0.073700    0.187796   18.949219 v fanout398/X (sky130_fd_sc_hd__buf_2)
+                                                         net398 (net)
+                      0.073700    0.000014   18.949234 v fanout394/A (sky130_fd_sc_hd__buf_4)
+     9    0.048658    0.075416    0.196630   19.145864 v fanout394/X (sky130_fd_sc_hd__buf_4)
+                                                         net394 (net)
+                      0.075416    0.000028   19.145893 v fanout393/A (sky130_fd_sc_hd__buf_4)
+    10    0.051390    0.078595    0.200421   19.346313 v fanout393/X (sky130_fd_sc_hd__buf_4)
+                                                         net393 (net)
+                      0.078599    0.000620   19.346933 v _5683_/A (sky130_fd_sc_hd__inv_2)
+     1    0.003996    0.033141    0.057122   19.404057 ^ _5683_/Y (sky130_fd_sc_hd__inv_2)
+                                                         _0059_ (net)
+                      0.033141    0.000011   19.404066 ^ _6209_/SET_B (sky130_fd_sc_hd__dfstp_1)
+                                             19.404066   data arrival time
+
+                                 25.000000   25.000000   clock clk (rise edge)
+                                  4.650000   29.650000   clock source latency
+     1    0.041123    0.610000    0.000000   29.650000 ^ wb_clk_i (in)
+                                                         wb_clk_i (net)
+                      0.615601    0.002801   29.652800 ^ clkbuf_0_wb_clk_i/A (sky130_fd_sc_hd__clkbuf_16)
+     8    0.082136    0.106418    0.311587   29.964388 ^ clkbuf_0_wb_clk_i/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_0_wb_clk_i (net)
+                      0.106458    0.001979   29.966366 ^ clkbuf_3_5_0_wb_clk_i/A (sky130_fd_sc_hd__clkbuf_8)
+     9    0.076145    0.138364    0.223267   30.189632 ^ clkbuf_3_5_0_wb_clk_i/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         clknet_3_5_0_wb_clk_i (net)
+                      0.138364    0.000419   30.190052 ^ clkbuf_leaf_47_wb_clk_i/A (sky130_fd_sc_hd__clkbuf_8)
+    12    0.051149    0.099717    0.204178   30.394230 ^ clkbuf_leaf_47_wb_clk_i/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         clknet_leaf_47_wb_clk_i (net)
+                      0.099717    0.000071   30.394300 ^ _6209_/CLK (sky130_fd_sc_hd__dfstp_1)
+                                 -0.250000   30.144300   clock uncertainty
+                                  0.000000   30.144300   clock reconvergence pessimism
+                                  0.153959   30.298262   library recovery time
+                                             30.298262   data required time
+---------------------------------------------------------------------------------------------
+                                             30.298262   data required time
+                                            -19.404066   data arrival time
+---------------------------------------------------------------------------------------------
+                                             10.894195   slack (MET)
+
+
+Startpoint: wbs_adr_i[9] (input port clocked by clk)
+Endpoint: wbs_dat_o[1] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  5.570000    5.570000   clock network delay (propagated)
+                                  3.890000    9.460000 v input external delay
+     1    0.002400    0.920000    0.000000    9.460000 v wbs_adr_i[9] (in)
+                                                         wbs_adr_i[9] (net)
+                      0.920015    0.000008    9.460009 v hold120/A (sky130_fd_sc_hd__dlygate4sd3_1)
+     1    0.002072    0.050773    0.849640   10.309649 v hold120/X (sky130_fd_sc_hd__dlygate4sd3_1)
+                                                         net540 (net)
+                      0.050773    0.000000   10.309649 v input22/A (sky130_fd_sc_hd__clkbuf_4)
+     3    0.043799    0.097380    0.198048   10.507697 v input22/X (sky130_fd_sc_hd__clkbuf_4)
+                                                         net22 (net)
+                      0.097590    0.003335   10.511032 v _3130_/A (sky130_fd_sc_hd__or4_1)
+     1    0.001937    0.076911    0.515976   11.027008 v _3130_/X (sky130_fd_sc_hd__or4_1)
+                                                         _1297_ (net)
+                      0.076911    0.000003   11.027011 v hold26/A (sky130_fd_sc_hd__dlygate4sd3_1)
+     2    0.006173    0.071979    0.585632   11.612642 v hold26/X (sky130_fd_sc_hd__dlygate4sd3_1)
+                                                         net446 (net)
+                      0.071979    0.000007   11.612650 v _3132_/B (sky130_fd_sc_hd__or2_2)
+     1    0.002433    0.052540    0.273817   11.886467 v _3132_/X (sky130_fd_sc_hd__or2_2)
+                                                         _1299_ (net)
+                      0.052540    0.000012   11.886478 v hold27/A (sky130_fd_sc_hd__dlygate4sd3_1)
+     4    0.018946    0.127335    0.638987   12.525465 v hold27/X (sky130_fd_sc_hd__dlygate4sd3_1)
+                                                         net447 (net)
+                      0.127335    0.000080   12.525545 v _3296_/A (sky130_fd_sc_hd__or2_2)
+     8    0.025795    0.111757    0.398464   12.924009 v _3296_/X (sky130_fd_sc_hd__or2_2)
+                                                         _1457_ (net)
+                      0.111757    0.000062   12.924072 v _3315_/B (sky130_fd_sc_hd__or2_2)
+     2    0.012087    0.080775    0.334484   13.258555 v _3315_/X (sky130_fd_sc_hd__or2_2)
+                                                         _1462_ (net)
+                      0.080775    0.000048   13.258603 v hold98/A (sky130_fd_sc_hd__dlygate4sd3_1)
+     1    0.005503    0.066251    0.582992   13.841596 v hold98/X (sky130_fd_sc_hd__dlygate4sd3_1)
+                                                         net518 (net)
+                      0.066251    0.000059   13.841655 v fanout180/A (sky130_fd_sc_hd__clkbuf_2)
+     5    0.017502    0.073000    0.151882   13.993537 v fanout180/X (sky130_fd_sc_hd__clkbuf_2)
+                                                         net180 (net)
+                      0.073000    0.000082   13.993618 v _4889_/A2 (sky130_fd_sc_hd__o221a_1)
+     1    0.003569    0.049722    0.250331   14.243950 v _4889_/X (sky130_fd_sc_hd__o221a_1)
+                                                         _2620_ (net)
+                      0.049722    0.000026   14.243976 v _4890_/B2 (sky130_fd_sc_hd__a221o_1)
+     1    0.005535    0.065690    0.332699   14.576674 v _4890_/X (sky130_fd_sc_hd__a221o_1)
+                                                         _2621_ (net)
+                      0.065690    0.000083   14.576758 v _4891_/B2 (sky130_fd_sc_hd__a221o_1)
+     1    0.002349    0.050684    0.314980   14.891738 v _4891_/X (sky130_fd_sc_hd__a221o_1)
+                                                         _2622_ (net)
+                      0.050684    0.000000   14.891739 v _4892_/B1 (sky130_fd_sc_hd__o211a_1)
+     1    0.008459    0.064848    0.149602   15.041341 v _4892_/X (sky130_fd_sc_hd__o211a_1)
+                                                         _2623_ (net)
+                      0.064848    0.000222   15.041563 v _4893_/B1 (sky130_fd_sc_hd__a211o_1)
+     1    0.002540    0.047025    0.264679   15.306242 v _4893_/X (sky130_fd_sc_hd__a211o_1)
+                                                         _2624_ (net)
+                      0.047025    0.000004   15.306246 v _4894_/C1 (sky130_fd_sc_hd__o211a_1)
+     1    0.004537    0.048075    0.113598   15.419844 v _4894_/X (sky130_fd_sc_hd__o211a_1)
+                                                         _2625_ (net)
+                      0.048075    0.000016   15.419860 v _4895_/D1 (sky130_fd_sc_hd__a2111o_4)
+     1    0.028115    0.102286    0.399814   15.819674 v _4895_/X (sky130_fd_sc_hd__a2111o_4)
+                                                         net74 (net)
+                      0.102322    0.001910   15.821583 v output74/A (sky130_fd_sc_hd__buf_12)
+     1    0.191189    0.102392    0.221174   16.042757 v output74/X (sky130_fd_sc_hd__buf_12)
+                                                         wbs_dat_o[1] (net)
+                      0.102410    0.001336   16.044092 v wbs_dat_o[1] (out)
+                                             16.044092   data arrival time
+
+                                 25.000000   25.000000   clock clk (rise edge)
+                                  4.650000   29.650000   clock network delay (propagated)
+                                 -0.250000   29.400000   clock uncertainty
+                                  0.000000   29.400000   clock reconvergence pessimism
+                                 -3.620000   25.779999   output external delay
+                                             25.779999   data required time
+---------------------------------------------------------------------------------------------
+                                             25.779999   data required time
+                                            -16.044092   data arrival time
+---------------------------------------------------------------------------------------------
+                                              9.735907   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+max slew
+
+Pin                                        Limit        Slew       Slack
+------------------------------------------------------------------------
+sram_inst/wbs_adr_i[20]                 0.750000    0.926306   -0.176306 (VIOLATED)
+sram_inst/wbs_adr_i[21]                 0.750000    0.926306   -0.176306 (VIOLATED)
+sram_inst/wbs_adr_i[22]                 0.750000    0.926306   -0.176306 (VIOLATED)
+sram_inst/wbs_adr_i[23]                 0.750000    0.926306   -0.176306 (VIOLATED)
+sram_inst/wbs_adr_i[24]                 0.750000    0.926306   -0.176306 (VIOLATED)
+sram_inst/wbs_adr_i[25]                 0.750000    0.926306   -0.176306 (VIOLATED)
+sram_inst/wbs_adr_i[26]                 0.750000    0.926306   -0.176306 (VIOLATED)
+sram_inst/wbs_adr_i[27]                 0.750000    0.926306   -0.176306 (VIOLATED)
+sram_inst/wbs_adr_i[28]                 0.750000    0.926306   -0.176306 (VIOLATED)
+sram_inst/wbs_adr_i[29]                 0.750000    0.926306   -0.176306 (VIOLATED)
+sram_inst/wbs_adr_i[30]                 0.750000    0.926306   -0.176306 (VIOLATED)
+sram_inst/wbs_adr_i[31]                 0.750000    0.926306   -0.176306 (VIOLATED)
+input12/A                               0.750000    0.920030   -0.170030 (VIOLATED)
+input8/A                                0.750000    0.920028   -0.170028 (VIOLATED)
+input17/A                               0.750000    0.920027   -0.170027 (VIOLATED)
+input13/A                               0.750000    0.920026   -0.170026 (VIOLATED)
+hold38/A                                0.750000    0.920025   -0.170025 (VIOLATED)
+hold24/A                                0.750000    0.920022   -0.170022 (VIOLATED)
+hold135/A                               0.750000    0.920021   -0.170021 (VIOLATED)
+hold16/A                                0.750000    0.920021   -0.170021 (VIOLATED)
+input4/A                                0.750000    0.920020   -0.170020 (VIOLATED)
+input5/A                                0.750000    0.920020   -0.170020 (VIOLATED)
+hold66/A                                0.750000    0.920019   -0.170019 (VIOLATED)
+input7/A                                0.750000    0.920019   -0.170019 (VIOLATED)
+hold71/A                                0.750000    0.920017   -0.170017 (VIOLATED)
+hold108/A                               0.750000    0.920017   -0.170017 (VIOLATED)
+hold115/A                               0.750000    0.920017   -0.170017 (VIOLATED)
+hold120/A                               0.750000    0.920017   -0.170017 (VIOLATED)
+hold128/A                               0.750000    0.920017   -0.170017 (VIOLATED)
+hold95/A                                0.750000    0.920017   -0.170017 (VIOLATED)
+hold137/A                               0.750000    0.920016   -0.170016 (VIOLATED)
+hold192/A                               0.750000    0.920016   -0.170016 (VIOLATED)
+wbs_adr_i[0]                            0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[10]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[11]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[12]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[13]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[14]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[15]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[16]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[17]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[18]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[19]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[1]                            0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[20]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[21]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[22]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[23]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[24]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[25]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[26]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[27]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[28]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[29]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[2]                            0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[30]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[31]                           0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[3]                            0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[4]                            0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[5]                            0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[6]                            0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[7]                            0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[8]                            0.750000    0.920000   -0.170000 (VIOLATED)
+wbs_adr_i[9]                            0.750000    0.920000   -0.170000 (VIOLATED)
+hold1/A                                 0.750000    0.840047   -0.090047 (VIOLATED)
+hold79/A                                0.750000    0.840039   -0.090039 (VIOLATED)
+hold101/A                               0.750000    0.840028   -0.090028 (VIOLATED)
+hold112/A                               0.750000    0.840028   -0.090028 (VIOLATED)
+hold7/A                                 0.750000    0.840028   -0.090028 (VIOLATED)
+hold57/A                                0.750000    0.840026   -0.090026 (VIOLATED)
+hold19/A                                0.750000    0.840024   -0.090024 (VIOLATED)
+hold44/A                                0.750000    0.840024   -0.090024 (VIOLATED)
+hold9/A                                 0.750000    0.840024   -0.090024 (VIOLATED)
+hold3/A                                 0.750000    0.840023   -0.090023 (VIOLATED)
+hold105/A                               0.750000    0.840021   -0.090021 (VIOLATED)
+hold114/A                               0.750000    0.840021   -0.090021 (VIOLATED)
+hold131/A                               0.750000    0.840021   -0.090021 (VIOLATED)
+hold75/A                                0.750000    0.840021   -0.090021 (VIOLATED)
+hold46/A                                0.750000    0.840019   -0.090019 (VIOLATED)
+hold21/A                                0.750000    0.840019   -0.090019 (VIOLATED)
+hold103/A                               0.750000    0.840018   -0.090018 (VIOLATED)
+hold31/A                                0.750000    0.840017   -0.090017 (VIOLATED)
+hold11/A                                0.750000    0.840017   -0.090017 (VIOLATED)
+hold126/A                               0.750000    0.840017   -0.090017 (VIOLATED)
+hold29/A                                0.750000    0.840017   -0.090017 (VIOLATED)
+hold33/A                                0.750000    0.840017   -0.090017 (VIOLATED)
+hold35/A                                0.750000    0.840017   -0.090017 (VIOLATED)
+hold50/A                                0.750000    0.840017   -0.090017 (VIOLATED)
+hold52/A                                0.750000    0.840017   -0.090017 (VIOLATED)
+hold55/A                                0.750000    0.840017   -0.090017 (VIOLATED)
+hold60/A                                0.750000    0.840017   -0.090017 (VIOLATED)
+hold62/A                                0.750000    0.840017   -0.090017 (VIOLATED)
+hold132/A                               0.750000    0.840016   -0.090016 (VIOLATED)
+hold42/A                                0.750000    0.840016   -0.090016 (VIOLATED)
+hold14/A                                0.750000    0.840016   -0.090016 (VIOLATED)
+hold5/A                                 0.750000    0.840016   -0.090016 (VIOLATED)
+wbs_dat_i[0]                            0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[10]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[11]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[12]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[13]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[14]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[15]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[16]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[17]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[18]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[19]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[1]                            0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[20]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[21]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[22]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[23]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[24]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[25]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[26]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[27]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[28]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[29]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[2]                            0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[30]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[31]                           0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[3]                            0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[4]                            0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[5]                            0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[6]                            0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[7]                            0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[8]                            0.750000    0.840000   -0.090000 (VIOLATED)
+wbs_dat_i[9]                            0.750000    0.840000   -0.090000 (VIOLATED)
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+clkbuf_leaf_43_wb_clk_i/X                10     23    -13 (VIOLATED)
+clkbuf_leaf_58_wb_clk_i/X                10     20    -10 (VIOLATED)
+clkbuf_leaf_64_wb_clk_i/X                10     20    -10 (VIOLATED)
+clkbuf_leaf_60_wb_clk_i/X                10     19     -9 (VIOLATED)
+clkbuf_leaf_61_wb_clk_i/X                10     19     -9 (VIOLATED)
+clkbuf_leaf_4_wb_clk_i/X                 10     18     -8 (VIOLATED)
+clkbuf_leaf_18_wb_clk_i/X                10     17     -7 (VIOLATED)
+clkbuf_leaf_22_wb_clk_i/X                10     17     -7 (VIOLATED)
+clkbuf_leaf_37_wb_clk_i/X                10     17     -7 (VIOLATED)
+clkbuf_leaf_65_wb_clk_i/X                10     17     -7 (VIOLATED)
+clkbuf_leaf_67_wb_clk_i/X                10     17     -7 (VIOLATED)
+clkbuf_leaf_12_wb_clk_i/X                10     16     -6 (VIOLATED)
+clkbuf_leaf_17_wb_clk_i/X                10     16     -6 (VIOLATED)
+clkbuf_leaf_5_wb_clk_i/X                 10     16     -6 (VIOLATED)
+clkbuf_leaf_28_wb_clk_i/X                10     15     -5 (VIOLATED)
+clkbuf_leaf_44_wb_clk_i/X                10     15     -5 (VIOLATED)
+clkbuf_leaf_0_wb_clk_i/X                 10     14     -4 (VIOLATED)
+clkbuf_leaf_11_wb_clk_i/X                10     14     -4 (VIOLATED)
+clkbuf_leaf_13_wb_clk_i/X                10     14     -4 (VIOLATED)
+clkbuf_leaf_16_wb_clk_i/X                10     14     -4 (VIOLATED)
+clkbuf_leaf_20_wb_clk_i/X                10     14     -4 (VIOLATED)
+clkbuf_leaf_3_wb_clk_i/X                 10     14     -4 (VIOLATED)
+clkbuf_leaf_49_wb_clk_i/X                10     14     -4 (VIOLATED)
+clkbuf_leaf_54_wb_clk_i/X                10     14     -4 (VIOLATED)
+clkbuf_leaf_10_wb_clk_i/X                10     13     -3 (VIOLATED)
+clkbuf_leaf_2_wb_clk_i/X                 10     13     -3 (VIOLATED)
+clkbuf_leaf_30_wb_clk_i/X                10     13     -3 (VIOLATED)
+clkbuf_leaf_59_wb_clk_i/X                10     13     -3 (VIOLATED)
+clkbuf_leaf_62_wb_clk_i/X                10     13     -3 (VIOLATED)
+clkbuf_leaf_9_wb_clk_i/X                 10     13     -3 (VIOLATED)
+clkbuf_3_0_0_wb_clk_i/X                  10     12     -2 (VIOLATED)
+clkbuf_3_2_0_wb_clk_i/X                  10     12     -2 (VIOLATED)
+clkbuf_leaf_1_wb_clk_i/X                 10     12     -2 (VIOLATED)
+clkbuf_leaf_42_wb_clk_i/X                10     12     -2 (VIOLATED)
+clkbuf_leaf_47_wb_clk_i/X                10     12     -2 (VIOLATED)
+clkbuf_leaf_51_wb_clk_i/X                10     12     -2 (VIOLATED)
+clkbuf_leaf_53_wb_clk_i/X                10     12     -2 (VIOLATED)
+clkbuf_leaf_55_wb_clk_i/X                10     12     -2 (VIOLATED)
+clkbuf_leaf_57_wb_clk_i/X                10     12     -2 (VIOLATED)
+clkbuf_leaf_15_wb_clk_i/X                10     11        (VIOLATED)
+clkbuf_leaf_21_wb_clk_i/X                10     11        (VIOLATED)
+clkbuf_leaf_23_wb_clk_i/X                10     11        (VIOLATED)
+clkbuf_leaf_26_wb_clk_i/X                10     11        (VIOLATED)
+clkbuf_leaf_34_wb_clk_i/X                10     11        (VIOLATED)
+clkbuf_leaf_35_wb_clk_i/X                10     11        (VIOLATED)
+clkbuf_leaf_38_wb_clk_i/X                10     11        (VIOLATED)
+clkbuf_leaf_41_wb_clk_i/X                10     11        (VIOLATED)
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 68 unannotated drivers.
+ clkload0/X
+ clkload1/Y
+ clkload10/Y
+ clkload11/Y
+ clkload12/Y
+ clkload13/Y
+ clkload14/Y
+ clkload15/Y
+ clkload16/Y
+ clkload17/Y
+ clkload18/Y
+ clkload19/Y
+ clkload2/Y
+ clkload20/Y
+ clkload21/X
+ clkload22/Y
+ clkload23/Y
+ clkload24/Y
+ clkload25/Y
+ clkload26/Y
+ clkload27/Y
+ clkload28/Y
+ clkload29/X
+ clkload3/Y
+ clkload30/Y
+ clkload31/Y
+ clkload32/Y
+ clkload33/Y
+ clkload34/Y
+ clkload35/Y
+ clkload36/Y
+ clkload37/Y
+ clkload38/Y
+ clkload39/Y
+ clkload4/Y
+ clkload40/X
+ clkload41/Y
+ clkload42/Y
+ clkload43/Y
+ clkload44/Y
+ clkload45/Y
+ clkload46/Y
+ clkload47/Y
+ clkload48/Y
+ clkload49/Y
+ clkload5/Y
+ clkload50/Y
+ clkload51/Y
+ clkload52/Y
+ clkload53/Y
+ clkload54/Y
+ clkload55/Y
+ clkload56/Y
+ clkload57/Y
+ clkload58/Y
+ clkload59/Y
+ clkload6/Y
+ clkload60/Y
+ clkload61/X
+ clkload62/Y
+ clkload63/Y
+ clkload64/X
+ clkload65/Y
+ clkload66/Y
+ clkload7/Y
+ clkload8/Y
+ clkload9/Y
+ user_project_420/HI
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 128
+Writing metric design__max_slew_violation__count__corner:nom_tt_025C_1v80: 128
+max fanout violation count 47
+Writing metric design__max_fanout_violation__count__corner:nom_tt_025C_1v80: 47
+max cap violation count 0
+Writing metric design__max_cap_violation__count__corner:nom_tt_025C_1v80: 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There is 1 input port missing set_input_delay.
+  uart_rx
+Warning: There are 4 unconstrained endpoints.
+  pwm_out
+  uart_tx
+  user_irq[2]
+  _6837_/D
