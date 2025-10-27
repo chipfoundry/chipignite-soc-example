@@ -1,37 +1,266 @@
-%Warning-DECLFILENAME: ip/CF_UART/hdl/rtl/CF_UART.v:219:8: Filename 'CF_UART' does not match MODULE name: 'BAUDGEN'
-  219 | module BAUDGEN
-      |        ^~~~~~~
-                       ... For warning description see https://verilator.org/warn/DECLFILENAME?v=5.018
-                       ... Use "/* verilator lint_off DECLFILENAME */" and lint_on around source to disable this message.
-%Warning-PINMISSING: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:69:23: Cell has missing pin: 'rst_n'
-   69 |   cf_util_gating_cell clk_gate_cell (
-      |                       ^~~~~~~~~~~~~
-%Warning-PINMISSING: ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:66:23: Cell has missing pin: 'rst_n'
-   66 |   cf_util_gating_cell clk_gate_cell (
-      |                       ^~~~~~~~~~~~~
-%Warning-DECLFILENAME: ip/CF_IP_UTIL/hdl/cf_util_lib.v:31:8: Filename 'cf_util_lib' does not match MODULE name: 'cf_util_sync'
-   31 | module cf_util_sync #(parameter NUM_STAGES = 2) (
-      |        ^~~~~~~~~~~~
-%Warning-MULTITOP: ip/CF_IP_UTIL/hdl/cf_util_lib.v:63:8: Multiple top level modules
-                                                       : ... Suggest see manual; fix the duplicates, or use --top-module to select top.
-                                                       : ... Top module 'user_project'
-    3 | module user_project (
-      |        ^~~~~~~~~~~~
-                                                       : ... Top module 'cf_util_ned'
-   63 | module cf_util_ned (
-      |        ^~~~~~~~~~~
-                                                       : ... Top module 'cf_util_clkmux_4x1'
-  328 | module cf_util_clkmux_4x1 (
-      |        ^~~~~~~~~~~~~~~~~~
-%Warning-TIMESCALEMOD: verilog/rtl/user_project.v:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2017 3.14.2.3)
-    3 | module user_project (
-      |        ^~~~~~~~~~~~
-                       ip/CF_UART/hdl/rtl/CF_UART.v:48:8: ... Location of module with timescale
-   48 | module CF_UART #(parameter  MDW = 9,         
-      |        ^~~~~~~
-%Error-UNSUPPORTED: ip/CF_SRAM_1024x32/hdl/CF_SRAM_1024x32.v:31:8: Unsupported: Identically recursive module (module instantiates itself, without changing parameters): 'CF_SRAM_1024x32'
-                                                                 : ... note: In instance 'user_project.sram_inst.i_sram.i_CF_SRAM_1024x32_macro'
-   31 | module CF_SRAM_1024x32 (DO, ScanOutCC, AD, BEN, CLKin, DI, EN, R_WB, ScanInCC, ScanInDL, ScanInDR, SM, TM, WLBI, WLOFF,
-      |        ^~~~~~~~~~~~~~~
-                    ip/CF_SRAM_1024x32/hdl/bus_wrapper/CF_SRAM_1024x32_wb_wrapper.v:108:1: ... note: In file included from 'CF_SRAM_1024x32_wb_wrapper.v'
-%Error: Exiting due to 1 error(s), 6 warning(s)
+%Warning-WIDTHTRUNC: ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:156:19: Operator ASSIGNW expects 12 bits on the Assign RHS, but Assign RHS's VARREF 'PWM1CFG_REG' generates 16 bits.
+                                                                          : ... note: In instance 'user_project.pwm_inst'
+  156 |   assign pwm1_cfg = PWM1CFG_REG;
+      |                   ^
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.018
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:248:37: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'PR_REG' generates 16 bits.
+                                                                           : ... note: In instance 'user_project.pwm_inst'
+  248 |    (adr_i[16-1:0] == PR_REG_OFFSET) ? PR_REG :
+      |                                     ^
+%Warning-WIDTHEXPAND: ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:251:39: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'CTRL_REG' generates 7 bits.
+                                                                           : ... note: In instance 'user_project.pwm_inst'
+  251 |    (adr_i[16-1:0] == CTRL_REG_OFFSET) ? CTRL_REG :
+      |                                       ^
+%Warning-WIDTHEXPAND: ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:252:38: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'CFG_REG' generates 3 bits.
+                                                                           : ... note: In instance 'user_project.pwm_inst'
+  252 |    (adr_i[16-1:0] == CFG_REG_OFFSET) ? CFG_REG :
+      |                                      ^
+%Warning-WIDTHEXPAND: ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:253:42: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'PWM0CFG_REG' generates 12 bits.
+                                                                           : ... note: In instance 'user_project.pwm_inst'
+  253 |    (adr_i[16-1:0] == PWM0CFG_REG_OFFSET) ? PWM0CFG_REG :
+      |                                          ^
+%Warning-WIDTHEXPAND: ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:254:42: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'PWM1CFG_REG' generates 16 bits.
+                                                                           : ... note: In instance 'user_project.pwm_inst'
+  254 |    (adr_i[16-1:0] == PWM1CFG_REG_OFFSET) ? PWM1CFG_REG :
+      |                                          ^
+%Warning-WIDTHEXPAND: ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:255:40: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'PWMDT_REG' generates 8 bits.
+                                                                           : ... note: In instance 'user_project.pwm_inst'
+  255 |    (adr_i[16-1:0] == PWMDT_REG_OFFSET) ? PWMDT_REG :
+      |                                        ^
+%Warning-WIDTHEXPAND: ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:256:40: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'PWMFC_REG' generates 16 bits.
+                                                                           : ... note: In instance 'user_project.pwm_inst'
+  256 |    (adr_i[16-1:0] == PWMFC_REG_OFFSET) ? PWMFC_REG :
+      |                                        ^
+%Warning-WIDTHEXPAND: ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:257:37: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'IM_REG' generates 3 bits.
+                                                                           : ... note: In instance 'user_project.pwm_inst'
+  257 |    (adr_i[16-1:0] == IM_REG_OFFSET) ? IM_REG :
+      |                                     ^
+%Warning-WIDTHEXPAND: ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:258:38: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'MIS_REG' generates 3 bits.
+                                                                           : ... note: In instance 'user_project.pwm_inst'
+  258 |    (adr_i[16-1:0] == MIS_REG_OFFSET) ? MIS_REG :
+      |                                      ^
+%Warning-WIDTHEXPAND: ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:259:38: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'RIS_REG' generates 3 bits.
+                                                                           : ... note: In instance 'user_project.pwm_inst'
+  259 |    (adr_i[16-1:0] == RIS_REG_OFFSET) ? RIS_REG :
+      |                                      ^
+%Warning-WIDTHEXPAND: ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:260:37: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'IC_REG' generates 3 bits.
+                                                                           : ... note: In instance 'user_project.pwm_inst'
+  260 |    (adr_i[16-1:0] == IC_REG_OFFSET) ? IC_REG :
+      |                                     ^
+%Warning-WIDTHEXPAND: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:310:41: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'RXDATA_WIRE' generates 9 bits.
+                                                                         : ... note: In instance 'user_project.uart_inst'
+  310 |    (adr_i[16-1:0] == RXDATA_REG_OFFSET) ? RXDATA_WIRE :
+      |                                         ^
+%Warning-WIDTHEXPAND: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:311:37: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'PR_REG' generates 16 bits.
+                                                                         : ... note: In instance 'user_project.uart_inst'
+  311 |    (adr_i[16-1:0] == PR_REG_OFFSET) ? PR_REG :
+      |                                     ^
+%Warning-WIDTHEXPAND: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:312:39: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'CTRL_REG' generates 5 bits.
+                                                                         : ... note: In instance 'user_project.uart_inst'
+  312 |    (adr_i[16-1:0] == CTRL_REG_OFFSET) ? CTRL_REG :
+      |                                       ^
+%Warning-WIDTHEXPAND: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:313:38: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'CFG_REG' generates 14 bits.
+                                                                         : ... note: In instance 'user_project.uart_inst'
+  313 |    (adr_i[16-1:0] == CFG_REG_OFFSET) ? CFG_REG :
+      |                                      ^
+%Warning-WIDTHEXPAND: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:314:40: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'MATCH_REG' generates 9 bits.
+                                                                         : ... note: In instance 'user_project.uart_inst'
+  314 |    (adr_i[16-1:0] == MATCH_REG_OFFSET) ? MATCH_REG :
+      |                                        ^
+%Warning-WIDTHEXPAND: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:315:48: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'RX_FIFO_LEVEL_WIRE' generates 4 bits.
+                                                                         : ... note: In instance 'user_project.uart_inst'
+  315 |    (adr_i[16-1:0] == RX_FIFO_LEVEL_REG_OFFSET) ? RX_FIFO_LEVEL_WIRE :
+      |                                                ^
+%Warning-WIDTHEXPAND: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:316:52: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'RX_FIFO_THRESHOLD_REG' generates 4 bits.
+                                                                         : ... note: In instance 'user_project.uart_inst'
+  316 |    (adr_i[16-1:0] == RX_FIFO_THRESHOLD_REG_OFFSET) ? RX_FIFO_THRESHOLD_REG :
+      |                                                    ^
+%Warning-WIDTHEXPAND: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:317:48: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'RX_FIFO_FLUSH_REG' generates 1 bits.
+                                                                         : ... note: In instance 'user_project.uart_inst'
+  317 |    (adr_i[16-1:0] == RX_FIFO_FLUSH_REG_OFFSET) ? RX_FIFO_FLUSH_REG :
+      |                                                ^
+%Warning-WIDTHEXPAND: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:318:48: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'TX_FIFO_LEVEL_WIRE' generates 4 bits.
+                                                                         : ... note: In instance 'user_project.uart_inst'
+  318 |    (adr_i[16-1:0] == TX_FIFO_LEVEL_REG_OFFSET) ? TX_FIFO_LEVEL_WIRE :
+      |                                                ^
+%Warning-WIDTHEXPAND: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:319:52: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'TX_FIFO_THRESHOLD_REG' generates 4 bits.
+                                                                         : ... note: In instance 'user_project.uart_inst'
+  319 |    (adr_i[16-1:0] == TX_FIFO_THRESHOLD_REG_OFFSET) ? TX_FIFO_THRESHOLD_REG :
+      |                                                    ^
+%Warning-WIDTHEXPAND: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:320:48: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'TX_FIFO_FLUSH_REG' generates 1 bits.
+                                                                         : ... note: In instance 'user_project.uart_inst'
+  320 |    (adr_i[16-1:0] == TX_FIFO_FLUSH_REG_OFFSET) ? TX_FIFO_FLUSH_REG :
+      |                                                ^
+%Warning-WIDTHEXPAND: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:321:37: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'IM_REG' generates 10 bits.
+                                                                         : ... note: In instance 'user_project.uart_inst'
+  321 |    (adr_i[16-1:0] == IM_REG_OFFSET) ? IM_REG :
+      |                                     ^
+%Warning-WIDTHEXPAND: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:322:38: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'MIS_REG' generates 10 bits.
+                                                                         : ... note: In instance 'user_project.uart_inst'
+  322 |    (adr_i[16-1:0] == MIS_REG_OFFSET) ? MIS_REG :
+      |                                      ^
+%Warning-WIDTHEXPAND: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:323:38: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'RIS_REG' generates 10 bits.
+                                                                         : ... note: In instance 'user_project.uart_inst'
+  323 |    (adr_i[16-1:0] == RIS_REG_OFFSET) ? RIS_REG :
+      |                                      ^
+%Warning-WIDTHEXPAND: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:324:37: Operator COND expects 32 bits on the Conditional True, but Conditional True's VARREF 'IC_REG' generates 10 bits.
+                                                                         : ... note: In instance 'user_project.uart_inst'
+  324 |    (adr_i[16-1:0] == IC_REG_OFFSET) ? IC_REG :
+      |                                     ^
+%Warning-WIDTHTRUNC: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:333:16: Operator ASSIGNW expects 9 bits on the Assign RHS, but Assign RHS's VARREF 'dat_i' generates 32 bits.
+                                                                        : ... note: In instance 'user_project.uart_inst'
+  333 |   assign wdata = dat_i;
+      |                ^
+%Warning-WIDTHTRUNC: verilog/rtl/user_project.v:33:25: Operator ASSIGNW expects 3 bits on the Assign RHS, but Assign RHS's SEL generates 4 bits.
+                                                     : ... note: In instance 'user_project'
+   33 |   assign peripheral_sel = wbs_adr_i[19:16];
+      |                         ^
+%Warning-UNUSEDSIGNAL: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:35:25: Bits of signal are not used: 'adr_i'[31:16]
+                                                                         : ... note: In instance 'user_project.uart_inst'
+   35 |     input  wire [ 31:0] adr_i,
+      |                         ^~~~~
+%Warning-UNUSEDSIGNAL: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:36:25: Bits of signal are not used: 'dat_i'[31:16]
+                                                                         : ... note: In instance 'user_project.uart_inst'
+   36 |     input  wire [ 31:0] dat_i,
+      |                         ^~~~~
+%Warning-UNUSEDSIGNAL: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:83:18: Signal is not used: 'wb_byte_sel'
+                                                                         : ... note: In instance 'user_project.uart_inst'
+   83 |   wire [    3:0] wb_byte_sel = sel_i & {4{wb_we}};
+      |                  ^~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:106:18: Signal is not used: 'tx_full'
+                                                                          : ... note: In instance 'user_project.uart_inst'
+  106 |   wire [  1-1:0] tx_full;
+      |                  ^~~~~~~
+%Warning-UNUSEDSIGNAL: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:109:18: Signal is not used: 'rx_empty'
+                                                                          : ... note: In instance 'user_project.uart_inst'
+  109 |   wire [  1-1:0] rx_empty;
+      |                  ^~~~~~~~
+%Warning-UNUSEDSIGNAL: ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:32:25: Bits of signal are not used: 'adr_i'[31:16]
+                                                                           : ... note: In instance 'user_project.pwm_inst'
+   32 |     input  wire [ 31:0] adr_i,
+      |                         ^~~~~
+%Warning-UNUSEDSIGNAL: ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:79:18: Signal is not used: 'wb_re'
+                                                                           : ... note: In instance 'user_project.pwm_inst'
+   79 |   wire           wb_re = ~we_i & wb_valid;
+      |                  ^~~~~
+%Warning-UNUSEDSIGNAL: ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:80:18: Signal is not used: 'wb_byte_sel'
+                                                                           : ... note: In instance 'user_project.pwm_inst'
+   80 |   wire [    3:0] wb_byte_sel = sel_i & {4{wb_we}};
+      |                  ^~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: ip/CF_SRAM_1024x32/hdl/bus_wrapper/CF_SRAM_1024x32_wb_wrapper.v:74:10: Signal is not used: 'sram_scan_out_cc'
+                                                                                            : ... note: In instance 'user_project.sram_inst'
+   74 |     wire sram_scan_out_cc;   
+      |          ^~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:6:18: Signal is not used: 'DI'
+                                               : ... note: In instance 'user_project.sram_inst.i_sram'
+    6 |     input [31:0] DI,
+      |                  ^~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:7:18: Signal is not used: 'BEN'
+                                               : ... note: In instance 'user_project.sram_inst.i_sram'
+    7 |     input [31:0] BEN,
+      |                  ^~~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:8:17: Signal is not used: 'AD'
+                                               : ... note: In instance 'user_project.sram_inst.i_sram'
+    8 |     input [9:0] AD,
+      |                 ^~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:9:11: Signal is not used: 'EN'
+                                               : ... note: In instance 'user_project.sram_inst.i_sram'
+    9 |     input EN,
+      |           ^~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:10:11: Signal is not used: 'R_WB'
+                                                : ... note: In instance 'user_project.sram_inst.i_sram'
+   10 |     input R_WB,
+      |           ^~~~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:11:11: Signal is not used: 'CLKin'
+                                                : ... note: In instance 'user_project.sram_inst.i_sram'
+   11 |     input CLKin,
+      |           ^~~~~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:12:11: Signal is not used: 'WLBI'
+                                                : ... note: In instance 'user_project.sram_inst.i_sram'
+   12 |     input WLBI,
+      |           ^~~~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:13:11: Signal is not used: 'WLOFF'
+                                                : ... note: In instance 'user_project.sram_inst.i_sram'
+   13 |     input WLOFF,
+      |           ^~~~~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:14:11: Signal is not used: 'TM'
+                                                : ... note: In instance 'user_project.sram_inst.i_sram'
+   14 |     input TM,
+      |           ^~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:15:11: Signal is not used: 'SM'
+                                                : ... note: In instance 'user_project.sram_inst.i_sram'
+   15 |     input SM,
+      |           ^~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:16:11: Signal is not used: 'ScanInCC'
+                                                : ... note: In instance 'user_project.sram_inst.i_sram'
+   16 |     input ScanInCC,
+      |           ^~~~~~~~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:17:11: Signal is not used: 'ScanInDL'
+                                                : ... note: In instance 'user_project.sram_inst.i_sram'
+   17 |     input ScanInDL,
+      |           ^~~~~~~~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:18:11: Signal is not used: 'ScanInDR'
+                                                : ... note: In instance 'user_project.sram_inst.i_sram'
+   18 |     input ScanInDR,
+      |           ^~~~~~~~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:19:11: Signal is not used: 'vpwrac'
+                                                : ... note: In instance 'user_project.sram_inst.i_sram'
+   19 |     input vpwrac,
+      |           ^~~~~~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:20:11: Signal is not used: 'vpwrpc'
+                                                : ... note: In instance 'user_project.sram_inst.i_sram'
+   20 |     input vpwrpc,
+      |           ^~~~~~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:29:11: Signal is not used: 'vgnd'
+                                                : ... note: In instance 'user_project.sram_inst.i_sram'
+   29 |     input vgnd,
+      |           ^~~~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:30:11: Signal is not used: 'vpwrm'
+                                                : ... note: In instance 'user_project.sram_inst.i_sram'
+   30 |     input vpwrm,
+      |           ^~~~~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:31:11: Signal is not used: 'vpwra'
+                                                : ... note: In instance 'user_project.sram_inst.i_sram'
+   31 |     input vpwra,
+      |           ^~~~~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:32:11: Signal is not used: 'vpwrp'
+                                                : ... note: In instance 'user_project.sram_inst.i_sram'
+   32 |     input vpwrp,
+      |           ^~~~~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:33:11: Signal is not used: 'vnb'
+                                                : ... note: In instance 'user_project.sram_inst.i_sram'
+   33 |     input vnb,
+      |           ^~~
+%Warning-UNUSEDSIGNAL: lint_wrapper_stub.v:34:11: Signal is not used: 'vpb'
+                                                : ... note: In instance 'user_project.sram_inst.i_sram'
+   34 |     input vpb
+      |           ^~~
+%Warning-UNUSEDSIGNAL: ip/CF_SRAM_1024x32/hdl/controllers/ram_controller_wb.v:39:18: Bits of signal are not used: 'wbs_adr_i'[31:12,1:0]
+                                                                                   : ... note: In instance 'user_project.sram_inst.i_ram_wb_controller'
+   39 |     input [31:0] wbs_adr_i,      
+      |                  ^~~~~~~~~
+%Warning-UNUSEDSIGNAL: ip/CF_IP_UTIL/hdl/cf_util_lib.v:373:21: Signal is not used: 'rst_n'
+                                                             : ... note: In instance 'user_project.uart_inst.clk_gate_cell'
+  373 |     input   wire    rst_n,
+      |                     ^~~~~
+%Warning-UNUSEDSIGNAL: ip/CF_IP_UTIL/hdl/cf_util_lib.v:374:21: Signal is not used: 'clk_en'
+                                                             : ... note: In instance 'user_project.uart_inst.clk_gate_cell'
+  374 |     input   wire    clk_en,
+      |                     ^~~~~~
+%Warning-CASEINCOMPLETE: ip/CF_IP_UTIL/hdl/cf_util_lib.v:239:9: Case values incompletely covered (example pattern 0x0)
+  239 |         case({w_en,rd})
+      |         ^~~~
+%Warning-CASEINCOMPLETE: ip/CF_UART/hdl/rtl/CF_UART.v:533:17: Case values incompletely covered (example pattern 0x0)
+  533 |                 case (parity_type)
+      |                 ^~~~
+%Warning-CASEINCOMPLETE: ip/CF_UART/hdl/rtl/CF_UART.v:491:9: Case values incompletely covered (example pattern 0x6)
+  491 |         case(current_state)
+      |         ^~~~
+%Warning-CASEINCOMPLETE: ip/CF_UART/hdl/rtl/CF_UART.v:359:25: Case values incompletely covered (example pattern 0x0)
+  359 |                         case (parity_type)
+      |                         ^~~~
+%Warning-CASEINCOMPLETE: ip/CF_UART/hdl/rtl/CF_UART.v:322:9: Case values incompletely covered (example pattern 0x6)
+  322 |         case(current_state)
+      |         ^~~~
+%Error: Exiting due to 67 warning(s)
