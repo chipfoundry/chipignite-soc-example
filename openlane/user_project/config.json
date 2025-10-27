@@ -29,17 +29,16 @@
     
     "PNR_SDC_FILE": "dir::signoff.sdc",
     "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
-    "DIE_AREA": "0 0 900 900",
+    "DIE_AREA": [0, 0, 900, 900],
     
     "FP_CORE_UTIL": 40,
-    "PL_TARGET_DENSITY": 0.45,
-    "CELL_PAD": 4,
+    "PL_TARGET_DENSITY_PCT": 45,
     
     "GRT_ALLOW_CONGESTION": true,
     "GRT_OVERFLOW_ITERS": 200,
-    "PL_RESIZER_DESIGN_OPTIMIZATIONS": true,
-    "PL_RESIZER_TIMING_OPTIMIZATIONS": true,
-    "GLB_RESIZER_TIMING_OPTIMIZATIONS": true,
+    "RUN_POST_GPL_DESIGN_REPAIR": true,
+    "RUN_POST_CTS_RESIZER_TIMING": true,
+    "RUN_POST_GRT_RESIZER_TIMING": true,
     "RUN_HEURISTIC_DIODE_INSERTION": true,
     
     "meta": {
