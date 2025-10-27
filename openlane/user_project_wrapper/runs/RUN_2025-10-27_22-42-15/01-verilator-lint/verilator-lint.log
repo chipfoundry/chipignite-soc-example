@@ -1,0 +1,7 @@
+%Warning-PINMISSING: /workspace/peripheral-example/verilog/rtl/user_project_wrapper.v:85:16: Cell has missing pin: 'VPWR'
+                     ... For warning description see https://verilator.org/warn/PINMISSING?v=5.018
+                     ... Use "/* verilator lint_off PINMISSING */" and lint_on around source to disable this message.
+%Warning-PINMISSING: /workspace/peripheral-example/verilog/rtl/user_project_wrapper.v:85:16: Cell has missing pin: 'VGND'
+%Error-PINNOTFOUND: /workspace/peripheral-example/verilog/rtl/user_project_wrapper.v:87:6: Pin not found: 'vccd1'
+%Error-PINNOTFOUND: /workspace/peripheral-example/verilog/rtl/user_project_wrapper.v:88:6: Pin not found: 'vssd1'
+%Error: Exiting due to 2 error(s)
