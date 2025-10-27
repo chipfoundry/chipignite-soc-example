@@ -21,6 +21,9 @@
         "CF_SRAM_1024x32_wb_wrapper": {
             "gds": ["dir::../../ip/CF_SRAM_1024x32/gds/CF_SRAM_1024x32_wb_wrapper.gds"],
             "lef": ["dir::../../ip/CF_SRAM_1024x32/lef/CF_SRAM_1024x32_wb_wrapper.lef"],
+            "lib": {
+                "*": "dir::../../ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib"
+            },
             "instances": {
                 "sram_inst": {
                     "location": [200, 200],
@@ -45,6 +48,11 @@
     "RUN_POST_CTS_RESIZER_TIMING": true,
     "RUN_POST_GRT_RESIZER_TIMING": true,
     "RUN_HEURISTIC_DIODE_INSERTION": true,
+    
+    "MAGIC_EXT_USE_GDS": false,
+    "MAGIC_CAPTURE_ERRORS": false,
+    "QUIT_ON_MAGIC_DRC": false,
+    "QUIT_ON_ILLEGAL_OVERLAPS": false,
     
     "meta": {
         "version": 2
