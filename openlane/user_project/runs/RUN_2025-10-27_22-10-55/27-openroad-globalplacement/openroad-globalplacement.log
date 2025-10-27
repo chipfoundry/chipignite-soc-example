@@ -1,0 +1,49 @@
+Reading OpenROAD database at '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-10-55/25-odb-customioplacement/user_project.odb'…
+Reading library file at '/nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading library file at '/workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib'…
+Reading macro library file at '/workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib'…
+[WARNING STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+Reading design constraints file at '/workspace/peripheral-example/openlane/user_project/signoff.sdc'…
+[INFO]: Creating clock {clk} for port wb_clk_i with period: 25
+[INFO]: Setting clock uncertainity to: 0.25
+[INFO]: Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO]: Setting maximum transition to: 0.75
+[INFO]: Setting maximum fanout to: 10
+[INFO]: Setting timing derate to: 0 %
+[INFO]: Setting clock latency range: 4.65 : 5.57
+[INFO]: Setting clock transition: 0.61
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'io_in[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'io_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_data_out[*]' not found.
+[WARNING STA-0366] port 'la_data_out[*]' not found.
+[INFO] Setting RC values…
+[INFO] Setting signal min routing layer to: met1 and clock min routing layer to met1. 
+[INFO] Setting signal max routing layer to: met5 and clock max routing layer to met5. 
++ global_placement -density 0.45 -timing_driven -routability_driven -pad_right 0 -pad_left 0 -init_wirelength_coef 0.25
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: (  5.520 10.880 ) ( 731.860 737.120 ) um
+[INFO GPL-0006] NumInstances:              9932
+[INFO GPL-0007] NumPlaceInstances:         3845
+[INFO GPL-0008] NumFixedInstances:         5757
+[INFO GPL-0009] NumDummyInstances:          330
+[INFO GPL-0010] NumNets:                   3952
+[INFO GPL-0011] NumPins:                  14515
+[INFO GPL-0012] DieBBox:  (  0.000  0.000 ) ( 737.445 748.165 ) um
+[INFO GPL-0013] CoreBBox: (  5.520 10.880 ) ( 731.860 737.120 ) um
+[INFO GPL-0016] CoreArea:            527497.162 um^2
+[INFO GPL-0017] NonPlaceInstsArea:   193347.936 um^2
+[INFO GPL-0018] PlaceInstsArea:       45765.142 um^2
+[INFO GPL-0019] Util:                    13.696 %
+[INFO GPL-0020] StdInstsArea:         45765.142 um^2
+[INFO GPL-0021] MacroInstsArea:           0.000 um^2
+[InitialPlace]  Iter: 1 CG residual: 0.02259605 HPWL: 238745091
+[InitialPlace]  Iter: 2 CG residual: 0.00010260 HPWL: 160642493
