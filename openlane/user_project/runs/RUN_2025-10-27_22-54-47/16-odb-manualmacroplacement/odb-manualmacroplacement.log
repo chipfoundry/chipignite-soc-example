@@ -1,0 +1,6 @@
+[WARNING ORD-0039] .openroad ignored with -python
+Placing the following macros:
+{'sram_inst': ['sram_inst', 200000, 200000, 'N']}
+Design name: user_project
+Placing sram_inst
+Successfully placed 1 instances.
