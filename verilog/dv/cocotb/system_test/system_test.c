@@ -8,7 +8,7 @@
 #define UART_BASE 0x30010000
 #define UART ((CF_UART_TYPE_PTR)UART_BASE)
 
-#define RAM_NUM_WORDS 256
+#define RAM_NUM_WORDS 64
 #define SRAM_BASE_OFFSET (0x20000 / 4)
 
 void CF_UART_setBaudRate(CF_UART_TYPE_PTR uart, uint32_t baud_rate, uint32_t clock_freq){

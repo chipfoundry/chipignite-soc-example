@@ -5,7 +5,7 @@ from cocotb.triggers import ClockCycles
 @cocotb.test()
 @report_test
 async def system_test(dut):
-  caravelEnv = await test_configure(dut, timeout_cycles=1000000)
+  caravelEnv = await test_configure(dut, timeout_cycles=200000)
 
   cocotb.log.info("[TEST] Starting system_test")
 
