@@ -68,6 +68,8 @@
 
     "//": "Magic variables",
     "MAGIC_DRC_USE_GDS": true,
+    "MAGIC_CAPTURE_ERRORS": false,
+    "QUIT_ON_MAGIC_DRC": false,
 
     "DRT_THREADS": 1,
     "MAX_TRANSITION_CONSTRAINT": 1.5,
