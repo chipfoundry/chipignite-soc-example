@@ -1,0 +1,7 @@
+`verilator_config
+lint_off -rule DECLFILENAME
+lint_off -rule EOFNEWLINE
+lint_off -rule UNDRIVEN -file "/workspace/peripheral-example/openlane/user_project_wrapper/runs/RUN_2025-10-27_23-13-28/tmp/0fe4afe36f1c4d61ae668408737e659d.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/workspace/peripheral-example/openlane/user_project_wrapper/runs/RUN_2025-10-27_23-13-28/tmp/0fe4afe36f1c4d61ae668408737e659d.bb.v"
+lint_off -rule UNDRIVEN -file "/workspace/peripheral-example/openlane/user_project_wrapper/runs/RUN_2025-10-27_23-13-28/tmp/a06862d3886a4648a7aa06424bdf4db5.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/workspace/peripheral-example/openlane/user_project_wrapper/runs/RUN_2025-10-27_23-13-28/tmp/a06862d3886a4648a7aa06424bdf4db5.bb.v"
