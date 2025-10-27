@@ -1,0 +1,1 @@
+{"blackbox_models": ["/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-45-55/tmp/bd2016c5fabc47b788a8d6c51187c002.bb.v", "/workspace/peripheral-example/ip/CF_SRAM_1024x32/hdl/gl/CF_SRAM_1024x32_wb_wrapper.v"], "libs_synth": ["/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-45-55/tmp/b411cec04f17486f9943e8c2946cd30f.lib"]}

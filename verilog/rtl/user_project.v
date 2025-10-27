@@ -94,9 +94,7 @@ module user_project (
     .tx(uart_tx)
   );
 
-  CF_SRAM_1024x32_wb_wrapper #(
-    .WIDTH(12)
-  ) sram_inst (
+  CF_SRAM_1024x32_wb_wrapper sram_inst (
 `ifdef USE_POWER_PINS
     .VPWR(vccd1),
     .VGND(vssd1),

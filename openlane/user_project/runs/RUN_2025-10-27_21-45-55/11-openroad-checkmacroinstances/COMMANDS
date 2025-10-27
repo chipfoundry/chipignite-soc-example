@@ -1,0 +1,1 @@
+sta -no_splash -exit /nix/store/z6z1ia207zpd43ka6vqnxgghfxfr26h6-python3-3.11.9-env/lib/python3.11/site-packages/librelane/scripts/openroad/sta/check_macro_instances.tcl

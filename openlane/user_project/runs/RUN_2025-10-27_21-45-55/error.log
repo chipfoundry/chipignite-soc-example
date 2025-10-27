@@ -1,0 +1,6 @@
+user_irq[1] not found in config but found in design.
+pwm_out not found in config but found in design.
+uart_tx not found in config but found in design.
+user_irq[2] not found in config but found in design.
+user_irq[0] not found in config but found in design.
+uart_rx not found in config but found in design.
