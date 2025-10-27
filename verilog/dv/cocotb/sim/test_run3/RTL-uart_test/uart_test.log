@@ -20,3 +20,20 @@
 2034465.00ns INFO     cocotb                             [UART] new char =  
 2175140.00ns INFO     cocotb                             [UART] new char = U
 2271765.00ns INFO     cocotb                             [UART] new char = A
+2368965.00ns INFO     cocotb                             [UART] new char = R
+2498840.00ns INFO     cocotb                             [UART] new char = T
+2499975.00ns WARNING  cocotb                             simulation are only 0 cycles away from TIMEOUT 
+2499975.00ns ERROR    ..tb.Task 0.Timeout._timeout_check Exception raised by this forked coroutine
+2499975.00ns INFO     cocotb.regression                  report_test.<locals>.wrapper_func failed
+                                                         Traceback (most recent call last):
+                                                           File "/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/caravel_cocotb/interfaces/common_functions/Timeout.py", line 31, in _timeout_check
+                                                             raise SimTimeoutError(
+                                                         cocotb.result.SimTimeoutError: simulation exceeds the max number of cycles 100000
+2499975.00ns INFO     cocotb.regression                  *****************************************************************************************************************************************************
+                                                         ** TEST                                                                                         STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
+                                                         *****************************************************************************************************************************************************
+                                                         ** caravel_cocotb.interfaces.common_functions.test_functions.report_test.<locals>.wrapper_func   FAIL     2499975.00          38.53      64878.92  **
+                                                         *****************************************************************************************************************************************************
+                                                         ** TESTS=1 PASS=0 FAIL=1 SKIP=0                                                                           2499975.00          38.74      64524.94  **
+                                                         *****************************************************************************************************************************************************
+                                                         

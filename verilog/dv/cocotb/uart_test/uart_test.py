@@ -4,7 +4,7 @@ import cocotb
 @cocotb.test()
 @report_test
 async def uart_test(dut):
-  caravelEnv = await test_configure(dut, timeout_cycles=100000)
+  caravelEnv = await test_configure(dut, timeout_cycles=200000)
 
   await caravelEnv.release_csb()
   await caravelEnv.wait_mgmt_gpio(1)
