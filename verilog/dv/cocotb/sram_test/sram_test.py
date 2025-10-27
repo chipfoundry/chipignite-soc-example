@@ -4,7 +4,7 @@ import cocotb
 @cocotb.test()
 @report_test
 async def sram_test(dut):
-  caravelEnv = await test_configure(dut, timeout_cycles=900000)
+  caravelEnv = await test_configure(dut, timeout_cycles=300000)
 
   cocotb.log.info(f"[TEST] Start sram_test")
 
