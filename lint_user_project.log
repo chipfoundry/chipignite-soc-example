@@ -1,0 +1,37 @@
+%Warning-DECLFILENAME: ip/CF_UART/hdl/rtl/CF_UART.v:219:8: Filename 'CF_UART' does not match MODULE name: 'BAUDGEN'
+  219 | module BAUDGEN
+      |        ^~~~~~~
+                       ... For warning description see https://verilator.org/warn/DECLFILENAME?v=5.018
+                       ... Use "/* verilator lint_off DECLFILENAME */" and lint_on around source to disable this message.
+%Warning-PINMISSING: ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v:69:23: Cell has missing pin: 'rst_n'
+   69 |   cf_util_gating_cell clk_gate_cell (
+      |                       ^~~~~~~~~~~~~
+%Warning-PINMISSING: ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v:66:23: Cell has missing pin: 'rst_n'
+   66 |   cf_util_gating_cell clk_gate_cell (
+      |                       ^~~~~~~~~~~~~
+%Warning-DECLFILENAME: ip/CF_IP_UTIL/hdl/cf_util_lib.v:31:8: Filename 'cf_util_lib' does not match MODULE name: 'cf_util_sync'
+   31 | module cf_util_sync #(parameter NUM_STAGES = 2) (
+      |        ^~~~~~~~~~~~
+%Warning-MULTITOP: ip/CF_IP_UTIL/hdl/cf_util_lib.v:63:8: Multiple top level modules
+                                                       : ... Suggest see manual; fix the duplicates, or use --top-module to select top.
+                                                       : ... Top module 'user_project'
+    3 | module user_project (
+      |        ^~~~~~~~~~~~
+                                                       : ... Top module 'cf_util_ned'
+   63 | module cf_util_ned (
+      |        ^~~~~~~~~~~
+                                                       : ... Top module 'cf_util_clkmux_4x1'
+  328 | module cf_util_clkmux_4x1 (
+      |        ^~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: verilog/rtl/user_project.v:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2017 3.14.2.3)
+    3 | module user_project (
+      |        ^~~~~~~~~~~~
+                       ip/CF_UART/hdl/rtl/CF_UART.v:48:8: ... Location of module with timescale
+   48 | module CF_UART #(parameter  MDW = 9,         
+      |        ^~~~~~~
+%Error-UNSUPPORTED: ip/CF_SRAM_1024x32/hdl/CF_SRAM_1024x32.v:31:8: Unsupported: Identically recursive module (module instantiates itself, without changing parameters): 'CF_SRAM_1024x32'
+                                                                 : ... note: In instance 'user_project.sram_inst.i_sram.i_CF_SRAM_1024x32_macro'
+   31 | module CF_SRAM_1024x32 (DO, ScanOutCC, AD, BEN, CLKin, DI, EN, R_WB, ScanInCC, ScanInDL, ScanInDR, SM, TM, WLBI, WLOFF,
+      |        ^~~~~~~~~~~~~~~
+                    ip/CF_SRAM_1024x32/hdl/bus_wrapper/CF_SRAM_1024x32_wb_wrapper.v:108:1: ... note: In file included from 'CF_SRAM_1024x32_wb_wrapper.v'
+%Error: Exiting due to 1 error(s), 6 warning(s)

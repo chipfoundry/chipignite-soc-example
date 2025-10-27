@@ -82,17 +82,13 @@ module user_project_wrapper #(
 /* User project is instantiated  here   */
 /*--------------------------------------*/
 
-user_proj_example mprj (
+  user_project mprj (
 `ifdef USE_POWER_PINS
-	.vccd1(vccd1),	// User area 1 1.8V power
-	.vssd1(vssd1),	// User area 1 digital ground
+    .vccd1(vccd1),
+    .vssd1(vssd1),
 `endif
-
     .wb_clk_i(wb_clk_i),
     .wb_rst_i(wb_rst_i),
-
-    // MGMT SoC Wishbone Slave
-
     .wbs_cyc_i(wbs_cyc_i),
     .wbs_stb_i(wbs_stb_i),
     .wbs_we_i(wbs_we_i),
@@ -101,23 +97,24 @@ user_proj_example mprj (
     .wbs_dat_i(wbs_dat_i),
     .wbs_ack_o(wbs_ack_o),
     .wbs_dat_o(wbs_dat_o),
+    .user_irq(user_irq),
+    .uart_rx(io_in[6]),
+    .uart_tx(io_out[5]),
+    .pwm_out(io_out[7])
+  );
 
-    // Logic Analyzer
+  assign io_oeb[5] = 1'b0;
+  assign io_oeb[6] = 1'b1;
+  assign io_oeb[7] = 1'b0;
+  assign io_oeb[`MPRJ_IO_PADS-1:8] = {(`MPRJ_IO_PADS-8){1'b1}};
+  assign io_oeb[4:0] = 5'b11111;
 
-    .la_data_in(la_data_in),
-    .la_data_out(la_data_out),
-    .la_oenb (la_oenb),
+  assign io_out[`MPRJ_IO_PADS-1:8] = {(`MPRJ_IO_PADS-8){1'b0}};
+  assign io_out[6] = 1'b0;
+  assign io_out[4:0] = 5'b00000;
 
-    // IO Pads
+  assign la_data_out = 128'b0;
 
-    .io_in ({io_in[37:30],io_in[7:0]}),
-    .io_out({io_out[37:30],io_out[7:0]}),
-    .io_oeb({io_oeb[37:30],io_oeb[7:0]}),
-
-    // IRQ
-    .irq(user_irq)
-);
-
-endmodule	// user_project_wrapper
+endmodule
 
 `default_nettype wire
