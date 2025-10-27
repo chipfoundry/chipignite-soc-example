@@ -1,0 +1,20 @@
+[WARNING ORD-0039] .openroad ignored with -python
+[INFO ODB-0227] LEF file: /nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef, created 14 layers, 25 vias
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef, created 4 library cells
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /workspace/peripheral-example/openlane/user_project_wrapper/runs/RUN_2025-10-27_23-13-28/51-magic-writelef/user_project_wrapper.lef at line 2.
+
+[INFO ODB-0227] LEF file: /workspace/peripheral-example/openlane/user_project_wrapper/runs/RUN_2025-10-27_23-13-28/51-magic-writelef/user_project_wrapper.lef, created 1 library cells
+[INFO ODB-0127] Reading DEF file: /tmp/tmppp5sw7ui
+[INFO ODB-0128] Design: empty
+[INFO ODB-0134] Finished DEF file: /tmp/tmppp5sw7ui
+[WARNING] Cell 'user_project_wrapper' has (29) inout pin(s) without anetnna gate information not antenna diffusion information. They might be disconnected.
+[WARNING] Cell 'user_project_wrapper' has (294) input pin(s) without antenna gate information. They might not be connected to a gate.
+[WARNING] Cell 'user_project_wrapper' has (203) output pin(s) without antenna diffusion information. They might not be driven.

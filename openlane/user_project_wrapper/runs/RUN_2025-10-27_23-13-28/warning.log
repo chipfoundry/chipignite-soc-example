@@ -1678,3 +1678,6 @@ Skipping…
 [DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
 [STA-1140] /workspace/peripheral-example/lib/user_project.lib line 1, library user_project already exists.
 Threshold for Threshold-surpassing long wires is not set. The checker will be skipped.
+Cell 'user_project_wrapper' has (29) inout pin(s) without anetnna gate information not antenna diffusion information. They might be disconnected.
+Cell 'user_project_wrapper' has (294) input pin(s) without antenna gate information. They might not be connected to a gate.
+Cell 'user_project_wrapper' has (203) output pin(s) without antenna diffusion information. They might not be driven.
