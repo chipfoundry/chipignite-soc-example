@@ -1,0 +1,14 @@
+%Warning-UNUSEDPARAM: /workspace/peripheral-example/verilog/rtl/user_project_wrapper.v:33:15: Parameter is not used: 'BITS'
+                                                                                            : ... note: In instance 'user_project_wrapper'
+   33 | `line 40 "/workspace/peripheral-example/verilog/rtl/defines.v" 0
+      |               ^~~~
+                      ... For warning description see https://verilator.org/warn/UNUSEDPARAM?v=5.018
+                      ... Use "/* verilator lint_off UNUSEDPARAM */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: /workspace/peripheral-example/verilog/rtl/user_project_wrapper.v:59:20: Signal is not used: 'la_data_in'
+                                                                                             : ... note: In instance 'user_project_wrapper'
+%Warning-UNUSEDSIGNAL: /workspace/peripheral-example/verilog/rtl/user_project_wrapper.v:61:20: Signal is not used: 'la_oenb'
+                                                                                             : ... note: In instance 'user_project_wrapper'
+%Warning-UNUSEDSIGNAL: /workspace/peripheral-example/verilog/rtl/user_project_wrapper.v:64:32: Bits of signal are not used: 'io_in'[37:7,5:0]
+                                                                                             : ... note: In instance 'user_project_wrapper'
+%Warning-UNUSEDSIGNAL: /workspace/peripheral-example/verilog/rtl/user_project_wrapper.v:75:13: Signal is not used: 'user_clock2'
+                                                                                             : ... note: In instance 'user_project_wrapper'
