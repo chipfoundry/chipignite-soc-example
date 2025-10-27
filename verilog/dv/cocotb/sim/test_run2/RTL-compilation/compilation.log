@@ -1,0 +1,7 @@
+command:cd /workspace/peripheral-example/verilog/dv/cocotb/sim/test_run2/RTL-compilation &&iverilog -g2012 -Ttyp  -DUSE_POWER_PINS -DUNIT_DELAY=#1 -DCOCOTB_SIM -DFUNCTIONAL -DWAVE_GEN -DIVERILOG -Dsky130 -DCPU_TYPE_VexRISC -DRUN_PATH=\"/workspace/peripheral-example/verilog/dv/cocotb\" -DTAG=\"test_run2\" -DMCW_ROOT=\"/nc/templates/mgmt_core_wrapper\" -DUSER_PROJECT_ROOT=\"/workspace/peripheral-example\" -DCARAVEL_ROOT=\"/nc/templates/caravel\" -DSIM_PATH=\"/workspace/peripheral-example/verilog/dv/cocotb/sim/\" -DSIM=\"RTL\" -DTESTNAME=\"pwm_test\" -DFTESTNAME=\"RTL-pwm_test\" -DSIM_DIR=\"/workspace/peripheral-example/verilog/dv/cocotb/sim/test_run2\" -DCORNER_nom  -I /workspace/peripheral-example/verilog/rtl -o /workspace/peripheral-example/verilog/dv/cocotb/sim/test_run2/RTL-compilation/sim.vvp -s caravel_top /nc/templates/caravel/verilog/rtl/toplevel_cocotb.v
+
+/workspace/peripheral-example/verilog/../ip/CF_SRAM_1024x32/hdl/bus_wrapper/CF_SRAM_1024x32_wb_wrapper.v:106: error: Unknown module type: CF_SRAM_1024x32
+2 error(s) during elaboration.
+*** These modules were missing:
+        CF_SRAM_1024x32 referenced 1 times.
+***

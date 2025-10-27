@@ -1,0 +1,5 @@
+Run tag: test_run3 
+Start running test: [94m RTL-pwm_test [0m
+[96mCompiling as sim.vvp not found[0m
+     -.--ns INFO     gpi                                ..mbed/gpi_embed.cpp:108  in set_program_name_in_venv        Using Python virtual environment interpreter at /openhands/poetry/openhands-ai-5O4_aCHf-py3.12/bin/python
+     -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:101  in gpi_print_registered_impl       VPI registered
