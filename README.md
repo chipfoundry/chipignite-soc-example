@@ -1,1 +1,1 @@
-# peripheral-example
+docs/README.md
