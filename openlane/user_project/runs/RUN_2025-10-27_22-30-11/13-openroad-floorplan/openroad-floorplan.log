@@ -1,0 +1,70 @@
+Reading library file at '/nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading library file at '/workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib'…
+Reading macro library file at '/workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib'…
+[WARNING STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+Reading technology LEF file at '/nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef'…
+[INFO ODB-0227] LEF file: /nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef, created 14 layers, 25 vias
+Reading cell LEF file at '/nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef, created 4 library cells
+Reading cell LEF file at '/nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells
+Reading macro LEF file at '/workspace/peripheral-example/ip/CF_SRAM_1024x32/lef/CF_SRAM_1024x32_wb_wrapper.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /workspace/peripheral-example/ip/CF_SRAM_1024x32/lef/CF_SRAM_1024x32_wb_wrapper.lef at line 2.
+
+[INFO ODB-0227] LEF file: /workspace/peripheral-example/ip/CF_SRAM_1024x32/lef/CF_SRAM_1024x32_wb_wrapper.lef, created 1 library cells
+Reading top-level netlist at '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-30-11/06-yosys-synthesis/user_project.nl.v'…
+Linking design 'user_project' from netlist…
+Reading design constraints file at '/workspace/peripheral-example/openlane/user_project/signoff.sdc'…
+[INFO]: Creating clock {clk} for port wb_clk_i with period: 25
+[INFO]: Setting clock uncertainity to: 0.25
+[INFO]: Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO]: Setting maximum transition to: 0.75
+[INFO]: Setting maximum fanout to: 10
+[INFO]: Setting timing derate to: 0 %
+[INFO]: Setting clock latency range: 4.65 : 5.57
+[INFO]: Setting clock transition: 0.61
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'io_in[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'io_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_data_out[*]' not found.
+[WARNING STA-0366] port 'la_data_out[*]' not found.
+Using site height: 2.72 and site width: 0.46…
+[INFO] Using relative sizing for the floorplan.
+[INFO IFP-0001] Added 267 rows of 1579 site unithd.
+[INFO IFP-0030] Inserted 0 tiecells using sky130_fd_sc_hd__conb_1/LO.
+[INFO IFP-0030] Inserted 0 tiecells using sky130_fd_sc_hd__conb_1/HI.
+[INFO] Extracting DIE_AREA and CORE_AREA from the floorplan
+[INFO] Floorplanned on a die area of 0.0 0.0 737.445 748.165 (µm).
+[INFO] Floorplanned on a core area of 5.52 10.88 731.86 737.12 (µm).
+Writing metric design__die__bbox: 0.0 0.0 737.445 748.165
+Writing metric design__core__bbox: 5.52 10.88 731.86 737.12
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+sram_inst matched with sram_inst
+Updating metrics…
+Cell type report:                       Count       Area
+  Macro                                     1  165300.00
+  Buffer                                    2      10.01
+  Inverter                                557    2090.76
+  Sequential cell                         755   18376.37
+  Multi-Input combinational cell         2531   25288.00
+  Total                                  3846  211065.14
+Writing OpenROAD database to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-30-11/13-openroad-floorplan/user_project.odb'…
+Writing netlist to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-30-11/13-openroad-floorplan/user_project.nl.v'…
+Writing powered netlist to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-30-11/13-openroad-floorplan/user_project.pnl.v'…
+Writing layout to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-30-11/13-openroad-floorplan/user_project.def'…
+Writing timing constraints to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-30-11/13-openroad-floorplan/user_project.sdc'…

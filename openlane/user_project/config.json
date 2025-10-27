@@ -56,9 +56,6 @@
     
     "meta": {
         "version": 2,
-        "flow": "Classic",
-        "substituting_steps": {
-            "Checker.XOR": null
-        }
+        "flow": "Classic"
     }
 }
