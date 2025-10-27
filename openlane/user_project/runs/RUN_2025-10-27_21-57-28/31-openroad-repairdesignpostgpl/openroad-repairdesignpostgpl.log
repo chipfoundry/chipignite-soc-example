@@ -1,0 +1,120 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib'…
+Reading timing models for corner nom_ff_n40C_1v95…
+Reading timing library for the 'nom_ff_n40C_1v95' corner at '/nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+Reading timing library for the 'nom_ff_n40C_1v95' corner at '/workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib'…
+[WARNING STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+Reading timing models for corner nom_ss_100C_1v60…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib'…
+[WARNING STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+Reading OpenROAD database at '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-57-28/27-openroad-globalplacement/user_project.odb'…
+Reading design constraints file at '/workspace/peripheral-example/openlane/user_project/signoff.sdc'…
+[INFO]: Creating clock {clk} for port wb_clk_i with period: 25
+[INFO]: Setting clock uncertainity to: 0.25
+[INFO]: Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO]: Setting maximum transition to: 0.75
+[INFO]: Setting maximum fanout to: 10
+[INFO]: Setting timing derate to: 0 %
+[INFO]: Setting clock latency range: 4.65 : 5.57
+[INFO]: Setting clock transition: 0.61
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'io_in[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'io_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_data_out[*]' not found.
+[WARNING STA-0366] port 'la_data_out[*]' not found.
+[INFO] Setting RC values…
+[INFO RSZ-0027] Inserted 73 input buffers.
+[INFO RSZ-0028] Inserted 37 output buffers.
+[INFO RSZ-0058] Using max wire length 6335um.
+Iteration | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------
+        0 |       0 |       0 |             0 |      4063
+      100 |      63 |       0 |             0 |      3963
+      200 |     125 |       4 |             1 |      3863
+      300 |     129 |       4 |             1 |      3763
+      400 |     202 |       4 |             1 |      3663
+      500 |     280 |       6 |             2 |      3563
+      600 |     365 |       6 |             2 |      3463
+      700 |     395 |       6 |             3 |      3363
+      800 |     426 |       7 |             4 |      3263
+      900 |     522 |      11 |             5 |      3163
+     1000 |     610 |      15 |             6 |      3063
+     1100 |     690 |      21 |             9 |      2963
+     1200 |     780 |      32 |            15 |      2863
+     1300 |     872 |      35 |            17 |      2763
+     1400 |     884 |      38 |            19 |      2663
+     1500 |     927 |      44 |            22 |      2563
+     1600 |    1019 |      44 |            22 |      2463
+     1700 |    1094 |      53 |            26 |      2363
+     1800 |    1141 |      57 |            28 |      2263
+     1900 |    1201 |      58 |            29 |      2163
+     2000 |    1303 |      76 |            36 |      2063
+     2100 |    1413 |      96 |            43 |      1963
+     2200 |    1514 |     106 |            47 |      1863
+     2300 |    1620 |     118 |            51 |      1763
+     2400 |    1701 |     131 |            55 |      1663
+     2500 |    1811 |     157 |            62 |      1563
+     2600 |    1905 |     161 |            63 |      1463
+     2700 |    1933 |     170 |            68 |      1363
+     2800 |    2036 |     174 |            70 |      1263
+     2900 |    2137 |     191 |            76 |      1163
+     3000 |    2236 |     191 |            76 |      1063
+     3100 |    2336 |     191 |            76 |       963
+     3200 |    2428 |     191 |            76 |       863
+     3300 |    2540 |     213 |            94 |       763
+     3400 |    2639 |     220 |            99 |       663
+     3500 |    2678 |     222 |           163 |       563
+     3600 |    2678 |     222 |           263 |       463
+     3700 |    2678 |     222 |           363 |       363
+     3800 |    2678 |     222 |           463 |       263
+     3900 |    2679 |     223 |           563 |       163
+     4000 |    2866 |     328 |           583 |        63
+    final |    2866 |     328 |           641 |         0
+---------------------------------------------------------
+[INFO RSZ-0034] Found 533 slew violations.
+[INFO RSZ-0035] Found 109 fanout violations.
+[INFO RSZ-0038] Inserted 328 buffers in 641 nets.
+[INFO RSZ-0039] Resized 2866 instances.
+[INFO RSZ-0042] Inserted 1 tie sky130_fd_sc_hd__conb_1 instances.
+Placement Analysis
+---------------------------------
+total displacement       8960.6 u
+average displacement        0.9 u
+max displacement           66.4 u
+original HPWL          158010.3 u
+legalized HPWL         164724.5 u
+delta HPWL                    4 %
+
+[INFO DPL-0020] Mirrored 1347 instances
+[INFO DPL-0021] HPWL before          164724.5 u
+[INFO DPL-0022] HPWL after           162701.1 u
+[INFO DPL-0023] HPWL delta               -1.2 %
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+sram_inst matched with sram_inst
+Updating metrics…
+Cell type report:                       Count       Area
+  Macro                                     1  165300.00
+  Fill cell                               872    3273.14
+  Tap cell                               4884    6110.86
+  Buffer                                    2       7.51
+  Timing Repair Buffer                    438    3423.28
+  Inverter                                557    2090.76
+  Sequential cell                         755   17752.03
+  Multi-Input combinational cell         2531   22450.28
+  Total                                 10040  220407.85
+Writing OpenROAD database to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-57-28/31-openroad-repairdesignpostgpl/user_project.odb'…
+Writing netlist to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-57-28/31-openroad-repairdesignpostgpl/user_project.nl.v'…
+Writing powered netlist to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-57-28/31-openroad-repairdesignpostgpl/user_project.pnl.v'…
+Writing layout to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-57-28/31-openroad-repairdesignpostgpl/user_project.def'…
+Writing timing constraints to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-57-28/31-openroad-repairdesignpostgpl/user_project.sdc'…
