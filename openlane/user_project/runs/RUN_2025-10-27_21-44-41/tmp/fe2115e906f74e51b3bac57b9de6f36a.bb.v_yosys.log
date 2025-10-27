@@ -1,0 +1,32 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)
+Loaded SDC plugin
+
+-- Running command `
+                    verilog_defines -DPDK_sky130A;
+verilog_defines -D__pnr__;
+verilog_defines -DUSE_POWER_PINS;
+verilog_defines -DSCL_sky130_fd_sc_hd;
+verilog_defines -D__librelane__;
+read_verilog -sv -lib /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-44-41/tmp/fe2115e906f74e51b3bac57b9de6f36a.bb.v;
+
+                    blackbox;
+                    write_verilog -noattr -noexpr -nohex -nodec -defparam -blackboxes /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-44-41/tmp/fe2115e906f74e51b3bac57b9de6f36a.bb.v;
+                    ' --
+
+1. Executing Verilog-2005 frontend: /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-44-41/tmp/fe2115e906f74e51b3bac57b9de6f36a.bb.v
+Parsing SystemVerilog input from `/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-44-41/tmp/fe2115e906f74e51b3bac57b9de6f36a.bb.v' to AST representation.
+Generating RTLIL representation for module `\CF_SRAM_1024x32_stub'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog backend.
+Dumping module `\CF_SRAM_1024x32_stub'.
+
+End of script. Logfile hash: 940fcce8bd, CPU: user 0.03s system 0.02s, MEM: 54.09 MB peak
+Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)
+Time spent: 44% 2x read_verilog (0 sec), 31% 2x write_verilog (0 sec), ...

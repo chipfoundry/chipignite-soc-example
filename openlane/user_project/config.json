@@ -10,13 +10,11 @@
         "dir::../../ip/CF_TMR32/hdl/rtl/bus_wrappers/CF_TMR32_WB.v",
         "dir::../../ip/CF_UART/hdl/rtl/CF_UART.v",
         "dir::../../ip/CF_UART/hdl/rtl/bus_wrappers/CF_UART_WB.v",
-        "dir::../../ip/CF_SRAM_1024x32/hdl/CF_SRAM_1024x32_stub.v",
-        "dir::../../ip/CF_SRAM_1024x32/hdl/bus_wrapper/CF_SRAM_1024x32_wb_wrapper.v",
         "dir::../../verilog/rtl/user_project.v"
     ],
     
     "EXTRA_VERILOG_MODELS": [
-        "dir::../../ip/CF_SRAM_1024x32/hdl/CF_SRAM_1024x32_stub.v"
+        "dir::../../ip/CF_SRAM_1024x32/hdl/gl/CF_SRAM_1024x32_wb_wrapper.v"
     ],
     
     "MACROS": {
