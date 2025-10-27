@@ -1,0 +1,138 @@
+Reading OpenROAD database at '/workspace/peripheral-example/openlane/user_project_wrapper/runs/RUN_2025-10-27_23-09-40/38-openroad-detailedrouting/user_project_wrapper.odb'…
+Reading library file at '/nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading library file at '/workspace/peripheral-example/lib/user_project.lib'…
+Reading macro library file at '/workspace/peripheral-example/lib/user_project.lib'…
+[WARNING STA-1140] /workspace/peripheral-example/lib/user_project.lib line 1, library user_project already exists.
+Reading design constraints file at '/workspace/peripheral-example/openlane/user_project_wrapper/signoff.sdc'…
+[INFO]: Creating clock {clk} for port wb_clk_i with period: 25
+[INFO]: Setting clock uncertainity to: 0.25
+[INFO]: Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO]: Setting maximum transition to: 1.5
+[INFO]: Setting maximum fanout to: 10
+[INFO]: Setting timing derate to: 0 %
+[INFO]: Setting clock latency range: 4.65 : 5.57
+[INFO]: Setting clock transition: 0.61
+%OL_CREATE_REPORT /workspace/peripheral-example/openlane/user_project_wrapper/runs/RUN_2025-10-27_23-09-40/40-openroad-checkantennas-1/reports/antenna.rpt
+Net: io_in[6]
+  Pin:   mprj/uart_rx (user_project)
+    Layer: met2
+      Partial area ratio:    1.62
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:    1.62
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:    8.00
+      Required ratio: 2773.88 (Side area) 
+      Cumulative area ratio:    8.00
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via2
+      Partial area ratio:    0.06
+      Required ratio:   21.65 (Gate area) 
+      Cumulative area ratio:    0.06
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met3
+      Partial area ratio: 1294.52
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio: 1296.14
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 6905.56
+      Required ratio: 2773.88 (Side area) (VIOLATED)
+      Cumulative area ratio: 6913.56
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: wbs_adr_i[16]
+  Pin:   mprj/wbs_adr_i[16] (user_project)
+    Layer: met2
+      Partial area ratio:    2.50
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:    2.50
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:   12.38
+      Required ratio: 2773.88 (Side area) 
+      Cumulative area ratio:   12.38
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via2
+      Partial area ratio:    0.07
+      Required ratio:   21.65 (Gate area) 
+      Cumulative area ratio:    0.07
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met3
+      Partial area ratio:  715.06
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  717.55
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 3817.83
+      Required ratio: 2773.88 (Side area) (VIOLATED)
+      Cumulative area ratio: 3830.21
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: wbs_adr_i[18]
+  Pin:   mprj/wbs_adr_i[18] (user_project)
+    Layer: met2
+      Partial area ratio:    2.50
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:    2.50
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:   12.38
+      Required ratio: 2773.88 (Side area) 
+      Cumulative area ratio:   12.38
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via2
+      Partial area ratio:    0.07
+      Required ratio:   21.65 (Gate area) 
+      Cumulative area ratio:    0.07
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met3
+      Partial area ratio:  705.84
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  708.34
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 3767.86
+      Required ratio: 2773.88 (Side area) (VIOLATED)
+      Cumulative area ratio: 3780.24
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: wbs_dat_i[5]
+  Pin:   mprj/wbs_dat_i[5] (user_project)
+    Layer: met2
+      Partial area ratio:    2.97
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:    2.97
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:   14.53
+      Required ratio: 2773.88 (Side area) 
+      Cumulative area ratio:   14.53
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via2
+      Partial area ratio:    0.07
+      Required ratio:   21.65 (Gate area) 
+      Cumulative area ratio:    0.07
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met3
+      Partial area ratio:  578.25
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  581.22
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 3087.34
+      Required ratio: 2773.88 (Side area) (VIOLATED)
+      Cumulative area ratio: 3101.87
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+[INFO ANT-0002] Found 4 net violations.
+[INFO ANT-0001] Found 4 pin violations.
+%OL_END_REPORT
