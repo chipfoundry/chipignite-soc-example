@@ -1,5 +1,5 @@
 Test                status     start           end             duration      p/f      seed       
-RTL-system_test     running    13:49:43(Mon)   -               -             -        -         
+RTL-system_test     done       13:49:43(Mon)   13:51:17(Mon)   0:01:34.96    failed   1761598185
 
 
-Total: passed (0)   failed (0)   unknown (1)   elapsed time (0:00:00.03)
+Total: passed (0)   failed (1)   unknown (0)   elapsed time (0:01:35.00)
