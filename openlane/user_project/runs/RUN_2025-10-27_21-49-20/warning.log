@@ -272,3 +272,58 @@ No libs found for macro CF_SRAM_1024x32_wb_wrapper at corner max_ff_n40C_1v95. T
 [STA-0366] port 'la_data_in[*]' not found.
 [STA-0366] port 'la_data_out[*]' not found.
 [STA-0366] port 'la_data_out[*]' not found.
+No libs found for macro CF_SRAM_1024x32_wb_wrapper at corner nom_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro CF_SRAM_1024x32_wb_wrapper at corner nom_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro CF_SRAM_1024x32_wb_wrapper at corner nom_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro CF_SRAM_1024x32_wb_wrapper at corner min_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro CF_SRAM_1024x32_wb_wrapper at corner min_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro CF_SRAM_1024x32_wb_wrapper at corner min_ff_n40C_1v95. The module will be black-boxed.
+No libs found for macro CF_SRAM_1024x32_wb_wrapper at corner max_tt_025C_1v80. The module will be black-boxed.
+No libs found for macro CF_SRAM_1024x32_wb_wrapper at corner max_ss_100C_1v60. The module will be black-boxed.
+No libs found for macro CF_SRAM_1024x32_wb_wrapper at corner max_ff_n40C_1v95. The module will be black-boxed.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
