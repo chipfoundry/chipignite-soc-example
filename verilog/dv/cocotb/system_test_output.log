@@ -23,3 +23,7 @@ See docs: https://docs.pytest.org/en/stable/deprecations.html#applying-a-mark-to
   1050.00ns INFO     cocotb                              [caravel] finish resetting
   1325.00ns INFO     cocotb                             [TEST] Starting system_test
   1325.00ns INFO     cocotb                              [caravel] release housekeeping SPI transmission
+1113225.00ns INFO     cocotb                             [TEST] Firmware configuration complete
+2929400.00ns INFO     cocotb                             [TEST] SRAM test PASSED
+2929400.00ns INFO     cocotb                             [UART] configure UART baud_rate = 38400bps, bit_period_ns = 28646ns
+2929400.00ns INFO     cocotb                             [UART] configure UART baud_rate = 115200bps, bit_period_ns = 9549ns
