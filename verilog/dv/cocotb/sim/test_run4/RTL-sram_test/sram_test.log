@@ -6,3 +6,4 @@
   1050.00ns INFO     cocotb                              [caravel] finish resetting
   1325.00ns INFO     cocotb                             [TEST] Start sram_test
 4499975.00ns WARNING  cocotb                             simulation are only 720000 cycles away from TIMEOUT 
+8999975.00ns WARNING  cocotb                             simulation are only 540000 cycles away from TIMEOUT 
