@@ -1,2 +1,2 @@
 command used to run this sim:
-% /usr/local/bin/caravel_cocotb -t uart_test -tag test_run4
+% /usr/local/bin/caravel_cocotb -t sram_test -tag test_run4

@@ -1,5 +1,5 @@
 Test              status     start           end             duration      p/f      seed       
-RTL-uart_test     running    13:31:02(Mon)   -               -             -        -         
+RTL-sram_test     running    13:31:50(Mon)   -               -             -        -         
 
 
 Total: passed (0)   failed (0)   unknown (1)   elapsed time (0:00:00.03)

@@ -16,3 +16,22 @@
 1920215.00ns INFO     cocotb                             [UART] new char = o
 1999975.00ns WARNING  cocotb                             simulation are only 120000 cycles away from TIMEOUT 
 2034465.00ns INFO     cocotb                             [UART] new char =  
+2175140.00ns INFO     cocotb                             [UART] new char = U
+2271765.00ns INFO     cocotb                             [UART] new char = A
+2368965.00ns INFO     cocotb                             [UART] new char = R
+2498840.00ns INFO     cocotb                             [UART] new char = T
+2613315.00ns INFO     cocotb                             [UART] line recieved = Hello UART
+2613315.00ns INFO     cocotb                             [TEST] Received message: 'Hello UART'
+2613315.00ns INFO     cocotb                             [TEST] PASS - Received expected message: 'Hello UART'
+2613315.00ns INFO     cocotb                             [TEST] End uart_test
+2613315.00ns INFO     cocotb                             Test passed with (0)criticals (0)errors (2)warnings 
+2613315.00ns INFO     cocotb                             Cycles consumed = 104532 recommened timeout = 114986 cycles
+2613315.00ns INFO     cocotb.regression                  report_test.<locals>.wrapper_func passed
+2613315.00ns INFO     cocotb.regression                  *****************************************************************************************************************************************************
+                                                         ** TEST                                                                                         STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
+                                                         *****************************************************************************************************************************************************
+                                                         ** caravel_cocotb.interfaces.common_functions.test_functions.report_test.<locals>.wrapper_func   PASS     2613315.00          40.73      64160.58  **
+                                                         *****************************************************************************************************************************************************
+                                                         ** TESTS=1 PASS=1 FAIL=0 SKIP=0                                                                           2613315.00          40.95      63823.80  **
+                                                         *****************************************************************************************************************************************************
+                                                         
