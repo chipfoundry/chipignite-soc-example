@@ -21,7 +21,8 @@ module user_project (
 
     input wire uart_rx,
     output wire uart_tx,
-    output wire pwm_out
+    output wire pwm_out,
+    output wire [37:0] io_oeb
 );
 
   wire [3:0] peripheral_sel;
@@ -112,6 +113,12 @@ module user_project (
   );
 
   assign user_irq[2] = 1'b0;
+
+  assign io_oeb[5] = 1'b0;
+  assign io_oeb[6] = 1'b1;
+  assign io_oeb[7] = 1'b0;
+  assign io_oeb[37:8] = 30'b111111111111111111111111111111;
+  assign io_oeb[4:0] = 5'b11111;
 
 endmodule
 

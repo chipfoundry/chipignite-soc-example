@@ -100,20 +100,9 @@ module user_project_wrapper #(
     .user_irq(user_irq),
     .uart_rx(io_in[6]),
     .uart_tx(io_out[5]),
-    .pwm_out(io_out[7])
+    .pwm_out(io_out[7]),
+    .io_oeb(io_oeb)
   );
-
-  assign io_oeb[5] = 1'b0;
-  assign io_oeb[6] = 1'b1;
-  assign io_oeb[7] = 1'b0;
-  assign io_oeb[`MPRJ_IO_PADS-1:8] = {(`MPRJ_IO_PADS-8){1'b1}};
-  assign io_oeb[4:0] = 5'b11111;
-
-  assign io_out[`MPRJ_IO_PADS-1:8] = {(`MPRJ_IO_PADS-8){1'b0}};
-  assign io_out[6] = 1'b0;
-  assign io_out[4:0] = 5'b00000;
-
-  assign la_data_out = 128'b0;
 
 endmodule
 

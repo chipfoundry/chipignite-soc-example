@@ -18,7 +18,6 @@
     "RUN_CTS": false,
     "RUN_IRDROP_REPORT": false,
     "ERROR_ON_SYNTH_CHECKS": false,
-    "QUIT_ON_ASSIGN_STATEMENTS": false,
 
     "//": "Macros configurations",
     "MACROS": {
