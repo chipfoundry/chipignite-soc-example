@@ -1,0 +1,119 @@
+Reading OpenROAD database at '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/20-openroad-generatepdn/user_project.odb'…
+Reading library file at '/nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading library file at '/workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib'…
+Reading macro library file at '/workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib'…
+[WARNING STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+Reading design constraints file at '/workspace/peripheral-example/openlane/user_project/signoff.sdc'…
+[INFO]: Creating clock {clk} for port wb_clk_i with period: 25
+[INFO]: Setting clock uncertainity to: 0.25
+[INFO]: Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO]: Setting maximum transition to: 0.75
+[INFO]: Setting maximum fanout to: 10
+[INFO]: Setting timing derate to: 0 %
+[INFO]: Setting clock latency range: 4.65 : 5.57
+[INFO]: Setting clock transition: 0.61
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'io_in[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'io_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_data_out[*]' not found.
+[WARNING STA-0366] port 'la_data_out[*]' not found.
++ global_placement -density 0.45 -skip_io -pad_right 0 -pad_left 0 -init_wirelength_coef 0.25
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: (  5.520 10.880 ) ( 731.860 737.120 ) um
+[INFO GPL-0006] NumInstances:              9970
+[INFO GPL-0007] NumPlaceInstances:         3883
+[INFO GPL-0008] NumFixedInstances:         5757
+[INFO GPL-0009] NumDummyInstances:          330
+[INFO GPL-0010] NumNets:                   3990
+[INFO GPL-0011] NumPins:                  14441
+[INFO GPL-0012] DieBBox:  (  0.000  0.000 ) ( 737.690 748.410 ) um
+[INFO GPL-0013] CoreBBox: (  5.520 10.880 ) ( 731.860 737.120 ) um
+[INFO GPL-0016] CoreArea:            527497.162 um^2
+[INFO GPL-0017] NonPlaceInstsArea:   193347.936 um^2
+[INFO GPL-0018] PlaceInstsArea:       45907.779 um^2
+[INFO GPL-0019] Util:                    13.739 %
+[INFO GPL-0020] StdInstsArea:         45907.779 um^2
+[INFO GPL-0021] MacroInstsArea:           0.000 um^2
+[INFO GPL-0031] FillerInit:NumGCells:     12996
+[INFO GPL-0032] FillerInit:NumGNets:       3990
+[INFO GPL-0033] FillerInit:NumGPins:      14441
+[INFO GPL-0023] TargetDensity:            0.450
+[INFO GPL-0024] AvrgPlaceInstArea:       11.823 um^2
+[INFO GPL-0025] IdealBinArea:            26.273 um^2
+[INFO GPL-0026] IdealBinCnt:              20077
+[INFO GPL-0027] TotalBinArea:        527497.162 um^2
+[INFO GPL-0028] BinCnt:       128    128
+[INFO GPL-0029] BinSize: (  5.675  5.674 )
+[INFO GPL-0030] NumBins: 16384
+[NesterovSolve] Iter:    1 overflow: 1.000 HPWL: 34484310
+[NesterovSolve] Iter:   10 overflow: 1.000 HPWL: 44532723
+[NesterovSolve] Iter:   20 overflow: 1.000 HPWL: 44225756
+[NesterovSolve] Iter:   30 overflow: 1.000 HPWL: 41076499
+[NesterovSolve] Iter:   40 overflow: 1.000 HPWL: 37562478
+[NesterovSolve] Iter:   50 overflow: 1.000 HPWL: 33835174
+[NesterovSolve] Iter:   60 overflow: 1.000 HPWL: 29748006
+[NesterovSolve] Iter:   70 overflow: 1.000 HPWL: 25535441
+[NesterovSolve] Iter:   80 overflow: 1.000 HPWL: 21543472
+[NesterovSolve] Iter:   90 overflow: 1.000 HPWL: 18216677
+[NesterovSolve] Iter:  100 overflow: 0.999 HPWL: 16188411
+[NesterovSolve] Iter:  110 overflow: 0.997 HPWL: 17094107
+[NesterovSolve] Iter:  120 overflow: 0.992 HPWL: 18345288
+[NesterovSolve] Iter:  130 overflow: 0.987 HPWL: 19488160
+[NesterovSolve] Iter:  140 overflow: 0.983 HPWL: 20544008
+[NesterovSolve] Iter:  150 overflow: 0.979 HPWL: 21727323
+[NesterovSolve] Iter:  160 overflow: 0.974 HPWL: 23474256
+[NesterovSolve] Iter:  170 overflow: 0.968 HPWL: 26453627
+[NesterovSolve] Iter:  180 overflow: 0.956 HPWL: 31040744
+[NesterovSolve] Iter:  190 overflow: 0.934 HPWL: 36666634
+[NesterovSolve] Iter:  200 overflow: 0.904 HPWL: 41728128
+[NesterovSolve] Iter:  210 overflow: 0.866 HPWL: 47050680
+[NesterovSolve] Iter:  220 overflow: 0.823 HPWL: 53806760
+[NesterovSolve] Iter:  230 overflow: 0.781 HPWL: 57926116
+[NesterovSolve] Iter:  240 overflow: 0.739 HPWL: 62861977
+[NesterovSolve] Iter:  250 overflow: 0.703 HPWL: 69311732
+[NesterovSolve] Iter:  260 overflow: 0.664 HPWL: 74714386
+[NesterovSolve] Iter:  270 overflow: 0.622 HPWL: 78564664
+[NesterovSolve] Iter:  280 overflow: 0.574 HPWL: 82498515
+[NesterovSolve] Iter:  290 overflow: 0.526 HPWL: 86969308
+[NesterovSolve] Iter:  300 overflow: 0.478 HPWL: 90427824
+[NesterovSolve] Iter:  310 overflow: 0.427 HPWL: 92430111
+[NesterovSolve] Iter:  320 overflow: 0.383 HPWL: 93348526
+[NesterovSolve] Iter:  330 overflow: 0.340 HPWL: 94358009
+[NesterovSolve] Iter:  340 overflow: 0.313 HPWL: 94506166
+[NesterovSolve] Iter:  350 overflow: 0.281 HPWL: 94547980
+[NesterovSolve] Iter:  360 overflow: 0.254 HPWL: 94943935
+[NesterovSolve] Iter:  370 overflow: 0.226 HPWL: 95278735
+[NesterovSolve] Iter:  380 overflow: 0.200 HPWL: 94257606
+[NesterovSolve] Iter:  390 overflow: 0.177 HPWL: 94341496
+[NesterovSolve] Iter:  400 overflow: 0.155 HPWL: 94578571
+[NesterovSolve] Iter:  410 overflow: 0.136 HPWL: 94930792
+[NesterovSolve] Iter:  420 overflow: 0.118 HPWL: 95247709
+[NesterovSolve] Iter:  430 overflow: 0.103 HPWL: 95720977
+[NesterovSolve] Finished with Overflow: 0.098596
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+sram_inst matched with sram_inst
+Updating metrics…
+Cell type report:                       Count       Area
+  Macro                                     1  165300.00
+  Fill cell                               872    3273.14
+  Tap cell                               4884    6110.86
+  Buffer                                    2      10.01
+  Inverter                                557    2090.76
+  Sequential cell                         755   18376.37
+  Multi-Input combinational cell         2569   25430.64
+  Total                                  9640  220591.78
+Writing OpenROAD database to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/23-openroad-globalplacementskipio/user_project.odb'…
+Writing netlist to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/23-openroad-globalplacementskipio/user_project.nl.v'…
+Writing powered netlist to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/23-openroad-globalplacementskipio/user_project.pnl.v'…
+Writing layout to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/23-openroad-globalplacementskipio/user_project.def'…
+Writing timing constraints to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/23-openroad-globalplacementskipio/user_project.sdc'…

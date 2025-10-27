@@ -1,0 +1,40 @@
+Reading OpenROAD database at '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/16-odb-manualmacroplacement/user_project.odb'…
+Reading library file at '/nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading library file at '/workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib'…
+Reading macro library file at '/workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib'…
+[WARNING STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+Reading design constraints file at '/workspace/peripheral-example/openlane/user_project/signoff.sdc'…
+[INFO]: Creating clock {clk} for port wb_clk_i with period: 25
+[INFO]: Setting clock uncertainity to: 0.25
+[INFO]: Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO]: Setting maximum transition to: 0.75
+[INFO]: Setting maximum fanout to: 10
+[INFO]: Setting timing derate to: 0 %
+[INFO]: Setting clock latency range: 4.65 : 5.57
+[INFO]: Setting clock transition: 0.61
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'io_in[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'io_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_data_out[*]' not found.
+[WARNING STA-0366] port 'la_data_out[*]' not found.
+[INFO ODB-0303] The initial 267 rows (421593 sites) were cut with 1 shapes for a total of 436 rows (274563 sites).
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+sram_inst matched with sram_inst
+Updating metrics…
+Cell type report:                       Count       Area
+  Macro                                     1  165300.00
+  Buffer                                    2      10.01
+  Inverter                                557    2090.76
+  Sequential cell                         755   18376.37
+  Multi-Input combinational cell         2569   25430.64
+  Total                                  3884  211207.78
+Writing OpenROAD database to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/17-openroad-cutrows/user_project.odb'…
+Writing layout to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/17-openroad-cutrows/user_project.def'…

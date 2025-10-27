@@ -1,0 +1,32 @@
+[WARNING ORD-0039] .openroad ignored with -python
+Top-level design name: user_project
+Block boundaries: 0 0 737690 748410
+Horizontal Tracks Origin: 340, Count: 1100, Step: 680
+Vertical Tracks Origin: 230, Count: 1604, Step: 460
+Placement details for the N side
+Virtual pin count:  0
+Actual pin count:  6
+Total pin count:  6
+Tracks count:  1604
+Tracks per pin:  267
+Used tracks count:  1336
+Unused track count:  268
+Starting track index:  134
+Placement details for the E side
+Virtual pin count:  0
+Actual pin count:  38
+Total pin count:  38
+Tracks count:  550
+Tracks per pin:  14
+Used tracks count:  519
+Unused track count:  31
+Starting track index:  15
+Placement details for the S side
+Virtual pin count:  0
+Actual pin count:  106
+Total pin count:  106
+Tracks count:  1604
+Tracks per pin:  15
+Used tracks count:  1576
+Unused track count:  28
+Starting track index:  14
