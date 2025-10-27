@@ -1,0 +1,39 @@
+Run tag: test_run3 
+Start running test: [94m RTL-uart_test [0m
+[92mSkipping compilation as netlist has not changed[0m
+     -.--ns INFO     gpi                                ..mbed/gpi_embed.cpp:108  in set_program_name_in_venv        Using Python virtual environment interpreter at /openhands/poetry/openhands-ai-5O4_aCHf-py3.12/bin/python
+     -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:101  in gpi_print_registered_impl       VPI registered
+     0.00ns INFO     cocotb                             Running on Icarus Verilog version 12.0 (stable)
+     0.00ns INFO     cocotb                             Running tests with cocotb v1.9.2 from /openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/cocotb
+     0.00ns INFO     cocotb                             Seeding Python random module with 1761597000
+/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/libtmux/pytest_plugin.py:48: PytestRemovedIn9Warning: Marks applied to fixtures have no effect
+See docs: https://docs.pytest.org/en/stable/deprecations.html#applying-a-mark-to-a-fixture-function
+  @pytest.mark.skipif(USING_ZSH, reason="Using ZSH")
+     0.00ns INFO     cocotb.regression                  Found test caravel_cocotb.interfaces.common_functions.test_functions.report_test.<locals>.wrapper_func
+     0.00ns INFO     cocotb.regression                  running report_test.<locals>.wrapper_func (1/1)
+/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/caravel_cocotb/interfaces/common_functions/Timeout.py:19: DeprecationWarning: This method is now private.
+  cocotb.scheduler.add(self._timeout_check())
+/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/caravel_cocotb/interfaces/common_functions/test_functions.py:63: DeprecationWarning: This method is now private.
+  cocotb.scheduler.add(max_num_error(num_error, caravelEnv.clk))
+     0.00ns INFO     cocotb                              [caravel] start powering up
+   225.00ns INFO     cocotb                              [caravel] power up -> connect vdd
+   225.00ns INFO     cocotb                              [caravel] power up -> connect vcc
+   475.00ns INFO     cocotb                              [caravel] disable housekeeping SPI transmission
+   525.00ns INFO     cocotb                              [caravel] start resetting
+  1050.00ns INFO     cocotb                              [caravel] finish resetting
+  1325.00ns INFO     cocotb                              [caravel] release housekeeping SPI transmission
+499975.00ns WARNING  cocotb                             simulation are only 80000 cycles away from TIMEOUT 
+654825.00ns INFO     cocotb                             [UART] configure UART baud_rate = 38400bps, bit_period_ns = 28646ns
+654825.00ns INFO     cocotb                             [UART] configure UART baud_rate = 115200bps, bit_period_ns = 9549ns
+654825.00ns INFO     cocotb                             [TEST] Start uart_test
+999975.00ns WARNING  cocotb                             simulation are only 60000 cycles away from TIMEOUT 
+1406540.00ns INFO     cocotb                             [UART] new char = H
+1499975.00ns WARNING  cocotb                             simulation are only 40000 cycles away from TIMEOUT 
+1547290.00ns INFO     cocotb                             [UART] new char = e
+1644165.00ns INFO     cocotb                             [UART] new char = l
+1779465.00ns INFO     cocotb                             [UART] new char = l
+1920215.00ns INFO     cocotb                             [UART] new char = o
+1999975.00ns WARNING  cocotb                             simulation are only 20000 cycles away from TIMEOUT 
+2034465.00ns INFO     cocotb                             [UART] new char =  
+2175140.00ns INFO     cocotb                             [UART] new char = U
+2271765.00ns INFO     cocotb                             [UART] new char = A
