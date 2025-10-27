@@ -1,0 +1,6 @@
+[WARNING ORD-0039] .openroad ignored with -python
+Placing the following macros:
+{'mprj': ['mprj', 60000, 15000, 'N']}
+Design name: user_project_wrapper
+Placing mprj
+Successfully placed 1 instances.

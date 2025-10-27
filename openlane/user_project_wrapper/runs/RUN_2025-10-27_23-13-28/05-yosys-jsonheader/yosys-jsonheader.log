@@ -441,3 +441,79 @@ Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvpwrvgnd_1'.
 Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_1'.
 Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_2'.
 Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_4'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: /workspace/peripheral-example/verilog/gl/user_project.v
+Parsing SystemVerilog input from `/workspace/peripheral-example/verilog/gl/user_project.v' to AST representation.
+Generating RTLIL representation for module `\user_project'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: /workspace/peripheral-example/verilog/rtl/defines.v
+Parsing SystemVerilog input from `/workspace/peripheral-example/verilog/rtl/defines.v' to AST representation.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /workspace/peripheral-example/verilog/rtl/user_project_wrapper.v
+Parsing SystemVerilog input from `/workspace/peripheral-example/verilog/rtl/user_project_wrapper.v' to AST representation.
+Storing AST representation for module `$abstract\user_project_wrapper'.
+Successfully finished Verilog frontend.
+
+5. Executing HIERARCHY pass (managing design hierarchy).
+
+6. Executing AST frontend in derive mode using pre-parsed AST for module `\user_project_wrapper'.
+Generating RTLIL representation for module `\user_project_wrapper'.
+
+6.1. Analyzing design hierarchy..
+Top module:  \user_project_wrapper
+
+6.2. Analyzing design hierarchy..
+Top module:  \user_project_wrapper
+Removing unused module `$abstract\user_project_wrapper'.
+Removed 1 unused modules.
+Renaming module user_project_wrapper to user_project_wrapper.
+
+7. Executing PROC pass (convert processes to netlists).
+
+7.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+7.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+7.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 0 assignments to connections.
+
+7.4. Executing PROC_INIT pass (extract init attributes).
+
+7.5. Executing PROC_ARST pass (detect async resets in processes).
+
+7.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+7.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+7.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+7.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+7.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+7.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+7.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module user_project_wrapper.
+
+8. Executing FLATTEN pass (flatten design).
+
+9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \user_project_wrapper..
