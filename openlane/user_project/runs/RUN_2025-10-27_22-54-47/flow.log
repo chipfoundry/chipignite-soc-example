@@ -170,3 +170,228 @@ Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_
 [GRT-0097] No global routing found for nets.
 Running 'OpenROAD.RepairDesignPostGPL' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/31-openroad-repairdesignpostgpl'…
 Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-54-47/31-openroad-repairdesignpostgpl/openroad-repairdesignpostgpl.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+Running 'Odb.ManualGlobalPlacement' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/32-odb-manualglobalplacement'…
+'MANUAL_GLOBAL_PLACEMENTS' not set, skipping…
+Running 'OpenROAD.DetailedPlacement' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/33-openroad-detailedplacement'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-54-47/33-openroad-detailedplacement/openroad-detailedplacement.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+Running 'OpenROAD.CTS' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/34-openroad-cts'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-54-47/34-openroad-cts/openroad-cts.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+Running 'OpenROAD.STAMidPNR-1' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/35-openroad-stamidpnr-1'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-54-47/35-openroad-stamidpnr-1/openroad-stamidpnr-1.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[GRT-0097] No global routing found for nets.
+Running 'OpenROAD.ResizerTimingPostCTS' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/36-openroad-resizertimingpostcts'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-54-47/36-openroad-resizertimingpostcts/openroad-resizertimingpostcts.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+Running 'OpenROAD.STAMidPNR-2' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/37-openroad-stamidpnr-2'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-54-47/37-openroad-stamidpnr-2/openroad-stamidpnr-2.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[GRT-0097] No global routing found for nets.
+Running 'OpenROAD.GlobalRouting' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/38-openroad-globalrouting'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-54-47/38-openroad-globalrouting/openroad-globalrouting.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+Running 'OpenROAD.CheckAntennas' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/39-openroad-checkantennas'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-54-47/39-openroad-checkantennas/openroad-checkantennas.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+Gating variable for step 'OpenROAD.RepairDesignPostGRT' set to 'False'- the step will be skipped.
+Skipping step 'Repair Design (Post-Global Routing)'…
+Running 'Odb.DiodesOnPorts' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/40-odb-diodesonports'…
+'DIODE_ON_PORTS' is set to 'none': skipping…
+Running 'Odb.HeuristicDiodeInsertion' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/41-odb-heuristicdiodeinsertion'…
+Running 'Odb.FuzzyDiodePlacement' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/41-odb-heuristicdiodeinsertion/1-odb-fuzzydiodeplacement'…
+'GPL_CELL_PADDING' is set to 0. This step may cause overlap failures.
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-54-47/41-odb-heuristicdiodeinsertion/1-odb-fuzzydiodeplacement/odb-fuzzydiodeplacement.log'[/repr.filename]…
+Running 'OpenROAD.DetailedPlacement' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/41-odb-heuristicdiodeinsertion/2-openroad-detailedplacement'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-54-47/41-odb-heuristicdiodeinsertion/2-openroad-detailedplacement/openroad-detailedplacement.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+Running 'OpenROAD.GlobalRouting' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/41-odb-heuristicdiodeinsertion/3-openroad-globalrouting'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-54-47/41-odb-heuristicdiodeinsertion/3-openroad-globalrouting/openroad-globalrouting.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+Running 'OpenROAD.RepairAntennas' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/42-openroad-repairantennas'…
+Running 'DiodeInsertion' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/42-openroad-repairantennas/1-diodeinsertion'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-54-47/42-openroad-repairantennas/1-diodeinsertion/diodeinsertion.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+Running 'OpenROAD.CheckAntennas' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/42-openroad-repairantennas/2-openroad-checkantennas'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-54-47/42-openroad-repairantennas/2-openroad-checkantennas/openroad-checkantennas.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+Running 'OpenROAD.ResizerTimingPostGRT' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/43-openroad-resizertimingpostgrt'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-54-47/43-openroad-resizertimingpostgrt/openroad-resizertimingpostgrt.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+Running 'OpenROAD.STAMidPNR-3' at 'openlane/user_project/runs/RUN_2025-10-27_22-54-47/44-openroad-stamidpnr-3'…
+Logging subprocess to [repr.filename]'openlane/user_project/runs/RUN_2025-10-27_22-54-47/44-openroad-stamidpnr-3/openroad-stamidpnr-3.log'[/repr.filename]…
+[STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'io_in[*]' not found.
+[STA-0366] port 'la_oenb[*]' not found.
+[STA-0366] port 'la_data_in[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
+[STA-0366] port 'la_data_out[*]' not found.
