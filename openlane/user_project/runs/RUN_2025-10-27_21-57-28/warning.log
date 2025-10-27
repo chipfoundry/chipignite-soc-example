@@ -750,3 +750,4 @@ Threshold for Threshold-surpassing long wires is not set. The checker will be sk
 [STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-57-28/55-openroad-rcx/nom/user_project.nom.spef line 234603, net ANTENNA_sram_inst_wbs_adr_i\[15\] not found.
 [STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-57-28/55-openroad-rcx/nom/user_project.nom.spef line 234651, net ANTENNA_sram_inst_wbs_adr_i\[15\] not found.
 Cell 'user_project' has (1) output pin(s) without antenna diffusion information. They might not be driven.
+864 Magic DRC errors found.
