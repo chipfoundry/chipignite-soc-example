@@ -134,3 +134,49 @@ Cell type report:                       Count       Area
   Sequential cell                         755   17760.78
   Multi-Input combinational cell         2569   22607.93
   Total                                 10207  222305.92
+Writing OpenROAD database to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/34-openroad-cts/user_project.odb'…
+Writing netlist to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/34-openroad-cts/user_project.nl.v'…
+Writing powered netlist to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/34-openroad-cts/user_project.pnl.v'…
+Writing layout to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/34-openroad-cts/user_project.def'…
+Writing timing constraints to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/34-openroad-cts/user_project.sdc'…
+[INFO] Legalizing…
+Placement Analysis
+---------------------------------
+total displacement        713.8 u
+average displacement        0.1 u
+max displacement           19.9 u
+original HPWL          169427.0 u
+legalized HPWL         171695.6 u
+delta HPWL                    1 %
+
+[INFO DPL-0020] Mirrored 1432 instances
+[INFO DPL-0021] HPWL before          171695.6 u
+[INFO DPL-0022] HPWL after           169467.6 u
+[INFO DPL-0023] HPWL delta               -1.3 %
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+sram_inst matched with sram_inst
+Updating metrics…
+Cell type report:                       Count       Area
+  Macro                                     1  165300.00
+  Fill cell                               872    3273.14
+  Tap cell                               4884    6110.86
+  Buffer                                    2       8.76
+  Clock buffer                             78    1099.80
+  Timing Repair Buffer                    436    3428.29
+  Inverter                                557    2090.76
+  Clock inverter                           53     625.60
+  Sequential cell                         755   17760.78
+  Multi-Input combinational cell         2569   22607.93
+  Total                                 10207  222305.92
+Writing OpenROAD database to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/34-openroad-cts/user_project.odb'…
+Writing netlist to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/34-openroad-cts/user_project.nl.v'…
+Writing powered netlist to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/34-openroad-cts/user_project.pnl.v'…
+Writing layout to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/34-openroad-cts/user_project.def'…
+Writing timing constraints to '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-48-06/34-openroad-cts/user_project.sdc'…
+%OL_CREATE_REPORT cts.rpt
+[INFO CTS-0003] Total number of Clock Roots: 2.
+[INFO CTS-0004] Total number of Buffers Inserted: 71.
+[INFO CTS-0005] Total number of Clock Subnets: 71.
+[INFO CTS-0006] Total number of Sinks: 756.
+%OL_END_REPORT
