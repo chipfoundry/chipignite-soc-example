@@ -1,0 +1,33 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading cell library for the 'nom_tt_025C_1v80' corner at '/nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading Verilog model at '/workspace/peripheral-example/ip/CF_SRAM_1024x32/hdl/gl/CF_SRAM_1024x32_wb_wrapper.v'…
+Reading top-level netlist at '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_21-49-20/06-yosys-synthesis/user_project.nl.v'…
+Linking design 'user_project' from netlist…
+Warning: /workspace/peripheral-example/ip/CF_SRAM_1024x32/hdl/gl/CF_SRAM_1024x32_wb_wrapper.v line 663, module CF_SRAM_1024x32 not found. Creating black box for i_sram.
+Warning: /workspace/peripheral-example/ip/CF_SRAM_1024x32/hdl/gl/CF_SRAM_1024x32_wb_wrapper.v line 2036, module sky130_fd_sc_hd__tapvpwrvgnd_1 not found. Creating black box for TAP_TAPCELL_ROW_0_312.
+Warning: /workspace/peripheral-example/ip/CF_SRAM_1024x32/hdl/gl/CF_SRAM_1024x32_wb_wrapper.v line 4702, module sky130_ef_sc_hd__decap_40_12 not found. Creating black box for FILLER_0_3.
+Warning: /workspace/peripheral-example/ip/CF_SRAM_1024x32/hdl/gl/CF_SRAM_1024x32_wb_wrapper.v line 4710, module sky130_fd_sc_hd__fill_1 not found. Creating black box for FILLER_0_27.
+Warning: /workspace/peripheral-example/ip/CF_SRAM_1024x32/hdl/gl/CF_SRAM_1024x32_wb_wrapper.v line 4722, module sky130_fd_sc_hd__fill_2 not found. Creating black box for FILLER_0_53.
+Warning: /workspace/peripheral-example/ip/CF_SRAM_1024x32/hdl/gl/CF_SRAM_1024x32_wb_wrapper.v line 4830, module sky130_fd_sc_hd__fill_8 not found. Creating black box for FILLER_0_237.
+Warning: /workspace/peripheral-example/ip/CF_SRAM_1024x32/hdl/gl/CF_SRAM_1024x32_wb_wrapper.v line 4834, module sky130_fd_sc_hd__fill_4 not found. Creating black box for FILLER_0_248.
+Reading design constraints file at '/workspace/peripheral-example/openlane/user_project/signoff.sdc'…
+[INFO]: Creating clock {clk} for port wb_clk_i with period: 25
+[INFO]: Setting clock uncertainity to: 0.25
+[INFO]: Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO]: Setting maximum transition to: 0.75
+[INFO]: Setting maximum fanout to: 10
+[INFO]: Setting timing derate to: 0 %
+[INFO]: Setting clock latency range: 4.65 : 5.57
+[INFO]: Setting clock transition: 0.61
+Warning: signoff.sdc line 83, port 'la_data_in[*]' not found.
+Warning: signoff.sdc line 84, port 'la_oenb[*]' not found.
+Warning: signoff.sdc line 91, port 'la_data_in[*]' not found.
+Warning: signoff.sdc line 92, port 'la_oenb[*]' not found.
+Warning: signoff.sdc line 111, port 'io_in[*]' not found.
+Warning: signoff.sdc line 113, port 'la_data_in[*]' not found.
+Warning: signoff.sdc line 115, port 'la_oenb[*]' not found.
+Warning: signoff.sdc line 116, port 'io_in[*]' not found.
+Warning: signoff.sdc line 117, port 'la_oenb[*]' not found.
+Warning: signoff.sdc line 118, port 'la_data_in[*]' not found.
+Warning: signoff.sdc line 128, port 'la_data_out[*]' not found.
+Warning: signoff.sdc line 131, port 'la_data_out[*]' not found.

@@ -1,0 +1,2 @@
+[WARNING ORD-0039] .openroad ignored with -python
+[WARNING] Cell 'CF_SRAM_1024x32_wb_wrapper' has (22) input pin(s) without antenna gate information. They might not be connected to a gate.
