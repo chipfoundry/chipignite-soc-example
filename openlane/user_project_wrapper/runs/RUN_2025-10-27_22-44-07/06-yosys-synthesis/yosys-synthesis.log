@@ -1,0 +1,153 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)
+Loaded SDC plugin
+
+1. Executing Liberty frontend: /nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+Imported 428 cell types from liberty file.
+
+2. Executing Verilog-2005 frontend: /workspace/peripheral-example/verilog/gl/user_project.v
+Parsing SystemVerilog input from `/workspace/peripheral-example/verilog/gl/user_project.v' to AST representation.
+Generating RTLIL representation for module `\user_project'.
+Successfully finished Verilog frontend.
+[INFO] Using SDC file '/workspace/peripheral-example/openlane/user_project_wrapper/runs/RUN_2025-10-27_22-44-07/06-yosys-synthesis/synthesis.abc.sdc' for ABC…
+
+3. Executing Verilog-2005 frontend: /workspace/peripheral-example/verilog/rtl/defines.v
+Parsing SystemVerilog input from `/workspace/peripheral-example/verilog/rtl/defines.v' to AST representation.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /workspace/peripheral-example/verilog/rtl/user_project_wrapper.v
+Parsing SystemVerilog input from `/workspace/peripheral-example/verilog/rtl/user_project_wrapper.v' to AST representation.
+Storing AST representation for module `$abstract\user_project_wrapper'.
+Successfully finished Verilog frontend.
+
+5. Executing HIERARCHY pass (managing design hierarchy).
+
+6. Executing AST frontend in derive mode using pre-parsed AST for module `\user_project_wrapper'.
+Generating RTLIL representation for module `\user_project_wrapper'.
+
+6.1. Analyzing design hierarchy..
+Top module:  \user_project_wrapper
+
+6.2. Analyzing design hierarchy..
+Top module:  \user_project_wrapper
+Removing unused module `$abstract\user_project_wrapper'.
+Removed 1 unused modules.
+Renaming module user_project_wrapper to user_project_wrapper.
+
+7. Generating Graphviz representation of design.
+Writing dot description to `/workspace/peripheral-example/openlane/user_project_wrapper/runs/RUN_2025-10-27_22-44-07/06-yosys-synthesis/hierarchy.dot'.
+Dumping module user_project_wrapper to page 1.
+
+8. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+9. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+10. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 0 assignments to connections.
+
+11. Executing PROC_INIT pass (extract init attributes).
+
+12. Executing PROC_ARST pass (detect async resets in processes).
+
+13. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+14. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+15. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+16. Executing PROC_DFF pass (convert process syncs to FFs).
+
+17. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+18. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+19. Executing CHECK pass (checking for obvious problems).
+Checking module user_project_wrapper...
+Found and reported 0 problems.
+
+20. Executing OPT_EXPR pass (perform const folding).
+Optimizing module user_project_wrapper.
+
+21. Executing FLATTEN pass (flatten design).
+
+22. Executing SPLITNETS pass (splitting up multi-bit signals).
+
+23. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \user_project_wrapper..
+
+24. Executing CHECK pass (checking for obvious problems).
+Checking module user_project_wrapper...
+Found and reported 0 problems.
+{
+   "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)",
+   "invocation": "stat -json -liberty /workspace/peripheral-example/openlane/user_project_wrapper/runs/RUN_2025-10-27_22-44-07/tmp/12a14d2d08e14b3abf7d84391b1aff94.lib ",
+   "modules": {
+      "\\user_project_wrapper": {
+         "num_wires":         19,
+         "num_wire_bits":     637,
+         "num_pub_wires":     19,
+         "num_pub_wire_bits": 637,
+         "num_ports":         19,
+         "num_port_bits":     637,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         1,
+         "num_cells_by_type": {
+            "user_project": 1
+         }
+      }
+   },
+      "design": {
+         "num_wires":         19,
+         "num_wire_bits":     637,
+         "num_pub_wires":     19,
+         "num_pub_wire_bits": 637,
+         "num_ports":         19,
+         "num_port_bits":     637,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         1,
+         "num_cells_by_type": {
+            "user_project": 1
+         }
+      }
+}
+
+25. Printing statistics.
+
+=== user_project_wrapper ===
+
+   Number of wires:                 19
+   Number of wire bits:            637
+   Number of public wires:          19
+   Number of public wire bits:     637
+   Number of ports:                 19
+   Number of port bits:            637
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     user_project                    1
+
+   Area for cell type \user_project is unknown!
+
+26. Executing Verilog backend.
+
+26.1. Executing BMUXMAP pass.
+
+26.2. Executing DEMUXMAP pass.
+Dumping module `\user_project_wrapper'.
+
+27. Executing JSON backend.
