@@ -1,0 +1,422 @@
+Reading OpenROAD database at '/workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/54-odb-cellfrequencytables/user_project.odb'…
+Reading library file at '/nc/apps/pdk/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading library file at '/workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib'…
+Reading macro library file at '/workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib'…
+[WARNING STA-1140] /workspace/peripheral-example/ip/CF_SRAM_1024x32/lib/CF_SRAM_1024x32_wb_wrapper.lib line 1, library CF_SRAM_1024x32_wb_wrapper already exists.
+Reading design constraints file at '/workspace/peripheral-example/openlane/user_project/signoff.sdc'…
+[INFO]: Creating clock {clk} for port wb_clk_i with period: 25
+[INFO]: Setting clock uncertainity to: 0.25
+[INFO]: Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO]: Setting maximum transition to: 0.75
+[INFO]: Setting maximum fanout to: 10
+[INFO]: Setting timing derate to: 0 %
+[INFO]: Setting clock latency range: 4.65 : 5.57
+[INFO]: Setting clock transition: 0.61
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'io_in[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'io_in[*]' not found.
+[WARNING STA-0366] port 'la_oenb[*]' not found.
+[WARNING STA-0366] port 'la_data_in[*]' not found.
+[WARNING STA-0366] port 'la_data_out[*]' not found.
+[WARNING STA-0366] port 'la_data_out[*]' not found.
+[INFO] Setting RC values…
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144080, instance ANTENNA_sram_inst_wbs_dat_o\[0\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144086, net ANTENNA_sram_inst_wbs_dat_o\[0\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144094, net ANTENNA_sram_inst_wbs_sel_i\[0\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144098, net ANTENNA_sram_inst_wbs_sel_i\[0\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144132, net ANTENNA_sram_inst_wbs_dat_o\[0\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144307, net ANTENNA_sram_inst_wbs_adr_i\[15\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144347, instance ANTENNA_sram_inst_wbs_dat_o\[15\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144353, net ANTENNA_sram_inst_wbs_dat_o\[15\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144417, net ANTENNA_sram_inst_wbs_dat_o\[15\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144423, instance ANTENNA_sram_inst_wbs_dat_o\[16\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144429, net ANTENNA_sram_inst_wbs_dat_o\[16\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144491, net ANTENNA_sram_inst_wbs_dat_o\[16\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144501, instance ANTENNA_sram_inst_wbs_dat_o\[17\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144507, net ANTENNA_sram_inst_wbs_dat_o\[17\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144522, net ANTENNA_sram_inst_wbs_adr_i\[19\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144549, net ANTENNA_sram_inst_wbs_dat_o\[17\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144559, instance ANTENNA_sram_inst_wbs_dat_o\[18\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144565, net ANTENNA_sram_inst_wbs_dat_o\[18\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144653, net ANTENNA_sram_inst_wbs_dat_o\[18\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144663, instance ANTENNA_sram_inst_wbs_dat_o\[19\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144669, net ANTENNA_sram_inst_wbs_dat_o\[19\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144709, net ANTENNA_sram_inst_wbs_dat_o\[19\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144713, instance ANTENNA_sram_inst_wbs_dat_o\[1\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144719, net ANTENNA_sram_inst_wbs_dat_o\[1\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144787, net ANTENNA_sram_inst_wbs_dat_o\[1\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144793, instance ANTENNA_sram_inst_wbs_dat_o\[20\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144799, net ANTENNA_sram_inst_wbs_dat_o\[20\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144805, net ANTENNA_sram_inst_wbs_dat_o\[20\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144806, net ANTENNA_sram_inst_wbs_dat_o\[20\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144807, net ANTENNA_sram_inst_wbs_dat_o\[20\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144827, net ANTENNA_sram_inst_wbs_dat_o\[20\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144834, instance ANTENNA_sram_inst_wbs_dat_o\[21\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144840, net ANTENNA_sram_inst_wbs_dat_o\[21\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144912, net ANTENNA_sram_inst_wbs_dat_o\[21\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144916, instance ANTENNA_sram_inst_wbs_dat_o\[22\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144922, net ANTENNA_sram_inst_wbs_dat_o\[22\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144930, net ANTENNA_sram_inst_wbs_adr_i\[23\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144955, net ANTENNA_sram_inst_wbs_dat_o\[22\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144959, instance ANTENNA_sram_inst_wbs_dat_o\[23\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144965, net ANTENNA_sram_inst_wbs_dat_o\[23\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 144979, net ANTENNA_sram_inst_wbs_adr_i\[24\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145050, net ANTENNA_sram_inst_wbs_dat_o\[23\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145054, instance ANTENNA_sram_inst_wbs_dat_o\[24\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145060, net ANTENNA_sram_inst_wbs_dat_o\[24\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145073, net ANTENNA_sram_inst_wbs_adr_i\[25\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145126, net ANTENNA_sram_inst_wbs_dat_o\[24\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145130, instance ANTENNA_sram_inst_wbs_dat_o\[25\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145136, net ANTENNA_sram_inst_wbs_dat_o\[25\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145224, net ANTENNA_sram_inst_wbs_dat_o\[25\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145230, instance ANTENNA_sram_inst_wbs_dat_o\[26\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145236, net ANTENNA_sram_inst_wbs_dat_o\[26\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145261, net ANTENNA_sram_inst_wbs_dat_o\[26\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145270, instance ANTENNA_sram_inst_wbs_dat_o\[27\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145276, net ANTENNA_sram_inst_wbs_dat_o\[27\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145286, net ANTENNA_sram_inst_wbs_dat_i\[27\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145304, net ANTENNA_sram_inst_wbs_dat_o\[27\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145311, instance ANTENNA_sram_inst_wbs_dat_o\[28\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145317, net ANTENNA_sram_inst_wbs_dat_o\[28\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145328, net ANTENNA_sram_inst_wbs_adr_i\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145329, net ANTENNA_sram_inst_wbs_dat_i\[28\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145332, net ANTENNA_sram_inst_wbs_dat_i\[28\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145393, net ANTENNA_sram_inst_wbs_dat_o\[28\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145399, instance ANTENNA_sram_inst_wbs_dat_o\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145405, net ANTENNA_sram_inst_wbs_dat_o\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145411, net ANTENNA_sram_inst_wbs_dat_o\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145411, net ANTENNA_sram_inst_wbs_dat_i\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145412, net ANTENNA_sram_inst_wbs_dat_o\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145413, net ANTENNA_sram_inst_wbs_dat_o\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145424, net ANTENNA_sram_inst_wbs_dat_i\[24\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145468, net ANTENNA_sram_inst_wbs_dat_o\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145484, net ANTENNA_sram_inst_wbs_sel_i\[2\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145497, instance ANTENNA_sram_inst_wbs_dat_o\[30\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145503, net ANTENNA_sram_inst_wbs_dat_o\[30\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145531, net ANTENNA_sram_inst_wbs_dat_o\[30\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145535, instance ANTENNA_sram_inst_wbs_dat_o\[31\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145541, net ANTENNA_sram_inst_wbs_dat_o\[31\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145551, net ANTENNA_sram_inst_wbs_dat_i\[31\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145553, net ANTENNA_sram_inst_wbs_dat_i\[31\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145566, net ANTENNA_sram_inst_wbs_dat_o\[31\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145572, instance ANTENNA_sram_inst_wbs_dat_o\[3\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145578, net ANTENNA_sram_inst_wbs_dat_o\[3\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145582, net ANTENNA_sram_inst_wbs_dat_o\[3\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145604, net ANTENNA_sram_inst_wbs_dat_o\[3\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145611, instance ANTENNA_sram_inst_wbs_dat_o\[4\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145617, net ANTENNA_sram_inst_wbs_dat_o\[4\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145680, net ANTENNA_sram_inst_wbs_dat_o\[4\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145730, instance ANTENNA_sram_inst_wbs_dat_o\[6\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145736, net ANTENNA_sram_inst_wbs_dat_o\[6\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145745, net ANTENNA_sram_inst_wbs_dat_o\[6\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145774, net ANTENNA_sram_inst_wbs_dat_o\[6\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145783, instance ANTENNA_sram_inst_wbs_dat_o\[7\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145789, net ANTENNA_sram_inst_wbs_dat_o\[7\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145815, net ANTENNA_sram_inst_wbs_dat_o\[7\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145824, instance ANTENNA_sram_inst_wbs_dat_o\[8\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145830, net ANTENNA_sram_inst_wbs_dat_o\[8\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145836, net ANTENNA_sram_inst_wbs_dat_o\[8\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145839, net ANTENNA_sram_inst_wbs_adr_i\[9\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145859, net ANTENNA_sram_inst_wbs_dat_o\[8\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145952, instance ANTENNA_sram_inst_wbs_adr_i\[16\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 145965, net ANTENNA_sram_inst_wbs_adr_i\[16\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 146134, net ANTENNA_sram_inst_wbs_adr_i\[16\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 148462, instance ANTENNA_sram_inst_wbs_adr_i\[17\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 148474, net ANTENNA_sram_inst_wbs_adr_i\[17\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 148625, net ANTENNA_sram_inst_wbs_adr_i\[17\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 150514, instance ANTENNA_sram_inst_wbs_adr_i\[18\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 150529, net ANTENNA_sram_inst_wbs_adr_i\[18\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 150838, net ANTENNA_sram_inst_wbs_adr_i\[18\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 152884, instance ANTENNA_sram_inst_wbs_adr_i\[19\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 152899, net ANTENNA_sram_inst_wbs_adr_i\[19\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 153061, net ANTENNA_sram_inst_wbs_adr_i\[19\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 153113, net ANTENNA_sram_inst_wbs_adr_i\[19\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 155617, instance ANTENNA_sram_inst_wbs_adr_i\[1\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 155633, net ANTENNA_sram_inst_wbs_adr_i\[1\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 155674, net ANTENNA_sram_inst_wbs_sel_i\[0\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 155909, net ANTENNA_sram_inst_wbs_adr_i\[1\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 157670, instance ANTENNA_sram_inst_wbs_adr_i\[20\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 157676, net ANTENNA_sram_inst_wbs_adr_i\[20\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 157893, net ANTENNA_sram_inst_wbs_adr_i\[20\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 159521, instance ANTENNA_sram_inst_wbs_adr_i\[21\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 159527, net ANTENNA_sram_inst_wbs_adr_i\[21\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 159562, net ANTENNA_sram_inst_wbs_dat_o\[20\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 159586, net ANTENNA_sram_inst_wbs_adr_i\[21\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 161514, instance ANTENNA_sram_inst_wbs_adr_i\[22\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 161520, net ANTENNA_sram_inst_wbs_adr_i\[22\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 161579, net ANTENNA_sram_inst_wbs_adr_i\[22\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 163669, instance ANTENNA_sram_inst_wbs_adr_i\[23\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 163675, net ANTENNA_sram_inst_wbs_adr_i\[23\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 163682, net ANTENNA_sram_inst_wbs_adr_i\[23\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 163683, net ANTENNA_sram_inst_wbs_adr_i\[23\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 163714, net ANTENNA_sram_inst_wbs_adr_i\[23\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 163732, net ANTENNA_sram_inst_wbs_adr_i\[23\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 165570, instance ANTENNA_sram_inst_wbs_adr_i\[24\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 165576, net ANTENNA_sram_inst_wbs_adr_i\[24\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 165590, net ANTENNA_sram_inst_wbs_adr_i\[24\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 165676, net ANTENNA_sram_inst_wbs_adr_i\[13\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 165737, net ANTENNA_sram_inst_wbs_adr_i\[24\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 165765, net ANTENNA_sram_inst_wbs_adr_i\[24\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 168354, instance ANTENNA_sram_inst_wbs_adr_i\[25\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 168360, net ANTENNA_sram_inst_wbs_adr_i\[25\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 168367, net ANTENNA_sram_inst_wbs_adr_i\[25\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 168397, net ANTENNA_sram_inst_wbs_adr_i\[25\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 168408, net ANTENNA_sram_inst_wbs_adr_i\[25\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 170463, instance ANTENNA_sram_inst_wbs_adr_i\[26\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 170469, net ANTENNA_sram_inst_wbs_adr_i\[26\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 170529, net ANTENNA_sram_inst_wbs_adr_i\[26\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 172877, instance ANTENNA_sram_inst_wbs_adr_i\[27\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 172883, net ANTENNA_sram_inst_wbs_adr_i\[27\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 172889, net ANTENNA_sram_inst_wbs_dat_i\[27\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 172934, net ANTENNA_sram_inst_wbs_adr_i\[27\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 174890, instance ANTENNA_sram_inst_wbs_adr_i\[28\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 174896, net ANTENNA_sram_inst_wbs_adr_i\[28\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 174908, net ANTENNA_sram_inst_wbs_dat_i\[28\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 174971, net ANTENNA_sram_inst_wbs_dat_i\[28\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 175045, net ANTENNA_sram_inst_wbs_adr_i\[28\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 176954, instance ANTENNA_sram_inst_wbs_adr_i\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 176960, net ANTENNA_sram_inst_wbs_adr_i\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 176968, net ANTENNA_sram_inst_wbs_adr_i\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 176968, net ANTENNA_sram_inst_wbs_dat_i\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 176969, net ANTENNA_sram_inst_wbs_adr_i\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 176988, net ANTENNA_sram_inst_wbs_adr_i\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 177001, net ANTENNA_sram_inst_wbs_adr_i\[29\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 178911, instance ANTENNA_sram_inst_wbs_adr_i\[2\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 178921, net ANTENNA_sram_inst_wbs_adr_i\[2\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 178943, net ANTENNA_sram_inst_wbs_sel_i\[1\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 179103, net ANTENNA_sram_inst_wbs_adr_i\[2\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 181171, instance ANTENNA_sram_inst_wbs_adr_i\[30\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 181177, net ANTENNA_sram_inst_wbs_adr_i\[30\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 181202, net ANTENNA_sram_inst_wbs_dat_o\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 181203, net ANTENNA_sram_inst_wbs_dat_o\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 181230, net ANTENNA_sram_inst_wbs_adr_i\[30\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 183386, instance ANTENNA_sram_inst_wbs_adr_i\[31\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 183392, net ANTENNA_sram_inst_wbs_adr_i\[31\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 183399, net ANTENNA_sram_inst_wbs_dat_i\[31\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 183465, net ANTENNA_sram_inst_wbs_adr_i\[31\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 185322, instance ANTENNA_sram_inst_wbs_adr_i\[3\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 185334, net ANTENNA_sram_inst_wbs_adr_i\[3\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 185519, net ANTENNA_sram_inst_wbs_adr_i\[3\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 187640, instance ANTENNA_sram_inst_wbs_adr_i\[4\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 187652, net ANTENNA_sram_inst_wbs_adr_i\[4\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 187821, net ANTENNA_sram_inst_wbs_adr_i\[4\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 190027, instance ANTENNA_sram_inst_wbs_adr_i\[0\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 190039, net ANTENNA_sram_inst_wbs_adr_i\[0\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 190197, net ANTENNA_sram_inst_wbs_adr_i\[0\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 190207, instance ANTENNA_sram_inst_wbs_adr_i\[5\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 190219, net ANTENNA_sram_inst_wbs_adr_i\[5\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 190375, net ANTENNA_sram_inst_wbs_adr_i\[5\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 192760, instance ANTENNA_sram_inst_wbs_adr_i\[6\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 192768, net ANTENNA_sram_inst_wbs_adr_i\[6\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 192854, net ANTENNA_sram_inst_wbs_adr_i\[6\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 195092, instance ANTENNA_sram_inst_wbs_adr_i\[7\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 195102, net ANTENNA_sram_inst_wbs_adr_i\[7\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 195273, net ANTENNA_sram_inst_wbs_adr_i\[7\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 197096, instance ANTENNA_sram_inst_wbs_adr_i\[8\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 197106, net ANTENNA_sram_inst_wbs_adr_i\[8\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 197301, net ANTENNA_sram_inst_wbs_adr_i\[8\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 198854, instance ANTENNA_sram_inst_wbs_dat_i\[8\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 198870, net ANTENNA_sram_inst_wbs_dat_i\[8\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 199174, net ANTENNA_sram_inst_wbs_dat_i\[8\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 199871, instance ANTENNA_sram_inst_wbs_adr_i\[9\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 199879, net ANTENNA_sram_inst_wbs_adr_i\[9\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 199893, net ANTENNA_sram_inst_wbs_adr_i\[9\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 199954, net ANTENNA_sram_inst_wbs_adr_i\[9\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 199985, net ANTENNA_sram_inst_wbs_adr_i\[9\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 199994, instance ANTENNA_sram_inst_wbs_dat_i\[7\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 200010, net ANTENNA_sram_inst_wbs_dat_i\[7\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 200241, net ANTENNA_sram_inst_wbs_dat_i\[7\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 200998, instance ANTENNA_sram_inst_wbs_dat_i\[6\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 201014, net ANTENNA_sram_inst_wbs_dat_i\[6\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 201308, net ANTENNA_sram_inst_wbs_dat_i\[6\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 201979, instance ANTENNA_sram_inst_wbs_dat_i\[5\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 201993, net ANTENNA_sram_inst_wbs_dat_i\[5\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 202134, net ANTENNA_sram_inst_wbs_dat_i\[5\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 203341, instance ANTENNA_sram_inst_wbs_dat_i\[4\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 203355, net ANTENNA_sram_inst_wbs_dat_i\[4\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 203508, net ANTENNA_sram_inst_wbs_dat_i\[4\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 204325, instance ANTENNA_sram_inst_wbs_dat_i\[3\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 204343, net ANTENNA_sram_inst_wbs_dat_i\[3\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 204426, net ANTENNA_sram_inst_wbs_dat_o\[3\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 204526, net ANTENNA_sram_inst_wbs_dat_i\[3\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 205642, instance ANTENNA_sram_inst_wbs_dat_i\[2\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 205656, net ANTENNA_sram_inst_wbs_dat_i\[2\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 205774, net ANTENNA_sram_inst_wbs_dat_i\[2\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 206703, instance ANTENNA_sram_inst_wbs_dat_i\[1\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 206725, net ANTENNA_sram_inst_wbs_dat_i\[1\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 206999, net ANTENNA_sram_inst_wbs_dat_i\[1\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 207483, instance ANTENNA_sram_inst_wbs_dat_i\[10\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 207491, net ANTENNA_sram_inst_wbs_dat_i\[10\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 207557, net ANTENNA_sram_inst_wbs_dat_i\[10\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 207870, instance ANTENNA_sram_inst_wbs_dat_i\[0\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 207886, net ANTENNA_sram_inst_wbs_dat_i\[0\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 208042, net ANTENNA_sram_inst_wbs_dat_i\[0\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 209543, instance ANTENNA_sram_inst_wbs_dat_i\[11\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 209551, net ANTENNA_sram_inst_wbs_dat_i\[11\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 209588, net ANTENNA_sram_inst_wbs_dat_o\[8\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 209621, net ANTENNA_sram_inst_wbs_dat_i\[11\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 210893, instance ANTENNA_sram_inst_wbs_dat_i\[12\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 210901, net ANTENNA_sram_inst_wbs_dat_i\[12\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 210916, net ANTENNA_sram_inst_wbs_dat_i\[12\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 210917, net ANTENNA_sram_inst_wbs_adr_i\[13\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 210981, net ANTENNA_sram_inst_wbs_dat_i\[12\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 212358, instance ANTENNA_sram_inst_wbs_adr_i\[10\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 212368, net ANTENNA_sram_inst_wbs_adr_i\[10\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 212420, net ANTENNA_sram_inst_wbs_dat_o\[6\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 212562, net ANTENNA_sram_inst_wbs_adr_i\[10\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 212568, instance ANTENNA_sram_inst_wbs_dat_i\[13\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 212576, net ANTENNA_sram_inst_wbs_dat_i\[13\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 212587, net ANTENNA_sram_inst_wbs_adr_i\[13\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 212588, net ANTENNA_sram_inst_wbs_adr_i\[14\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 212629, net ANTENNA_sram_inst_wbs_dat_i\[13\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 214149, instance ANTENNA_sram_inst_wbs_dat_i\[14\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 214157, net ANTENNA_sram_inst_wbs_dat_i\[14\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 214169, net ANTENNA_sram_inst_wbs_adr_i\[14\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 214183, net ANTENNA_sram_inst_wbs_dat_i\[12\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 214214, net ANTENNA_sram_inst_wbs_dat_i\[14\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 215552, instance ANTENNA_sram_inst_wbs_dat_i\[15\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 215560, net ANTENNA_sram_inst_wbs_dat_i\[15\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 215571, net ANTENNA_sram_inst_wbs_adr_i\[15\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 215637, net ANTENNA_sram_inst_wbs_dat_i\[15\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 217000, instance ANTENNA_sram_inst_wbs_dat_i\[16\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 217008, net ANTENNA_sram_inst_wbs_dat_i\[16\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 217085, net ANTENNA_sram_inst_wbs_dat_i\[16\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 218264, instance ANTENNA_sram_inst_wbs_dat_i\[17\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 218272, net ANTENNA_sram_inst_wbs_dat_i\[17\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 218421, net ANTENNA_sram_inst_wbs_dat_i\[17\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 218429, instance ANTENNA_sram_inst_wbs_dat_i\[18\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 218437, net ANTENNA_sram_inst_wbs_dat_i\[18\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 218518, net ANTENNA_sram_inst_wbs_dat_i\[18\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 218525, instance ANTENNA_sram_inst_wbs_dat_i\[19\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 218533, net ANTENNA_sram_inst_wbs_dat_i\[19\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 218690, net ANTENNA_sram_inst_wbs_dat_i\[19\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 219006, instance ANTENNA_sram_inst_wbs_dat_i\[20\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 219014, net ANTENNA_sram_inst_wbs_dat_i\[20\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 219052, net ANTENNA_sram_inst_wbs_dat_o\[20\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 219081, net ANTENNA_sram_inst_wbs_dat_i\[20\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 219790, instance ANTENNA_sram_inst_wbs_dat_i\[21\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 219798, net ANTENNA_sram_inst_wbs_dat_i\[21\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 219867, net ANTENNA_sram_inst_wbs_dat_i\[21\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 220493, instance ANTENNA_sram_inst_wbs_adr_i\[11\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 220503, net ANTENNA_sram_inst_wbs_adr_i\[11\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 220645, net ANTENNA_sram_inst_wbs_adr_i\[11\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 220652, instance ANTENNA_sram_inst_wbs_dat_i\[22\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 220660, net ANTENNA_sram_inst_wbs_dat_i\[22\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 220793, net ANTENNA_sram_inst_wbs_dat_i\[22\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 221424, instance ANTENNA_sram_inst_wbs_dat_i\[23\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 221432, net ANTENNA_sram_inst_wbs_dat_i\[23\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 221498, net ANTENNA_sram_inst_wbs_adr_i\[23\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 221584, net ANTENNA_sram_inst_wbs_dat_i\[23\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 222039, instance ANTENNA_sram_inst_wbs_dat_i\[24\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 222047, net ANTENNA_sram_inst_wbs_dat_i\[24\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 222081, net ANTENNA_sram_inst_wbs_adr_i\[24\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 222096, net ANTENNA_sram_inst_wbs_dat_i\[24\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 222129, net ANTENNA_sram_inst_wbs_dat_i\[24\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 222640, instance ANTENNA_sram_inst_wbs_dat_i\[25\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 222648, net ANTENNA_sram_inst_wbs_dat_i\[25\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 222685, net ANTENNA_sram_inst_wbs_adr_i\[23\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 222686, net ANTENNA_sram_inst_wbs_adr_i\[25\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 222741, net ANTENNA_sram_inst_wbs_dat_i\[25\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 223349, instance ANTENNA_sram_inst_wbs_dat_i\[26\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 223357, net ANTENNA_sram_inst_wbs_dat_i\[26\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 223428, net ANTENNA_sram_inst_wbs_dat_i\[26\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 223990, instance ANTENNA_sram_inst_wbs_dat_i\[27\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 223998, net ANTENNA_sram_inst_wbs_dat_i\[27\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 224022, net ANTENNA_sram_inst_wbs_dat_o\[20\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 224032, net ANTENNA_sram_inst_wbs_dat_i\[27\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 224038, net ANTENNA_sram_inst_wbs_dat_i\[27\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 224079, net ANTENNA_sram_inst_wbs_dat_i\[27\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 224793, instance ANTENNA_sram_inst_wbs_dat_i\[28\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 224801, net ANTENNA_sram_inst_wbs_dat_i\[28\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 224834, net ANTENNA_sram_inst_wbs_dat_i\[28\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 224843, net ANTENNA_sram_inst_wbs_dat_i\[28\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 224845, net ANTENNA_sram_inst_wbs_dat_i\[28\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 224851, net ANTENNA_sram_inst_wbs_dat_i\[28\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 224878, net ANTENNA_sram_inst_wbs_dat_i\[28\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 225339, instance ANTENNA_sram_inst_wbs_dat_i\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 225347, net ANTENNA_sram_inst_wbs_dat_i\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 225368, net ANTENNA_sram_inst_wbs_adr_i\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 225368, net ANTENNA_sram_inst_wbs_dat_i\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 225369, net ANTENNA_sram_inst_wbs_adr_i\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 225370, net ANTENNA_sram_inst_wbs_dat_o\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 225370, net ANTENNA_sram_inst_wbs_dat_i\[29\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 225411, net ANTENNA_sram_inst_wbs_dat_i\[29\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 226458, instance ANTENNA_sram_inst_wbs_dat_i\[30\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 226466, net ANTENNA_sram_inst_wbs_dat_i\[30\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 226526, net ANTENNA_sram_inst_wbs_dat_i\[30\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 226834, instance ANTENNA_sram_inst_wbs_adr_i\[12\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 226844, net ANTENNA_sram_inst_wbs_adr_i\[12\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 227034, net ANTENNA_sram_inst_wbs_adr_i\[12\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 227043, instance ANTENNA_sram_inst_wbs_dat_i\[31\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 227051, net ANTENNA_sram_inst_wbs_dat_i\[31\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 227083, net ANTENNA_sram_inst_wbs_dat_i\[31\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 227092, net ANTENNA_sram_inst_wbs_dat_i\[31\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 227094, net ANTENNA_sram_inst_wbs_dat_i\[31\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 227122, net ANTENNA_sram_inst_wbs_dat_i\[31\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 228987, instance ANTENNA_sram_inst_wbs_dat_i\[9\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 228995, net ANTENNA_sram_inst_wbs_dat_i\[9\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229019, net ANTENNA_sram_inst_wbs_adr_i\[9\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229104, net ANTENNA_sram_inst_wbs_dat_i\[9\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229264, instance ANTENNA_sram_inst_wbs_sel_i\[0\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229270, net ANTENNA_sram_inst_wbs_sel_i\[0\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229283, net ANTENNA_sram_inst_wbs_sel_i\[0\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229286, net ANTENNA_sram_inst_wbs_sel_i\[0\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229288, net ANTENNA_sram_inst_wbs_sel_i\[0\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229309, net ANTENNA_sram_inst_wbs_sel_i\[0\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229465, instance ANTENNA_sram_inst_wbs_sel_i\[1\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229471, net ANTENNA_sram_inst_wbs_sel_i\[1\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229490, net ANTENNA_sram_inst_wbs_sel_i\[1\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229520, net ANTENNA_sram_inst_wbs_sel_i\[1\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229678, instance ANTENNA_sram_inst_wbs_adr_i\[13\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229689, net ANTENNA_sram_inst_wbs_adr_i\[13\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229771, net ANTENNA_sram_inst_wbs_adr_i\[13\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229773, net ANTENNA_sram_inst_wbs_adr_i\[13\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229800, net ANTENNA_sram_inst_wbs_adr_i\[13\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229863, net ANTENNA_sram_inst_wbs_adr_i\[13\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229870, instance ANTENNA_sram_inst_wbs_sel_i\[2\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229876, net ANTENNA_sram_inst_wbs_sel_i\[2\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229888, net ANTENNA_sram_inst_wbs_sel_i\[2\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 229903, net ANTENNA_sram_inst_wbs_sel_i\[2\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 230063, instance ANTENNA_sram_inst_wbs_sel_i\[3\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 230069, net ANTENNA_sram_inst_wbs_sel_i\[3\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 230135, net ANTENNA_sram_inst_wbs_sel_i\[3\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 232339, instance ANTENNA_sram_inst_wbs_adr_i\[14\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 232349, net ANTENNA_sram_inst_wbs_adr_i\[14\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 232429, net ANTENNA_sram_inst_wbs_adr_i\[14\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 232431, net ANTENNA_sram_inst_wbs_adr_i\[14\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 232550, net ANTENNA_sram_inst_wbs_adr_i\[14\] not found.
+[WARNING STA-1648] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 234778, instance ANTENNA_sram_inst_wbs_adr_i\[15\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 234786, net ANTENNA_sram_inst_wbs_adr_i\[15\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 234867, net ANTENNA_sram_inst_wbs_adr_i\[15\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 234892, net ANTENNA_sram_inst_wbs_adr_i\[15\] not found.
+[WARNING STA-1650] /workspace/peripheral-example/openlane/user_project/runs/RUN_2025-10-27_22-54-47/55-openroad-rcx/nom/user_project.nom.spef line 234959, net ANTENNA_sram_inst_wbs_adr_i\[15\] not found.
+[INFO] Using voltage extracted from lib (1.8000000000V) for power nets and 0V for ground nets…
+%OL_CREATE_REPORT irdrop.rpt
+[INFO PSM-0040] All shapes on net VPWR are connected.
+########## IR report #################
+Net              : VPWR
+Corner           : nom_tt_025C_1v80
+Supply voltage   : 1.80e+00 V
+Worstcase voltage: 1.80e+00 V
+Average voltage  : 1.80e+00 V
+Average IR drop  : 1.56e-05 V
+Worstcase IR drop: 2.07e-04 V
+Percentage drop  : 0.01 %
+######################################
+[INFO PSM-0040] All shapes on net VGND are connected.
+########## IR report #################
+Net              : VGND
+Corner           : nom_tt_025C_1v80
+Supply voltage   : 0.00e+00 V
+Worstcase voltage: 2.52e-04 V
+Average voltage  : 1.55e-05 V
+Average IR drop  : 1.55e-05 V
+Worstcase IR drop: 2.52e-04 V
+Percentage drop  : 0.01 %
+######################################
+%OL_END_REPORT
