@@ -1,5 +1,0 @@
-Test              status     start           end             duration      p/f      seed       
-RTL-sram_test     done       13:31:50(Mon)   13:38:18(Mon)   0:06:27.51    failed   1761597112
-
-
-Total: passed (0)   failed (1)   unknown (0)   elapsed time (0:06:27.55)

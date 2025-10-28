@@ -1,5 +1,0 @@
-Test             status     start           end             duration      p/f      seed       
-RTL-pwm_test     done       13:28:30(Mon)   13:28:31(Mon)   0:00:00.68    failed   unknown   
-
-
-Total: passed (0)   failed (1)   unknown (0)   elapsed time (0:00:00.71)

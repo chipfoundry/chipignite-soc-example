@@ -1,5 +1,0 @@
-Test              status     start           end             duration      p/f      seed       
-RTL-uart_test     done       13:29:59(Mon)   13:30:39(Mon)   0:00:40.31    failed   1761597000
-
-
-Total: passed (0)   failed (1)   unknown (0)   elapsed time (0:00:40.35)
